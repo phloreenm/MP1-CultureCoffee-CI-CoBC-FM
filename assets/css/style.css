@@ -3,54 +3,65 @@ header {
     min-height: 60px;
     position: fixed;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(34, 38, 41, 1);
     top: 0;
     left: 0;
     font-family: 'Exo 2', sans-serif;
     padding: 0.5em;
 }
-.navigation-bar {
+nav {
     display: flex;
+    flex-wrap: wrap;
     position: sticky;
     top: 0;
     justify-content: center;
     align-content: center;
 }
 ul {
+    display: flex;
+    flex-wrap: wrap;
     padding: 0.3rem;
     display: flex;
     list-style: none;
     margin: 0;
 }
-a {
+li a {
     margin: 5px 10px;
     text-decoration: none;
-    color: white;
-    font-size: 20px;
+    color: #C29F88;
+    font-size: 15px;
 }
+/* li:nth-child(1n) */
 a:hover {
-    color: rgb(253, 255, 125);
-}
+    color: #7B99AB;
+    display: block;
+    text-decoration: none;
+    text-transform: none;
+} */
+.nav-tabs .nav-link.active {
+    color: hsl(210, 9%, 31%);
+    background-color: #C29F88;
+    border-color: #dee2e6 #dee2e6 #fff;
+  }
 
 
 
 /* -------------BODY------------------------------------ */
 body {
-    background-image: url("../imgs/nathan-dumlao-ikU3J1nr52w-unsplash.jpg");
+    /* BG img Source https://unsplash.com/photos/ikU3J1nr52w */
+    background-image: url("../imgs/nathan-dumlao-ikU3J1nr52w-unsplash-ed1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode: lighten;
-    background-color: rgba(0, 0, 0, 0.4);
-    /* background-color: rgba ( 0, 0, 0, 0.9); */
-    
+    background-blend-mode:multiply;
+    background-attachment: fixed;
+    background-color: rgba(34, 38, 41, 0.8);
+    color: aliceblue;
 }
 section {
     padding-top: 70px;
 }
-.container {
-    
-}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
@@ -83,3 +94,18 @@ footer {
 /* -------------Media Queries------------------------------------ */
 
 /* -------------Template------------------------------------ */
+
+/* -------------Media Queries------------------------------------ */
+/* 320px, 768px, and 1200px are the most commonly used; these three values should be sufficient for targeting smart phones, tablets/laptops, and desktops */
+
+@media(max-width: 320px) {
+    .grid {
+        padding-top: 10rem;
+    }
+}
+@media(max-width: 768px) {
+    .grid {
+        padding-top: 7rem;
+ 
+    }
+}
