@@ -14,18 +14,10 @@
 </head>
 
 <body>
-
   <!-- --------------------HEADER-------------------- -->
   <header>
-    <!-- <nav class="navigation-bar">
-      <ul class="navbar-list">
-        <li><a href="#" class="menu-item active" aria-controls="home">Home</a></li>
-        <li><a href="#" class="menu-item" aria-controls="menu">Menu</a></li>
-        <li><a href="#" class="menu-item" aria-controls="gallery">Gallery</a></li>
-        <li><a href="#" class="menu-item" aria-controls="contact">Contact</a></li>
 
-      </ul>
-    </nav> -->
+    <!-- --------------------Navigation bar-------------------- -->
     <!-- Boostrap code snippet taken from here: https://www.codegrepper.com/code-examples/html/how+to+hide+navbar-nav+elements+in+bootstrap -->
     <nav>
       <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -54,9 +46,12 @@
       </div>
     </nav>
   </header>
-  <!-- --------------------SECTION-------------------- -->
-  <section class="container grid">
-    <div class="cell">
+  <!-- --------------------CONTENT SECTION-------------------- -->
+  <section class="content container grid">
+    <h1>Here is the body content
+      - Needs to be un-commented
+    </h1>
+    <!-- <div class="cell">
       <h1>Lots of content</h1>
       <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo reiciendis possimus odit
         perferendis doloremque rem qui, tenetur odio maxime ea nemo recusandae quae minus consequatur cumque harum dolor
@@ -75,69 +70,78 @@
         quidem eligendi corporis repudiandae aspernatur ea, magnam aliquid quibusdam? Veritatis saepe quidem numquam
         corporis labore illo soluta.
       </p>
-    </div>
-    <div class="cell">
-      <h1>Lots of content</h1>
-      <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo reiciendis possimus odit
-        perferendis doloremque rem qui, tenetur odio maxime ea nemo recusandae quae minus consequatur cumque harum dolor
-        libero id.
-
-      </p>
-    </div>
-    <div class="cell">
-      <h1>Lots of content</h1>
-      <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo reiciendis possimus odit
-        perferendis doloremque rem qui, tenetur odio maxime ea nemo recusandae quae minus consequatur cumque harum dolor
-        libero id.
-        Nihil, esse vitae? Fuga atque, officiis illo sed iusto error repellendus nulla? Impedit totam inventore quas
-        neque nulla libero doloribus consequuntur fugit ipsam sunt voluptas quibusdam tempora, cupiditate hic pariatur?
-        Accusantium sequi inventore aperiam enim impedit facilis ipsam, voluptas molestias laudantium itaque dolorum
-        quidem eligendi corporis repudiandae aspernatur ea, magnam aliquid quibusdam? Veritatis saepe quidem numquam
-        corporis labore illo soluta.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem cum, minima, cupiditate deserunt quae
-        cumque ipsam eaque aperiam obcaecati quos assumenda veritatis accusantium! Id esse aperiam vel officia
-        perspiciatis!
-        Praesentium dolor deserunt laudantium dolorem in tempore, ipsa consequatur sed deleniti distinctio porro
-        possimus ab, nesciunt nam voluptatem aperiam commodi magni ratione qui repudiandae quisquam nisi maxime quae id.
-        Illum!
-        Illum magnam, voluptatum laborum voluptatibus voluptatem corrupti doloremque voluptas esse possimus expedita,
-        adipisci assumenda mollitia quas? Vel hic voluptates natus laboriosam accusamus totam tempore, ipsam et
-        cupiditate dolore temporibus aperiam.
-        Aut a, asperiores maiores itaque quasi laboriosam enim perspiciatis officiis eveniet iusto distinctio voluptatum
-        repellendus impedit, consequuntur esse iure. Nostrum vel tenetur at minus dicta est sit architecto illo. Labore.
-        Ex, reiciendis. Rem ex minus numquam, quibusdam laboriosam accusamus, sequi mollitia animi eaque nostrum ea
-        molestiae magni dicta, ducimus quaerat. Est perferendis dignissimos voluptatem iusto blanditiis sed modi ea
-        molestiae!
-      </p>
-    </div>
-    <div class="cell">
-      <h1>Lots of content</h1>
-      <p class="lorem">
-        Nihil, esse vitae? Fuga atque, officiis illo sed iusto error repellendus nulla? Impedit totam inventore quas
-        neque nulla libero doloribus consequuntur fugit ipsam sunt voluptas quibusdam tempora, cupiditate hic pariatur?
-        Accusantium sequi inventore aperiam enim impedit facilis ipsam, voluptas molestias laudantium itaque dolorum
-        quidem eligendi corporis repudiandae aspernatur ea, magnam aliquid quibusdam? Veritatis saepe quidem numquam
-        corporis labore illo soluta.
-      </p>
-    </div>
+    </div> -->
   </section>
 
 
 
   <!-- --------------------FOOTER-------------------- -->
-  <footer class="foo-section">
-    <div class="row ">
-      <div class=" foo-elem address">
-        <h3>Address</h3>
+  <!-- Footer code snippet souced from: 
+  https://mdbootstrap.com/docs/standard/navigation/footer/ -->
+  <footer class="text-center text-lg-start bg-dark special-tx-cl">
+    <!-- Section: Links  -->
+    <section>
+      <div class="container text-center text-md-start mt-3 pt-1  border-bottom">
+        <!-- Grid row -->
+        <div class="row mt-1">
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-1">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-1">
+              <i class="fas fa-home me-3"></i> ADDRESS
+            </h6>
+            <p>69 Fisherton Street, <br>Salisbury, <br>SP2 7SU</p>
+            <br>
+            <!-- I'd rather move these information on main page -->
+            <!-- <h6 class="text-uppercase fw-bold">
+              <i class="fa-thin fa-clock"></i> Opening hours: *
+            </h6>
+            <p>Mon-Sunday 8AM - 4PM</p> -->
+            <!-- <p>Saturday     8AM - 4PM</p> - The opening hours changed and is possible be needed new lines 
+            <p>Sunday       8AM - 4PM</p> -->
+          </div>
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-1">
+            <!-- Social Media -->
+            <h6 class="text-uppercase fw-bold mb-2">
+              Social links
+            </h6>
+            <div>
+              <a href="https://www.facebook.com" class="me-4 text-reset social-icons">
+                <i class="fab fa-facebook-f fa-1xl" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.google.com" class="me-4 text-reset social-icons">
+                <i class="fab fa-google fa-1xl" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.instagram.com" class="me-4 text-reset social-icons">
+                <i class="fab fa-instagram fa-1xl" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <!-- Contact area -->
+          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-1">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fa-solid fa-address-book"></i>
+              Contact
+            </h6>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@culturecoffe.cafe
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 44 7735194633</p>
+          </div>
+          <!-- Contact area END -->
+        </div>
       </div>
-      <div class="foo-elem social">
-        <h3>Social media</h3>
-      </div>
-      <div class="foo-elem contact-details">
-        <h3>Contact details</h3>
-      </div>
+    </section>
+    <!-- Copyright area -->
+    <div class="text-center p-4 mt-1 mb-1">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="index.html">Culture Coffee cafe</a>
     </div>
+    <!-- Copyright area-->
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 </body>
 

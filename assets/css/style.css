@@ -58,13 +58,13 @@ body {
     background-color: rgba(34, 38, 41, 0.8);
     color: aliceblue;
 }
-section {
+.content {
     padding-top: 70px;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(70%, 1fr));
     padding-top: 5rem;
     gap: 0.5rem;
 }
@@ -74,23 +74,42 @@ section {
 }
 
 /* -------------FOOTER------------------------------------ */
-
-
 footer {
     position: sticky;
+}
+.special-tx-cl {
+    color: rgba(255, 157, 0, 0.4)
 }
 .row {
     display: flex;
     /* bottom: 0;
     left: 0;
     right: 0; */
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(34, 38, 41, 1)
     color: white;
     justify-content: center;
     align-content: center;
 }
-
-
+table, thead, tbody, th, td {
+    /* color: white; */
+    padding: 0;
+    margin: 0;
+    /* border-color: transparent; */
+} 
+.p-4 {
+    padding: 0.2rem !important;
+}
+.bg-dark {
+    background-color: rgba(34, 38, 41, 1);
+}
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    padding: 0.3em;
+}
+.border-bottom {
+    color: inherit;
+}
 /* -------------Media Queries------------------------------------ */
 
 /* -------------Template------------------------------------ */
