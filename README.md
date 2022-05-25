@@ -3,6 +3,22 @@ Milestone Project 1 - Culture Coffee  café - static page [C.I. &amp; CoB C]
 
 
 
+# Structure
+## Home page
+    - [Home page](index.html):
+        - contains a header with responsive navigation bar
+        - a section area which contains some welcoming content
+        - a footer area which displays useful information, like:
+            - Address
+            - Social links
+            - Contact details
+            - A copyrighting notice.
+    - [Menu](menu.html): the page contains the same navigation bar and footer
+        - The content section displays lists of avialbale products for selling at the cafe
+    - [Gallery](gallery.html): 
+        - The gallery's main section contains a small collection of real photos presenting the cafe and some products and activities.
+    - [Contact](contact.html): 
+        - The gallery's main section contains a small collection of real photos presenting the cafe and some products and activities.
 
 
 # CREDITS:
