@@ -9,6 +9,7 @@ header {
     font-family: 'Exo 2', sans-serif;
     padding: 0.5em;
 }
+
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -17,6 +18,7 @@ nav {
     justify-content: center;
     align-content: center;
 }
+
 ul {
     display: flex;
     flex-wrap: wrap;
@@ -25,24 +27,27 @@ ul {
     list-style: none;
     margin: 0;
 }
+
 li a {
     margin: 5px 10px;
     text-decoration: none;
     color: #C29F88;
     font-size: 15px;
 }
+
 /* li:nth-child(1n) */
 a:hover {
     color: #7B99AB;
     display: block;
     text-decoration: none;
     text-transform: none;
-} */
-.nav-tabs .nav-link.active {
+}
+
+*/ .nav-tabs .nav-link.active {
     color: hsl(210, 9%, 31%);
     background-color: #C29F88;
     border-color: #dee2e6 #dee2e6 #fff;
-  }
+}
 
 
 
@@ -53,11 +58,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-blend-mode:multiply;
+    background-blend-mode: multiply;
     background-attachment: fixed;
     background-color: rgba(34, 38, 41, 0.8);
     color: aliceblue;
 }
+
 .content {
     padding-top: 70px;
 }
@@ -68,7 +74,8 @@ body {
     padding-top: 5rem;
     gap: 0.5rem;
 }
-.cell > h1 {
+
+.cell>h1 {
     text-align: center;
     padding: 0.2rem;
 }
@@ -77,54 +84,100 @@ body {
 footer {
     position: sticky;
 }
+
 .special-tx-cl {
     color: rgba(255, 157, 0, 0.4)
 }
+
 .row {
     display: flex;
     /* bottom: 0;
     left: 0;
     right: 0; */
-    background-color: rgba(34, 38, 41, 1)
-    color: white;
+    background-color: rgba(34, 38, 41, 1) color: white;
     justify-content: center;
     align-content: center;
 }
-table, thead, tbody, th, td {
+
+table,
+thead,
+tbody,
+th,
+td {
     /* color: white; */
     padding: 0;
     margin: 0;
     /* border-color: transparent; */
-} 
+}
+
 .p-4 {
     padding: 0.2rem !important;
 }
+
 .bg-dark {
     background-color: rgba(34, 38, 41, 1);
 }
+
 .social-icons {
     display: flex;
     flex-direction: column;
     padding: 0.3em;
 }
+
 .border-bottom {
     color: inherit;
 }
-/* -------------Media Queries------------------------------------ */
+
+/* -------------Gallery page------------------------------------ */
+.grid-ish {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.2rem;
+
+}
+
+.grid-ish > * {
+    flex: 1 1 25%;
+
+}
+
+.grid-ish > img {
+    max-width: 250px;
+    object-fit: cover;
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+/* -------------Contact page------------------------------------ */
+
+label {
+    max-width: 33%;
+}
+
+
+/* -------------Contact Us form page------------------------------------ */
+
 
 /* -------------Template------------------------------------ */
 
 /* -------------Media Queries------------------------------------ */
 /* 320px, 768px, and 1200px are the most commonly used; these three values should be sufficient for targeting smart phones, tablets/laptops, and desktops */
-
+/*  --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px; */
 @media(max-width: 320px) {
     .grid {
         padding-top: 10rem;
     }
 }
+
 @media(max-width: 768px) {
     .grid {
         padding-top: 7rem;
- 
+
     }
 }
