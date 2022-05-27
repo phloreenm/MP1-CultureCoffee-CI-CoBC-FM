@@ -13,8 +13,8 @@ Milestone Project 1 - Culture Coffee  café - static page [C.I. &amp; CoB C]
 ## About  
     CC is a static website which is intended to promote, atract and offer information to potantial and actual customers of Culture Coffee cafe. 
     Since this website was build as a Milesstone Project for my course, therefore educational purposes only, please be advised that some information on the website may not real.
-### Link to live website:
-### Link to GitHub repo: https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main
+### Link to live website is [here](https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/)
+### Link to GitHub repo is [here](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main)
 
 https://github.com/dnlbowers/modern-buddhism#planning-stage
 https://github.com/suzybee1987/knit-happens/blob/main/README.md
@@ -58,18 +58,22 @@ https://github.com/suzybee1987/knit-happens/blob/main/README.md
 |**First time user**|**Existing User**|**Bussiness**||||
 |&#10003;|&#10003;|   |find café's location|drink a coffee in the café|  Decided to visit the shop |   |   |
 |&#10003;|&#10003;|   |find opening hours|make avisit to the café|   |   |   |
-|&#10003;|   |   |see café's inside pictures|decide if I like the location|  user is well impressed by the very positive reviews and decides to visit the café | User read some negative reviews and developed uncertainity if quality offered is high as promised |   |
+|&#10003;|        |   |see café's inside pictures|decide if I like the location|  user is well impressed by the very positive reviews and decides to visit the café | User read some negative reviews and developed uncertainity if quality offered is high as promised |   |
 |&#10003;|&#10003;|   |find if pets are allowed|bring my pet at the cafe|   |   |  (Only) Disabled people that use assistance dogs have important rights under the Equality Act 2010 - hygiene maters, so other cases can be accepted
-|&#10003;|   |   |read some testimonials (reviews)|see other clients' experience|   |   |   |
+|&#10003;|        |   |read some testimonials (reviews)|see other clients' experience|   |   |   |
 |&#10003;|&#10003;|   |find if the café offers takeaway|buy a coffee on my way to the train|   |   |   |
-|&#10003;|&#10003;|   |stay outside|enjoy the sun while having a coffee|   |   |   |
+|&#10003;|&#10003;|   |stay outside|enjoy the sun while having a coffee|   |   |weather is good|
 |&#10003;|&#10003;|   |see if power outlets and internet acces are provided |use my laptop and have a coffee|   |   |   |
 |&#10003;|&#10003;|   |see if they offer wheelschair acces|bring someone confined to a wheelchair   |   |   |
-|   |   |&#10003;|sell my products|make profit|   |   |
-|   |   |&#10003;|create a select clientele|make a target |   |   |
-|   |   |&#10003;|reward the loyal clients|retain customers |Using loyalty cards - 10th coffee comes from the house|   |
-|   |   |&#10003;|improve personnel customer skills|provide even better customer services|   |   |
-
+|        |   |&#10003;|sell my products|make profit|   |   |
+|        |   |&#10003;|create a select clientele|make a target |   |   |
+|        |   |&#10003;|reward the loyal clients|retain customers |Using loyalty cards - 10th coffee comes from the house|   |
+|        |   |&#10003;|update Social Media|make a presence in the online|   |   |
+|        |   |&#10003;|offer a good, intuitive browsing experience|raise the chances the client would remain on the site|   |   |
+|        |   |&#10003;|implement a good site structured layout|provide concise  informations|   |   |
+|        |   |&#10003;|provide pictures gallery|showcase some of the products on sale|   |   |
+|        |   |&#10003;|provide pictures gallery|present the premise's interior design|   |   |
+An online excel version cand be found [here](https://1drv.ms/x/s!AhVZRr1-0ZpXmKwYxEhkrC46UlGAow?e=utUtgc)
 
 
 
