@@ -8,11 +8,12 @@
 
 
 # MP1-CultureCoffee-CI-CoBC-FM
-Milestone Project 1 - Culture Coffee  café - static page [C.I. &amp; CoB C]
+Milestone Project 1 - "Culture Coffee  café" - static page [C.I. &amp; CoB C]
 
 ## About  
-    CC is a static website which is intended to promote, atract and offer information to potantial and actual customers of Culture Coffee cafe. 
-    Since this website was build as a Milesstone Project for my course, therefore educational purposes only, please be advised that some information on the website may not real.
+    CC is a static website which is intended to promote, atract and offer information to potential and actual customers of Culture Coffee café. 
+    Since this website was build as a Milesstone Project for my course, therefore educational purposes only, please be advised that some information on the website may not accurate and are displayed for the fore-mentioned scope.
+
 ### Link to live website is [here](https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/)
 ### Link to GitHub repo is [here](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main)
 
@@ -53,6 +54,8 @@ https://github.com/suzybee1987/knit-happens/blob/main/README.md
 ## **UX (User Experience)**
 
 ### **User Stories**
+I decided to display the User Story in a table (also a link at the bottom of the table). Since some user stories (like First time user and Existing User) might actually follow the same 
+
 |As a/an|  I want to...| So that I can...|Scenario 1|Scenario 2|Acceptance Criteria
 |---|---|---|---|---|---|
 |**First time user**|**Existing User**|**Bussiness**||||
@@ -73,7 +76,8 @@ https://github.com/suzybee1987/knit-happens/blob/main/README.md
 |        |   |&#10003;|implement a good site structured layout|provide concise  informations|   |   |
 |        |   |&#10003;|provide pictures gallery|showcase some of the products on sale|   |   |
 |        |   |&#10003;|provide pictures gallery|present the premise's interior design|   |   |
-An online excel version cand be found [here](https://1drv.ms/x/s!AhVZRr1-0ZpXmKwYxEhkrC46UlGAow?e=utUtgc)
+
+An online Excel version of the User Stories Board can be found [here](https://1drv.ms/x/s!AhVZRr1-0ZpXmKwYxEhkrC46UlGAow?e=utUtgc)
 
 
 
@@ -85,9 +89,9 @@ An online excel version cand be found [here](https://1drv.ms/x/s!AhVZRr1-0ZpXmKw
 
 
 
-# Structure
-## Home page
-    - [Home page](index.html):
+# Features
+## Site-Navigation
+    - [Home page](/index.html):
         - contains a header with responsive navigation bar
         - a section area which contains some welcoming content
         - a footer area which displays useful information, like:
@@ -95,11 +99,11 @@ An online excel version cand be found [here](https://1drv.ms/x/s!AhVZRr1-0ZpXmKw
             - Social links
             - Contact details
             - A copyrighting notice.
-    - [Menu](menu.html): the page contains the same navigation bar and footer
+    - [Menu](/menu.html): the page contains the same navigation bar and footer
         - The content section displays lists of avialbale products for selling at the cafe
-    - [Gallery](gallery.html): 
+    - [Gallery](/gallery.html): 
         - The gallery's main section contains a small collection of real photos presenting the cafe and some products and activities.
-    - [Contact](contact.html): 
+    - [Contact](/contact.html): 
         - This page contains a contact form with fields grouped by sections:
             - Name and Surname - required
             - Email address and contact number - required
@@ -130,7 +134,7 @@ An online excel version cand be found [here](https://1drv.ms/x/s!AhVZRr1-0ZpXmKw
     How likely are you to recommend this product to others?
     How could we improve our product to better meet your needs? 
 ## **Accessibility**
-    - [Acces]():
+    - [Acces](): Navigation menu items contain a Boostrap class .sr-only which indicates to screen readers at which page we are, helping visualy impaired users navigating throught the website using screen readers.
     - [Landmarks](https://accessibility.blog.gov.uk/2016/05/27/using-navigation-landmarks/)Internet Explorer 11, which does not have accessibility support for the HTML5 elements used to provide landmarks, but which does support the equivalent ARIA roles. 
     https://tink.uk/enhancing-aria-landmarks-with-aria-labelledby/
 

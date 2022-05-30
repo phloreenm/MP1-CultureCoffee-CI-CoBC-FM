@@ -1,3 +1,17 @@
+/* -------------BODY ------------------------------------ */
+body {
+    height: 100vh;
+    /* BG img Source https://unsplash.com/photos/ikU3J1nr52w */
+    background-image: url("../imgs/nathan-dumlao-ikU3J1nr52w-unsplash-ed1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-color: rgba(34, 38, 41, 0.8);
+    color: aliceblue;
+}
+
 /* -------------HEADER------------------------------------ */
 header {
     min-height: 60px;
@@ -17,6 +31,10 @@ nav {
     top: 0;
     justify-content: center;
     align-content: center;
+}
+.nav-item {
+    min-width: 120px;
+    
 }
 
 ul {
@@ -49,21 +67,7 @@ a:hover {
     border-color: #dee2e6 #dee2e6 #fff;
 }
 
-
-
-/* -------------BODY------------------------------------ */
-body {
-    /* BG img Source https://unsplash.com/photos/ikU3J1nr52w */
-    background-image: url("../imgs/nathan-dumlao-ikU3J1nr52w-unsplash-ed1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-blend-mode: multiply;
-    background-attachment: fixed;
-    background-color: rgba(34, 38, 41, 0.8);
-    color: aliceblue;
-}
-
+/* -------------CONTENT SECTION ------------------------------------ */
 .content {
     padding-top: 70px;
 }
@@ -75,7 +79,7 @@ body {
     gap: 0.5rem;
 }
 
-.cell>h1 {
+.cell > h1 {
     text-align: center;
     padding: 0.2rem;
 }
@@ -128,6 +132,10 @@ td {
     color: inherit;
 }
 
+/* -------------Gallery page with flexbox------------------------------------ */
+/* .gallery-grid {
+
+} */
 /* -------------Gallery page------------------------------------ */
 .grid-ish {
     display: flex;
@@ -143,9 +151,9 @@ td {
 }
 
 .grid-ish > img {
-    max-width: 250px;
+    max-width: 300px;
     object-fit: cover;
-    display: block;
+    display: flex;
     padding: 0;
     margin: 0;
 }
