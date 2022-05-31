@@ -5,141 +5,104 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Culture Coffee café</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   <link rel="icon" type="image/x-icon" href="/assets/imgs/favicon.ico">
+
   <script src="https://kit.fontawesome.com/96ce8820ba.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+  <a name="top"></a>
   <!-- --------------------HEADER-------------------- -->
-  <header>
+  <header role="header-navigation-area">
 
-    <!-- --------------------Navigation bar built using Boostrap library-------------------- -->
-    <!-- Boostrap code snippet sourced from: https://www.codegrepper.com/code-examples/html/how+to+hide+navbar-nav+elements+in+bootstrap -->
-    <nav>
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link text-center active" id="home-tab" data-toggle="tab" href="index.html" role="tab" aria-controls="home"
-            aria-selected="true">Home<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-center" id="menu-tab" data-toggle="tab" href="menu.html" role="tab" aria-controls="menu"
-            aria-selected="false">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-center" id="gallery-tab" data-toggle="tab" href="gallery.html" role="tab" aria-controls="gallery"
-            aria-selected="false">Gallery</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-center" id="contact-tab" data-toggle="tab" href="contact.html" role="tab" aria-controls="contact"
-            aria-selected="false">Contact</a>
-        </li>
+    <!-- Code snippet sourced from: https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html -->
+    <nav aria-label="Main Navigation" role="navigation">
+      <a href="index.html"><img src="/assets/imgs/CC-logo.webp" class="logo-img" alt="Culture Coffee logo"></a>
+      <input type="checkbox" id="select">
+      <label for="select" class="menu-toggle-btn">
+        <i class="fa-solid fa-bars fa-bounce">MENU</i>
+      </label>
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="cafesmenu.html">Café's Menu</a></li>
+        <li><a href="index.html">Pictures Gallery</a></li>
+        <li><a href="index.html">Contact Us</a></li>
       </ul>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"></div>
-        <div class="tab-pane fade" id="menu" role="tabpanel" aria-labelledby="menu-tab">...</div>
-        <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">...</div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-      </div>
     </nav>
+
   </header>
   <!-- --------------------CONTENT SECTION-------------------- -->
-  <section class="content container grid">
-
-    <div class="cell">
-      <h1>Tell our story</h1>
-      <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo reiciendis possimus odit
-        perferendis doloremque rem qui, tenetur odio maxime ea nemo recusandae quae minus consequatur cumque harum dolor
-        libero id.
-
-      </p>
-    </div>
-    <div class="cell">
-      <h1>Lots of content</h1>
-      <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo reiciendis possimus odit
-        perferendis doloremque rem qui, tenetur odio maxime ea nemo recusandae quae minus consequatur cumque harum dolor
-        libero id.
-        Nihil, esse vitae? Fuga atque, officiis illo sed iusto error repellendus nulla? Impedit totam inventore quas
-        neque nulla libero doloribus consequuntur fugit ipsam sunt voluptas quibusdam tempora, cupiditate hic pariatur?
-        Accusantium sequi inventore aperiam enim impedit facilis ipsam, voluptas molestias laudantium itaque dolorum
-        quidem eligendi corporis repudiandae aspernatur ea, magnam aliquid quibusdam? Veritatis saepe quidem numquam
-        corporis labore illo soluta.
-      </p>
-    </div>
-  </section>
-
-
-
-  <!-- --------------------FOOTER-------------------- -->
-  <!-- Footer code snippet sourced from: 
-  https://mdbootstrap.com/docs/standard/navigation/footer/ -->
-  <footer class="text-center text-lg-start bg-dark special-tx-cl">
-    <!-- Section: Links  -->
-    <section>
-      <div class="container text-center text-md-start mt-3 pt-1  border-bottom">
-        <!-- Grid row -->
-        <div class="row mt-1">
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-1">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-1">
-              <i class="fas fa-home me-3"></i> ADDRESS
-            </h6>
-            <p>69 Fisherton Street, <br>Salisbury, <br>SP2 7SU</p>
-            <br>
-            <!-- I'd rather move these information on main page -->
-            <!-- <h6 class="text-uppercase fw-bold">
-              <i class="fa-thin fa-clock"></i> Opening hours: *
-            </h6>
-            <p>Mon-Sunday 8AM - 4PM</p> -->
-            <!-- <p>Saturday     8AM - 4PM</p> - The opening hours changed and is possible be needed new lines 
-            <p>Sunday       8AM - 4PM</p> -->
-          </div>
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
-            <!-- Social Media -->
-            <h6 class="text-uppercase fw-bold mb-2">
-              Social links
-            </h6>
-            <div>
-              <a href="https://www.facebook.com" class="me-4 text-reset social-icons">
-                <i class="fab fa-facebook-f fa-1xl" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.google.com" class="me-4 text-reset social-icons">
-                <i class="fab fa-google fa-1xl" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.instagram.com" class="me-4 text-reset social-icons">
-                <i class="fab fa-instagram fa-1xl" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-          <!-- Contact area -->
-          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-1">
-            <h6 class="text-uppercase fw-bold mb-2">
-              <i class="fa-solid fa-address-book"></i>
-              Contact
-            </h6>
-            <p>
-              <i class="fas fa-envelope me-3"></i>
-              info@culturecoffe.cafe
+  <main class="container" role="main">
+    <!-- ================================================================= -->
+    <div class="card">
+      <h2 class="card-hd">
+        Welcome to Culture Coffee café's website!
+      </h2>
+      <p>Our menu consists of different coffees, delicious breakfast, lunch and tapas, wines and several delicious
+        cakes.</p>
+      <!-- <div id="TA_excellent607" class="TA_excellent">
+        <ul id="mml8eTH8R" class="TA_links 27wdyFXlejSJ">
+          <li id="wdgmOct0N" class="LZvgFz"><a target="_blank"
+              href="https://www.tripadvisor.co.uk/Restaurant_Review-g186414-d10460817-Reviews-Culture_Coffee-Salisbury_Wiltshire_England.html"><img
+                src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_lockup_horizontal_secondary_registered.svg"
+                alt="TripAdvisor" class="widEXCIMG" id="CDSWIDEXCLOGO" /></a></li>
+        </ul>
+      </div>
+      <script async
+        src="https://www.jscache.com/wejs?wtype=excellent&amp;uniq=607&amp;locationId=10460817&amp;lang=en_UK&amp;display_version=2"
+        data-loadtrk onload="this.loadtrk=true"></script> -->
+      <div class="card-group">
+        <div class="card-item">
+          <img class="card-img" src="https://dummyimage.com/600x400/000/fff" alt="Product 1">
+          <div class="product-content">
+            <h3 class="product-title">
+              <span class="product-name">Item 1</span>
+              <span class="product-price">₤1.00</span>
+            </h3>
+            <p class="product-info">
+              Description of product
             </p>
-            <p><i class="fas fa-phone me-3"></i> + 44 7735194633</p>
           </div>
-          <!-- Contact area END -->
+        </div>
+        <div class="card-item">
+          <img class="card-img" src="https://dummyimage.com/600x400/0f0/fff" alt="Product 2">
+          <div class="product-content">
+            <h3 class="product-title">
+              <span class="product-name">Item 2</span>
+              <span class="product-price">₤1.00</span>
+            </h3>
+            <p class="product-info">
+              Product description
+            </p>
+          </div>
         </div>
       </div>
-    </section>
-    <!-- Copyright area -->
-    <div class="text-center p-4 mt-1 mb-1">
-      © 2022 Copyright:
-      <a class="text-reset fw-bold" href="index.html">Culture Coffee cafe</a>
     </div>
-    
+
+
+
+    <!-- ================================================================= -->
+    <a href="#top">Back to top of page</a>
+  </main>
+
+  <!-- --------------------FOOTER-------------------- -->
+  <footer class="footer-container foo-border" role="contentinfo">
+    <section class="footer-address foo-border">
+      <h1>ADDRESS</h1>
+    </section>
+    <section class="footer-social foo-border">
+      <h1>Facebook</h1>
+      <h1>INSTAGRAM</h1>
+      <h1>Tripadvisor</h1>
+    </section>
+    <section class="footer-contact foo-border">
+      <h1>CONTACT DETAILS</h1>
+    </section>
   </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 </body>
 

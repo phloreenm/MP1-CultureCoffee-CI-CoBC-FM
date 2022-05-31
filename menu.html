@@ -21,101 +21,104 @@
     <nav>
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item">
-          <a class="nav-link text-center" id="home-tab" data-toggle="tab" href="index.html" role="tab" aria-controls="home"
-            aria-selected="false">Home</a>
+          <a class="nav-link text-center" id="home-tab" data-toggle="tab" href="index.html" role="tab"
+            aria-controls="home" aria-selected="false">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-center active" id="menu-tab" data-toggle="tab" href="menu.html" role="tab" aria-controls="menu"
-            aria-selected="true">Menu<span class="sr-only">(current)</span></a>
+          <a class="nav-link text-center active" id="card-tab" data-toggle="tab" href="card.html" role="tab"
+            aria-controls="card" aria-selected="true">card<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-center" id="gallery-tab" data-toggle="tab" href="gallery.html" role="tab" aria-controls="gallery"
-            aria-selected="false">Gallery</a>
+          <a class="nav-link text-center" id="gallery-tab" data-toggle="tab" href="gallery.html" role="tab"
+            aria-controls="gallery" aria-selected="false">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-center" id="contact-tab" data-toggle="tab" href="contact.html" role="tab" aria-controls="contact"
-            aria-selected="false">Contact</a>
+          <a class="nav-link text-center" id="contact-tab" data-toggle="tab" href="contact.html" role="tab"
+            aria-controls="contact" aria-selected="false">Contact</a>
         </li>
       </ul>
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-        <div class="tab-pane fade show active" id="menu" role="tabpanel" aria-labelledby="menu-tab"></div>
+        <div class="tab-pane fade show active" id="card" role="tabpanel" aria-labelledby="card-tab"></div>
         <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">...</div>
         <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
       </div>
     </nav>
   </header>
   <!-- --------------------MAIN CONTENT SECTION-------------------- -->
-  <section class="container grid">
-    <div class="cell">
-      <h1>COFFEE MENU</h1>
-      <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo reiciendis possimus odit
-        perferendis doloremque rem qui, tenetur odio maxime ea nemo recusandae quae minus consequatur cumque harum dolor
-        libero id.
-
-      </p>
+  <!-- Layout pattern sourced from here https://codepen.io/dcode-software/pen/dyNqJzJ?editors=1100 -->
+  <div class="container">
+    <div class="card">
+      <!-- ======================================== -->
+      <h2 class="card-hd">
+        Coffees
+      </h2>
+      <div class="card-group">
+        <div class="card-item">
+          <img class="card-img" src="https://dummyimage.com/600x400/000/fff" alt="Product 1">
+          <div class="product-content">
+            <h3 class="product-title">
+              <span class="product-name">Product 1</span>
+              <span class="product-price">$12.90</span>
+            </h3>
+            <p class="product-info">
+              Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+              congue eu mauris nec, pretium tincidunt nulla.
+            </p>
+          </div>
+        </div>
+        <div class="card-item">
+          <img class="card-img" src="https://dummyimage.com/600x400/0f0/fff" alt="Product 1">
+          <div class="product-content">
+            <h3 class="product-title">
+              <span class="product-name">Product 1</span>
+              <span class="product-price">$12.90</span>
+            </h3>
+            <p class="product-info">
+              Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+              congue eu mauris nec, pretium tincidunt nulla.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- ======================================== -->
+      <h2 class="card-hd">
+        Dishes
+      </h2>
+      <div class="card-group">
+        <div class="card-item">
+          <img class="card-img" src="https://dummyimage.com/600x400/f00/000" alt="Product 1">
+          <div class="product-content">
+            <h3 class="product-title">
+              <span class="product-name">Product 1</span>
+              <span class="product-price">$12.90</span>
+            </h3>
+            <p class="product-info">
+              Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+              congue eu mauris nec, pretium tincidunt nulla.
+            </p>
+          </div>
+        </div>
+        <div class="card-item">
+          <img class="card-img" src="https://dummyimage.com/600x400/00f/000" alt="Product 1">
+          <div class="product-content">
+            <h3 class="product-title">
+              <span class="product-name">Product 1</span>
+              <span class="product-price">$12.90</span>
+            </h3>
+            <p class="product-info">
+              Nunc efficitur felis vel mi efficitur, sed molestie sem scelerisque. Fusce orci risus,
+              congue eu mauris nec, pretium tincidunt nulla.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="cell">
-      <h1>Lots of content</h1>
-      <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo reiciendis possimus odit
-        perferendis doloremque rem qui, tenetur odio maxime ea nemo recusandae quae minus consequatur cumque harum dolor
-        libero id.
-        Nihil, esse vitae? Fuga atque, officiis illo sed iusto error repellendus nulla? Impedit totam inventore quas
-        neque nulla libero doloribus consequuntur fugit ipsam sunt voluptas quibusdam tempora, cupiditate hic pariatur?
-        Accusantium sequi inventore aperiam enim impedit facilis ipsam, voluptas molestias laudantium itaque dolorum
-        quidem eligendi corporis repudiandae aspernatur ea, magnam aliquid quibusdam? Veritatis saepe quidem numquam
-        corporis labore illo soluta.
-      </p>
-    </div>
-    <div class="cell">
-      <h1>Lots of content</h1>
-      <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo reiciendis possimus odit
-        perferendis doloremque rem qui, tenetur odio maxime ea nemo recusandae quae minus consequatur cumque harum dolor
-        libero id.
-
-      </p>
-    </div>
-    <div class="cell">
-      <h1>Lots of content</h1>
-      <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo reiciendis possimus odit
-        perferendis doloremque rem qui, tenetur odio maxime ea nemo recusandae quae minus consequatur cumque harum dolor
-        libero id.
-        Nihil, esse vitae? Fuga atque, officiis illo sed iusto error repellendus nulla? Impedit totam inventore quas
-        neque nulla libero doloribus consequuntur fugit ipsam sunt voluptas quibusdam tempora, cupiditate hic pariatur?
-        Accusantium sequi inventore aperiam enim impedit facilis ipsam, voluptas molestias laudantium itaque dolorum
-        quidem eligendi corporis repudiandae aspernatur ea, magnam aliquid quibusdam? Veritatis saepe quidem numquam
-        corporis labore illo soluta.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quidem cum, minima, cupiditate deserunt quae
-        cumque ipsam eaque aperiam obcaecati quos assumenda veritatis accusantium! Id esse aperiam vel officia
-        perspiciatis!
-        Praesentium dolor deserunt laudantium dolorem in tempore, ipsa consequatur sed deleniti distinctio porro
-        possimus ab, nesciunt nam voluptatem aperiam commodi magni ratione qui repudiandae quisquam nisi maxime quae id.
-        Illum!
-        Illum magnam, voluptatum laborum voluptatibus voluptatem corrupti doloremque voluptas esse possimus expedita,
-        adipisci assumenda mollitia quas? Vel hic voluptates natus laboriosam accusamus totam tempore, ipsam et
-        cupiditate dolore temporibus aperiam.
-        Aut a, asperiores maiores itaque quasi laboriosam enim perspiciatis officiis eveniet iusto distinctio voluptatum
-        repellendus impedit, consequuntur esse iure. Nostrum vel tenetur at minus dicta est sit architecto illo. Labore.
-        Ex, reiciendis. Rem ex minus numquam, quibusdam laboriosam accusamus, sequi mollitia animi eaque nostrum ea
-        molestiae magni dicta, ducimus quaerat. Est perferendis dignissimos voluptatem iusto blanditiis sed modi ea
-        molestiae!
-      </p>
-    </div>
-    <div class="cell">
-      <h1>Lots of content</h1>
-      <p class="lorem">
-        Nihil, esse vitae? Fuga atque, officiis illo sed iusto error repellendus nulla? Impedit totam inventore quas
-        neque nulla libero doloribus consequuntur fugit ipsam sunt voluptas quibusdam tempora, cupiditate hic pariatur?
-        Accusantium sequi inventore aperiam enim impedit facilis ipsam, voluptas molestias laudantium itaque dolorum
-        quidem eligendi corporis repudiandae aspernatur ea, magnam aliquid quibusdam? Veritatis saepe quidem numquam
-        corporis labore illo soluta.
-      </p>
-    </div>
-  </section>
+  </div>
 
 
 
-   <!-- --------------------FOOTER-------------------- -->
+  <!-- --------------------FOOTER-------------------- -->
   <!-- Footer code snippet souced from: 
   https://mdbootstrap.com/docs/standard/navigation/footer/ -->
   <footer class="text-center text-lg-start bg-dark special-tx-cl">

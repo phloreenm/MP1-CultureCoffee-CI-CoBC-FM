@@ -29,7 +29,7 @@ https://github.com/suzybee1987/knit-happens/blob/main/README.md
   - [**Text**](#text)
   - [**Colour theme**](#theme)
   - [**Pictures**](#pictures)
-
+  - [**Accessibility**](#accessibility)
 - [**Features**](#features)
   - [**Site Navigation**](#site-navigation)
   - [**Features Implemented**](#features-implemented)
@@ -79,18 +79,24 @@ I decided to display the User Story in a table (also a link at the bottom of the
 
 An online Excel version of the User Stories Board can be found [here](https://1drv.ms/x/s!AhVZRr1-0ZpXmKwYxEhkrC46UlGAow?e=utUtgc)
 
+## **UI (User Interface)**
 
+### ** Accessibility **
 
+    - In mobile view the main navigation bar is hidden behind an icon. The icon has normally applied a bouncing effect, but to avoid vestibular motion triggers the animation is reduced (in media queries section of the css file), when the user has disabled such effects.
+    - 
+    - Mark up different regions of web pages and applications, so that they can be identified by web browsers and assistive technologies.
 
 ===========================================
 ## **Issues**
-    One of the first issues I got in was learning that using Boostrap for the website layout wasn't about to bring me any benefit at all, but au contraire. So, because the first header and footer layout were built using Bootstrap framework, I had to redo these section using simply CSS.
+    - Hover effects won't work properly on touch mobile devices (which are using a touch screen), so a media query for that has to be implemented.
 
 
 
 
 # Features
 ## Site-Navigation
+Site's structure is very simple, follsowinf
     - [Home page](/index.html):
         - contains a header with responsive navigation bar
         - a section area which contains some welcoming content
@@ -99,7 +105,7 @@ An online Excel version of the User Stories Board can be found [here](https://1d
             - Social links
             - Contact details
             - A copyrighting notice.
-    - [Menu](/menu.html): the page contains the same navigation bar and footer
+    - [card](/card.html): the page contains the same navigation bar and footer
         - The content section displays lists of avialbale products for selling at the cafe
     - [Gallery](/gallery.html): 
         - The gallery's main section contains a small collection of real photos presenting the cafe and some products and activities.
@@ -113,9 +119,8 @@ An online Excel version of the User Stories Board can be found [here](https://1d
 
 # **CREDITS:**
 ##  **Code Snipets:**
-    1. Nav Bar inspired from here: https://www.freecodecamp.org/news/how-to-keep-a-navbar-at-the-top-of-my-viewport/
-        and here: https://vidyasheela.com/post/how-to-make-sticky-nav-bar-using-html-and-css
-    2. gkhkjk
+    1. Header layout and effects inspired from here: https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html
+    2. Content flexbox cards code sourced from here: https://www.youtube.com/watch?v=cJjej5udWVE
 ## **Research and Information:** 
     - [Coffee Types List](https://www.baristainstitute.com/blog/emmi-kinnunen/january-2022/affogato-ristretto-list-most-common-coffee-drinks)
     - [Things All Restaurant Website Designs Need to Include](https://pos.toasttab.com/blog/on-the-line/7-things-restaurant-websites-need-to-include): as highlithed in this article, having some specific sections on your restaurand (cafe in our case), improves a lot the customer experience and the chances of attracting new customers raises. 
@@ -134,7 +139,7 @@ An online Excel version of the User Stories Board can be found [here](https://1d
     How likely are you to recommend this product to others?
     How could we improve our product to better meet your needs? 
 ## **Accessibility**
-    - [Acces](): Navigation menu items contain a Boostrap class .sr-only which indicates to screen readers at which page we are, helping visualy impaired users navigating throught the website using screen readers.
+    - [Acces](): Navigation card items contain a Boostrap class .sr-only which indicates to screen readers at which page we are, helping visualy impaired users navigating throught the website using screen readers.
     - [Landmarks](https://accessibility.blog.gov.uk/2016/05/27/using-navigation-landmarks/)Internet Explorer 11, which does not have accessibility support for the HTML5 elements used to provide landmarks, but which does support the equivalent ARIA roles. 
     https://tink.uk/enhancing-aria-landmarks-with-aria-labelledby/
 
