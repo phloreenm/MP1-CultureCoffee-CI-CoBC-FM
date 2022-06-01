@@ -8,18 +8,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background-color: #F5F7BB;
+    /* background-color: #F5F7BB; */
 }
 
 /* -------------BODY ------------------------------------ */
-html {
-    /* height: 100%; */
+html, body {
+    height: 100%;
 }
 body {
     min-width: 300px;
     font-size: 1.125rem;
     line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
     /* min-height: 100%;
     display: flex;
     flex-direction: column;  */
@@ -96,6 +96,7 @@ input[type="checkbox"] {
     justify-content: center;
     /* z-index: -1; */
     width: 100%;
+    min-height: 100%;
     padding: 0 30px;
     margin: 10px auto;
     color: #1b1b1b;
@@ -211,16 +212,35 @@ input[type="checkbox"] {
 
 /* -------------FOOTER------------------------------------ */
 .footer-container {
+    background-color: #234e70;
+    color: #F5F7BB;
     margin-top: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
+    height: auto;
+    width: 100%;
+    padding: 0 50px 0 100px;
 }
 .foo-border {
-    border: 1px solid black;
+    border: 1px solid transparent;
 }
+
+.rev-bg {
+    background-color: #234e70 !important;
+    color: #F5F7BB !important;
+}
+ .center-all {
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+/* ========================================== */
+
+
+
 /* -------------Contact page------------------------------------ */
 
 label {

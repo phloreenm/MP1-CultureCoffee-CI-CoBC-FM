@@ -1,22 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Error 404</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Culture Coffee café</title>
+
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="icon" type="image/x-icon" href="/assets/imgs/favicon.ico">
+
+  <script src="https://kit.fontawesome.com/96ce8820ba.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <h1>ERROR 404</h1>
-    <h3>We found the best recipes to make the best coffee for you, but we couldn't find the page you're looking for.</h3>
-    <h3>Could you try again using one of these links?</h3>
-    For best coffees try <a href="/cafesmenu.html#coffees"><span class="product-int-link">HERE</span></a>.
+  <a name="top"></a>
+  <!-- --------------------HEADER-------------------- -->
+  <header role="header-navigation-area">
 
-   For some tasty food click <a
-      href="/cafesmenu.html#dishes"><span class="product-int-link">HERE</span></a>.
-      Or maybe some <a href="/cafesmenu.html#wines"><span class="product-int-link">wines</span></a>?
-      Well, definetely one of our  <a href="/cafesmenu.html#cakes"><span class="product-int-link">cakes</span></a> would do.
+    <!-- Code snippet sourced from: https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html -->
+    <nav aria-label="Main Navigation" role="navigation">
+      <a href="index.html"><img src="/assets/imgs/CC-logo.webp" class="logo-img" alt="Culture Coffee logo"></a>
+      <input type="checkbox" id="select">
+      <label for="select" class="menu-toggle-btn">
+        <i class="fa-solid fa-bars fa-bounce">MENU</i>
+      </label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cafesmenu.html">Café's Menu</a></li>
+        <li><a href="index.html">Pictures Gallery</a></li>
+        <li><a href="index.html">Contact Us</a></li>
+      </ul>
+    </nav>
 
-      Otherwise get back to the <a href="/index.html"><span class="product-int-link">HOME PAGE</span></a>
+  </header>
+  <!-- --------------------CONTENT SECTION-------------------- -->
+  <main class="container" role="main">
+      <br><br>
+    <h1>Woops! ERROR 404</h1>
+    <h1>That page doesn't exist!</h1><br><br>
+    <h3>But we have the best recipes to make the best coffees for you!</h3><br>
+    <h3>
+
+        While we fix this you could try some of our
+        appreciated coffees <a href="/cafesmenu.html#coffees"><span class="product-int-link">HERE</span></a>.<br>
+        You'll find some tasty food <a href="/cafesmenu.html#dishes"><spanclass="product-int-link">HERE</span></a>.<br>
+        That may go well with a  <a href="/cafesmenu.html#wines"><span class="product-int-link">wine</span></a>?
+        Well, if it's too early in the day definetely one of our sweet <a href="/cafesmenu.html#cakes"><span class="product-int-link">cakes</span></a>
+        would do.<br>
+        Otherwise you may return to the <a href="/index.html"><span class="product-int-link">HOME PAGE</span></a>
+    </h3>
+
+  </main>
+
+  <!-- --------------------FOOTER-------------------- -->
+  <footer class="footer-container foo-border" role="contentinfo">
+    <section class="footer-address foo-border">
+      <h1>ADDRESS</h1>
+    </section>
+    <section class="footer-social foo-border">
+      <h1>Facebook</h1>
+      <h1>INSTAGRAM</h1>
+      <h1>Tripadvisor</h1>
+    </section>
+    <section class="footer-contact foo-border">
+      <h1>CONTACT DETAILS</h1>
+    </section>
+  </footer>
+
 </body>
+
 </html>

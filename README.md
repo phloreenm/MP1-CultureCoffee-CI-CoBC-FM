@@ -100,6 +100,7 @@ Site's structure is very simple, follsowinf
     - [Home page](/index.html):
         - contains a header with responsive navigation bar
         - a section area which contains some welcoming content
+            - inside there are some key-words (as 'coffee') which are also main categories in the menu area, are used as link to the sections on the Café's Menu page, so that customers are able to navigate straight to the menu lists.
         - a footer area which displays useful information, like:
             - Address
             - Social links
@@ -148,3 +149,4 @@ Site's structure is very simple, follsowinf
     2. Images were resized to 768px for the long side. This resolution is enough to display good images for breakpoint-md: 768px. On large screens the gallery is presented as a grid of images, but as the width of the screen is lowered, the grid adapts to 2 or 1 column images.
 ## **Issues**
     - [Contact Page legend text centering](): an issue I had was centering the legend element, which wasn't easy achievable through css, because of the cross browsers incompatibility. There an in-line property solved it (https://www.geeksforgeeks.org/html-legend-align-attribute/). Issues discussed [HERE](https://stackoverflow.com/questions/4006824/how-to-center-the-legend-element-what-to-use-instead-of-aligncenter-attribu)
+    - I could not find a FontAwesome icon for Tripadvisor. Issue is discussed [HERE](https://github.com/FortAwesome/Font-Awesome/issues/18180)
