@@ -150,3 +150,4 @@ Site's structure is very simple, follsowinf
 ## **Issues**
     - [Contact Page legend text centering](): an issue I had was centering the legend element, which wasn't easy achievable through css, because of the cross browsers incompatibility. There an in-line property solved it (https://www.geeksforgeeks.org/html-legend-align-attribute/). Issues discussed [HERE](https://stackoverflow.com/questions/4006824/how-to-center-the-legend-element-what-to-use-instead-of-aligncenter-attribu)
     - I could not find a FontAwesome icon for Tripadvisor. Issue is discussed [HERE](https://github.com/FortAwesome/Font-Awesome/issues/18180)
+    - While site was deployed on github Pages, the images on the site wouldn't load. Found out that I have to remove the '/' from the link. Example: <<src="/assets/imgs/coffees/image.jpeg>> -> in this format the images wouldn't load, so I had to remove the backslash before the 'assets' folder. Found this through the Developer's Tools in Chrome.
