@@ -12,9 +12,11 @@
 }
 
 /* -------------BODY ------------------------------------ */
-html, body {
+html,
+body {
     height: 100%;
 }
+
 body {
     min-width: 300px;
     font-size: 1.125rem;
@@ -101,6 +103,7 @@ input[type="checkbox"] {
     margin: 10px auto;
     color: #1b1b1b;
 }
+
 /* ------------- menu page  ------------- */
 .main-desc {
     background-color: rgba(0, 0, 0, .1);
@@ -111,6 +114,7 @@ input[type="checkbox"] {
     border-radius: 10px;
     margin: 10px auto;
 }
+
 .page-nav-links {
     display: flex;
     flex-direction: row;
@@ -118,10 +122,12 @@ input[type="checkbox"] {
     margin-left: 20%;
     margin-right: 20%;
 }
+
 .page-nav-links a:link {
     text-decoration: none;
     margin: 5px;
 }
+
 .page-nav-links a:hover {
     background-color: rgba(35, 78, 112, 0.5);
     color: #F5F7BB;
@@ -129,11 +135,13 @@ input[type="checkbox"] {
     border-radius: 10px;
     padding: 5px;
 }
+
 .top-link:link {
     text-decoration: none;
     margin: 20px auto;
     margin: 5px;
 }
+
 .top-link:hover {
     /* text-decoration: underline; */
     background-color: rgba(35, 78, 112, 0.5);
@@ -224,6 +232,7 @@ input[type="checkbox"] {
     width: 100%;
     padding: 0 50px 0 100px;
 }
+
 .foo-border {
     border: 1px solid transparent;
 }
@@ -232,21 +241,24 @@ input[type="checkbox"] {
     background-color: #234e70 !important;
     color: #F5F7BB !important;
 }
- .center-all {
-     justify-content: center;
-     align-items: center;
-     text-align: center;
- }
- .social-links {
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     align-content: center;
- }
- .social-ic {
-     align-items: center;
- }
- 
+
+.center-all {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.social-ic {
+    align-items: center;
+}
+
 /* ========================================== */
 
 
@@ -276,7 +288,6 @@ label {
     }
 }
 
-/* @media (max-width: 920px) { */
 @media (max-width: 920px) {
     nav .menu-toggle-btn i {
         display: block;
