@@ -237,6 +237,16 @@ input[type="checkbox"] {
      align-items: center;
      text-align: center;
  }
+ .social-links {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-content: center;
+ }
+ .social-ic {
+     align-items: center;
+ }
+ 
 /* ========================================== */
 
 
