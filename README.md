@@ -20,7 +20,7 @@ Milestone Project 1 - "Culture Coffee  café" - static page [C.I. &amp; CoB C]
 https://github.com/dnlbowers/modern-buddhism#planning-stage
 https://github.com/suzybee1987/knit-happens/blob/main/README.md
 
-## **Structure**
+## **Table of Contents**
 
 - [**UX (User Experience)**](#ux)
   - [**User Stories**](#user-stories)
