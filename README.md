@@ -17,8 +17,6 @@ Milestone Project 1 - "Culture Coffee  café" - static page [C.I. &amp; CoB C]
 ### Link to live website is [here](https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/)
 ### Link to GitHub repo is [here](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main)
 
-https://github.com/dnlbowers/modern-buddhism#planning-stage
-https://github.com/suzybee1987/knit-happens/blob/main/README.md
 
 ## **Table of Contents**
 
