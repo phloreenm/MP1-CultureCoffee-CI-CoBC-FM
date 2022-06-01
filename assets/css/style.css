@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700&family=Proza+Libre&display=swap');
 
 *,
 *:before,
@@ -14,18 +14,17 @@
 /* -------------BODY ------------------------------------ */
 html,
 body {
-    height: 100%;
+    min-height: 100%;
 }
 
 body {
     min-width: 300px;
     font-size: 1.125rem;
     line-height: 1.6;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     /* min-height: 100%;
     display: flex;
     flex-direction: column;  */
-
 }
 
 /* -------------HEADER------------------------------------ */
@@ -33,10 +32,11 @@ nav {
     display: flex;
     height: 140px;
     width: 100%;
-    background: #F5F7BB;
+    /* background: #F5F7BB; */
+    background: #ece7e1;
     align-items: center;
     justify-content: space-between;
-    padding: 0 50px 0 100px;
+    padding: 0 100px 0 100px;
     flex-wrap: wrap;
 }
 
@@ -56,24 +56,32 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #234e70;
+    /* color: #234e70; */
+    color: #532b1e;
     text-decoration: none;
     font-size: 18px;
-    font-weight: 500;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
     padding: 8px 15px;
     border-radius: 5px;
     letter-spacing: 1px;
     transition: all 0.3s ease;
 }
 
-nav ul li a.active,
+nav ul li a.active {
+    color: #dad5d3;
+    background: #883f22;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
 nav ul li a:hover {
     color: #F5F7BB;
-    background: #234e70;
+    background: #552f1e;
 }
 
 nav .menu-toggle-btn i {
-    color: #234e70;
+    color: #552f1e;
     font-size: 22px;
     cursor: pointer;
     display: none;
@@ -101,7 +109,7 @@ input[type="checkbox"] {
     min-height: 100%;
     padding: 0 30px;
     margin: 10px auto;
-    color: #1b1b1b;
+    color: #231a19;
 }
 
 /* ------------- menu page  ------------- */
@@ -129,8 +137,9 @@ input[type="checkbox"] {
 }
 
 .page-nav-links a:hover {
-    background-color: rgba(35, 78, 112, 0.5);
-    color: #F5F7BB;
+    /* background-color: rgba(35, 78, 112, 0.5); */
+    background-color: #552f1e;
+    color: #dad5d3;
     border: 1px solid transparent;
     border-radius: 10px;
     padding: 5px;
@@ -144,15 +153,15 @@ input[type="checkbox"] {
 
 .top-link:hover {
     /* text-decoration: underline; */
-    background-color: rgba(35, 78, 112, 0.5);
-    color: #F5F7BB;
+    /* background-color: rgba(35, 78, 112, 0.5); */
+    background-color: #552f1e;
+    color: #ece7e1;
     border: 1px solid transparent;
     border-radius: 10px;
 }
 
 
 .card {
-    font-family: "Inter", sans-serif;
     font-size: 14px;
 }
 
@@ -160,6 +169,7 @@ input[type="checkbox"] {
     margin: 0;
     padding-bottom: 1em;
     border-bottom: 2px solid #ccc;
+
 }
 
 .card-group {
@@ -193,35 +203,41 @@ input[type="checkbox"] {
 
 .product-name {
     margin-right: 1.5em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
 }
 
 .product-info {
     line-height: 1.6;
-}
-
-@media screen and (min-width: 992px) {
-    .card {
-        font-size: 16px;
-    }
-
-    .card-group {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .card-img {
-        width: 125px;
-        height: 125px;
-    }
+    font-weight: 500;
+    
 }
 
 
+/* -------------Gallery main page------------------------------------ */
+.gal-wrapper  {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    gap: 5px;
+}
+.gal-wrapper > li {
+    border: 2px solid #231a19;
+}
+.gal-img {
+    object-fit: fill;
+    max-width: 320px;
+}
 
 /* -------------card section------------------------------------ */
 
 /* -------------FOOTER------------------------------------ */
 .footer-container {
-    background-color: #234e70;
-    color: #F5F7BB;
+    background-color: #552f1e;
+    color: #ece7e1;
     margin-top: auto;
     display: flex;
     flex-direction: row;
@@ -230,7 +246,7 @@ input[type="checkbox"] {
     align-content: center;
     height: auto;
     width: 100%;
-    padding: 0 50px 0 100px;
+    padding: 0 100px 0 100px;
 }
 
 .foo-border {
@@ -238,8 +254,8 @@ input[type="checkbox"] {
 }
 
 .rev-bg {
-    background-color: #234e70 !important;
-    color: #F5F7BB !important;
+    background-color: #552f1e !important;
+    color: #ece7e1 !important;
 }
 
 .center-all {
@@ -282,6 +298,20 @@ label {
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px; */
+    @media screen and (min-width: 992px) {
+        .card {
+            font-size: 16px;
+        }
+    
+        .card-group {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    
+        .card-img {
+            width: 125px;
+            height: 125px;
+        }
+    }
 @media (max-width: 1000px) {
     nav {
         padding: 0 40px 0 50px;
@@ -301,13 +331,13 @@ label {
         position: fixed;
         top: 130px;
         left: -100%;
-        background: #F5F7BB;
+        background: #ece7e1;
         /* height: 100vh; */
-        height: 400px;
+        height: 370px;
         width: 100%;
         text-align: center;
         display: block;
-        border-bottom: 1px solid rgba(35, 78, 112, 0.3);
+        border-bottom: 1px solid #552f1e;
         transition: all 0.3s ease;
     }
 
@@ -334,8 +364,8 @@ label {
 
     nav ul li a.active,
     nav ul li a:hover {
-        color: #F5F7BB;
-        background: #234e70;
+        color: #ece7e1;
+        background: #552f1e;
     }
 
     /* FOOTER  */

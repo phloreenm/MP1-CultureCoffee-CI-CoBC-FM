@@ -29,5 +29,8 @@
    },
    "[css]": {
       "editor.defaultFormatter": "HookyQR.beautify"
+   },
+   "[markdown]": {
+      "editor.defaultFormatter": "yzhang.markdown-all-in-one"
    }
 }

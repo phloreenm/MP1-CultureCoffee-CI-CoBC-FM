@@ -5,146 +5,97 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Culture Coffee is the top localcoffee-seller, organic, high-caffeine blends, 
+    and we have the world&amp;#39;s strongest coffee!">
   <title>Culture Coffee café</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+
   <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
   <link rel="icon" type="image/x-icon" href="/assets/imgs/favicon.ico">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
+    rel="nofollow noreferrer noopener" rel="stylesheet">
   <script src="https://kit.fontawesome.com/96ce8820ba.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+  <a name="top"></a>
   <!-- --------------------HEADER-------------------- -->
-  <header>
+  <header role="header-navigation-area">
 
-    <!-- --------------------Navigation bar-------------------- -->
-    <!-- Boostrap code snippet taken from: https://www.codegrepper.com/code-examples/html/how+to+hide+navbar-nav+elements+in+bootstrap -->
-    <nav>
-      <ul class="nav nav-tabs" id="myTab" role="tablist">
-        <li class="nav-item">
-          <a class="nav-link text-center" id="home-tab" data-toggle="tab" href="index.html" role="tab" aria-controls="home"
-            aria-selected="true">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-center" id="card-tab" data-toggle="tab" href="card.html" role="tab" aria-controls="card"
-            aria-selected="false">card</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-center active" id="gallery-tab" data-toggle="tab" href="gallery.html" role="tab" aria-controls="gallery"
-            aria-selected="false">Gallery<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-center" id="contact-tab" data-toggle="tab" href="contact.html" role="tab" aria-controls="contact"
-            aria-selected="false">Contact</a>
-        </li>
+    <!-- Code snippet sourced from: https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html -->
+    <nav aria-label="Main Navigation" role="navigation">
+      <a href="index.html"><img src="assets/imgs/CC-logo.webp" class="logo-img" alt="Culture Coffee logo"></a>
+      <input type="checkbox" id="select">
+      <label for="select" class="menu-toggle-btn">
+        <i class="fa-solid fa-bars fa-bounce"></i>
+      </label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cafesmenu.html">Café's Menu</a></li>
+        <li><a class="active" href="gallery.html">Pictures Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
       </ul>
-      <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"></div>
-        <div class="tab-pane fade" id="card" role="tabpanel" aria-labelledby="card-tab">...</div>
-        <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">...</div>
-        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-      </div>
     </nav>
+
   </header>
-  <!-- --------------------SECTION-------------------- -->
-  <section class="container grid">
-    <!-- <div class="cell">
-      <h1>Contact form</h1>
-      <p class="lorem">Should you have any questions, please feel free to contact us
-      </p>
-
-    </div>
-  </section>
-  <div class="content flow"> -->
-    <div class="grid-ish">
-      <img class="col" src="/assets/imgs/gallery-imgs/01.MGF_2466.webp" alt="Image1">
-      <img class="col" src="/assets/imgs/gallery-imgs/02.MGF_2468.webp" alt="Image2">
-      <img class="col" src="/assets/imgs/gallery-imgs/03.MGF_2477.webp" alt="Image3">
-      <img class="col" src="/assets/imgs/gallery-imgs/04.MGF_2488.webp" alt="Image4">
-      <img class="col" src="/assets/imgs/gallery-imgs/05.MGF_2516.webp" alt="Image5">
-      <img class="col" src="/assets/imgs/gallery-imgs/06.MGF_2513.webp" alt="Image6">
-      <img class="col" src="/assets/imgs/gallery-imgs/07.MGF_2542.webp" alt="Image7">
-      <img class="col" src="/assets/imgs/gallery-imgs/09.MGF_2556.webp" alt="Image8">
-      <img class="col" src="/assets/imgs/gallery-imgs/MGF_2460.webp" alt="Image9">
-      <img class="col" src="/assets/imgs/gallery-imgs/MGF_2476.webp" alt="Image9">
-      <img class="col" src="/assets/imgs/gallery-imgs/MGF_2493.webp" alt="Image9">
-      <img class="col" src="/assets/imgs/gallery-imgs/MGF_2494.webp" alt="Image9">
-      <img class="col" src="/assets/imgs/gallery-imgs/MGF_2508.webp" alt="Image9">
-      <img class="col" src="/assets/imgs/gallery-imgs/MGF_2531.webp" alt="Image9">
-      <img class="col" src="/assets/imgs/gallery-imgs/MGF_2552.webp" alt="Image9">
-
-    </div>
-    </div>
-  </section>
+  <!-- --------------------CONTENT SECTION-------------------- -->
+  <main class="container" role="gallery">
+    <!-- ================================================================= -->
+      <ul class="gal-wrapper">
+        <li><img class="gal-img" src="/assets/imgs/gallery-imgs/01.MGF_2466.webp" alt="Image1"></li>
+        <li><img class="gal-img" src="/assets/imgs/gallery-imgs/02.MGF_2468.webp" alt="Image2"></li>
+        <li><img class="gal-img" src="/assets/imgs/gallery-imgs/04.MGF_2488.webp" alt="Image3"></li>
+        <li><img class="gal-img" src="/assets/imgs/gallery-imgs/MGF_2493.webp" alt="Image4"></li>
+        <!-- <li><img class="gal-img" src="/assets/imgs/gallery-imgs/09.MGF_2556.webp" alt="Image5"></li> -->
+       
+        <li><img class="gal-img" src="/assets/imgs/gallery-imgs/MGF_2494.webp" alt="Image12"></li>
+        <li><img class="gal-img" src="/assets/imgs/gallery-imgs/MGF_2508.webp" alt="Image13"></li>
+        <li><img class="gal-img" src="/assets/imgs/gallery-imgs/MGF_2531.webp" alt="Image14"></li>
+        <li><img class="gal-img" src="/assets/imgs/gallery-imgs/MGF_2552.webp" alt="Image15"></li>
+        <li><img class="gal-img" src="/assets/imgs/gallery-imgs/05.MGF_2516.webp" alt="Image6"></li>
+        <li><img class="gal-img" src="/assets/imgs/gallery-imgs/06.MGF_2513.webp" alt="Image7"></li>
+        <li><img class="gal-img" src="/assets/imgs/gallery-imgs/07.MGF_2542.webp" alt="Image8"></li>
+        <li><img class="gal-img" src="/assets/imgs/gallery-imgs/03.MGF_2477.webp" alt="Image9"></li>
+        <li><img class="gal-img" src="/assets/imgs/gallery-imgs/MGF_2460.webp" alt="Image10"></li>
+        <li><img class="gal-img" src="/assets/imgs/gallery-imgs/MGF_2476.webp" alt="Image11"></li>
+      </ul>
+    
+    <!-- ================================================================= -->
+    <a href="#top">Back to top of page</a>
+  </main>
 
   <!-- --------------------FOOTER-------------------- -->
-  <!-- Footer code snippet souced from: 
-  https://mdbootstrap.com/docs/standard/navigation/footer/ -->
-  <footer class="text-center text-lg-start bg-dark special-tx-cl">
-    <!-- Section: Links  -->
-    <section>
-      <div class="container text-center text-md-start mt-3 pt-1  border-bottom">
-        <!-- Grid row -->
-        <div class="row mt-1">
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-1">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-1">
-              <i class="fas fa-home me-3"></i> ADDRESS
-            </h6>
-            <p>69 Fisherton Street, <br>Salisbury, <br>SP2 7SU</p>
-            <br>
-            <!-- I'd rather move these information on main page -->
-            <!-- <h6 class="text-uppercase fw-bold">
-              <i class="fa-thin fa-clock"></i> Opening hours: *
-            </h6>
-            <p>Mon-Sunday 8AM - 4PM</p> -->
-            <!-- <p>Saturday     8AM - 4PM</p> - The opening hours changed and is possible be needed new lines 
-            <p>Sunday       8AM - 4PM</p> -->
-          </div>
-          <!-- Grid column -->
-          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-1">
-            <!-- Social Media -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              Social links
-            </h6>
-            <div>
-              <a href="https://www.facebook.com" class="me-4 text-reset social-icons">
-                <i class="fab fa-facebook-f fa-1xl" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.google.com" class="me-4 text-reset social-icons">
-                <i class="fab fa-google fa-1xl" aria-hidden="true"></i>
-              </a>
-              <a href="https://www.instagram.com" class="me-4 text-reset social-icons">
-                <i class="fab fa-instagram fa-1xl" aria-hidden="true"></i>
-              </a>
-            </div>
-          </div>
-          <!-- Contact area -->
-          <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-md-0 mb-1">
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fa-solid fa-address-book"></i>
-              Contact
-            </h6>
-            <p>
-              <i class="fas fa-envelope me-3"></i>
-              info@culturecoffe.cafe
-            </p>
-            <p><i class="fas fa-phone me-3"></i> + 44 7735194633</p>
-          </div>
-          <!-- Contact area END -->
-        </div>
-      </div>
+  <footer class="footer-container rev-bg foo-border" role="contentinfo">
+    <!-- ADDRESS AREA  -->
+    <section class="footer-address rev-bg foo-border center-all">
+      <h3>Address</h3>
+      <p>69 Fisherton Street<br>Salisbury<br>SP2 7SU</p>
     </section>
-    <!-- Copyright area -->
-    <div class="text-center p-4 mt-1 mb-1">
-      © 2022 Copyright:
-      <a class="text-reset fw-bold" href="index.html">Culture Coffee cafe</a>
-    </div>
-    <!-- Copyright area-->
-  </footer>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- SOCIAL LINKS -->
+    <section class="footer-social rev-bg foo-border center-all">
 
+      <div class="social-title rev-bg center-all">
+        <h3>Social Links</h3>
+      </div>
+
+      <div class="social-links rev-bg center-all">
+        <div class="social-ic"><a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer"><i
+              class="fa-brands fa-facebook-square rev-bg center-all" aria-hidden="true"></i></a></div>
+        <div class="social-ic"><a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer"><i
+              class="fa-brands fa-instagram-square rev-bg center-all" aria-hidden="true"></i></a></div>
+        <div class="social-ic"><a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer"><i
+              class="fa-brands fa-twitter-square rev-bg center-all" aria-hidden="true"></i></a></div>
+      </div>
+
+    </section>
+    <!-- CONTACT-US -->
+    <section class="footer-contact rev-bg foo-border center-all">
+      <h3>Contact us</h3>
+      <p><i class="fas fa-envelope me-3 rev-bg"></i>info@culturecoffe.cafe</p>
+      <p><i class="fas fa-phone me-3 rev-bg"></i> + 44 7735194633</p>
+    </section>
+
+  </footer>
 </body>
 
 </html>
