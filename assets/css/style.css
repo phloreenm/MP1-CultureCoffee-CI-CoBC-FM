@@ -8,7 +8,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    /* background-color: #F5F7BB; */
+
 }
 
 /* -------------BODY ------------------------------------ */
@@ -22,22 +22,20 @@ body {
     font-size: 1.125rem;
     line-height: 1.6;
     font-family: 'Montserrat', sans-serif;
-    /* min-height: 100%; */
-    /* display: flex;
-    flex-direction: column; */
+
 }
 
 /* -------------HEADER------------------------------------ */
 nav {
     display: flex;
+    flex-wrap: wrap;
     height: 140px;
     width: 100%;
-    /* background: #F5F7BB; */
     background: #ece7e1;
     align-items: center;
     justify-content: space-between;
-    padding: 0 100px 0 100px;
-    flex-wrap: wrap;
+    /* padding: 0 100px 0 100px; */
+    padding: 0 40px 0 50px;
 }
 
 .logo-img {
@@ -45,53 +43,63 @@ nav {
     width: 130px;
 }
 
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-}
-
-nav ul li {
-    margin: 0 5px;
-}
-
-nav ul li a {
-    /* color: #234e70; */
-    color: #532b1e;
-    text-decoration: none;
-    font-size: 18px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 700;
-    padding: 8px 15px;
-    border-radius: 5px;
-    letter-spacing: 1px;
-    transition: all 0.3s ease;
-}
-
-nav ul li a.active {
-    color: #dad5d3;
-    background: #883f22;
-    border: 1px solid transparent;
-    border-radius: 5px;
-}
-
-nav ul li a:hover {
-    color: #F5F7BB;
-    background: #552f1e;
-}
-
 nav .menu-toggle-btn i {
-    color: #552f1e;
-    font-size: 22px;
-    cursor: pointer;
-    display: none;
+    display: block;
 }
 
 input[type="checkbox"] {
     display: none;
 }
 
+#select:checked~.menu-toggle-btn i:before {
+    content: "\f00d";
+}
 
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    position: fixed;
+    top: 130px;
+    left: -100%;
+    background: #ece7e1;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    border-bottom: 1px solid #552f1e;
+    transition: all 0.3s ease;
+}
+
+#select:checked~ul {
+    left: 0;
+}
+
+nav ul li {
+    width: 100%;
+    margin: 40px 0;
+}
+
+nav ul li a {
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+#select:checked~ul li a {
+    margin-left: 0px;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #ece7e1;
+    background: #552f1e;
+}
 
 /* -------------CONTENT SECTION ------------------------------------ */
 .container {
@@ -99,12 +107,10 @@ input[type="checkbox"] {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /* top: 300px; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
+
     text-align: center;
     justify-content: center;
-    /* z-index: -1; */
+
     width: 100%;
     min-height: 100%;
     padding: 0 30px;
@@ -137,7 +143,6 @@ input[type="checkbox"] {
 }
 
 .page-nav-links a:hover {
-    /* background-color: rgba(35, 78, 112, 0.5); */
     background-color: #552f1e;
     color: #dad5d3;
     border: 1px solid transparent;
@@ -152,14 +157,11 @@ input[type="checkbox"] {
 }
 
 .top-link:hover {
-    /* text-decoration: underline; */
-    /* background-color: rgba(35, 78, 112, 0.5); */
     background-color: #552f1e;
     color: #ece7e1;
     border: 1px solid transparent;
     border-radius: 10px;
 }
-
 
 .card {
     font-size: 14px;
@@ -213,7 +215,6 @@ input[type="checkbox"] {
 
 }
 
-
 /* -------------Gallery main page------------------------------------ */
 .gal-wrapper {
     display: flex;
@@ -244,7 +245,7 @@ input[type="checkbox"] {
     color: #ece7e1;
     margin-top: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
@@ -284,25 +285,84 @@ input[type="checkbox"] {
 
 
 /* -------------Contact page------------------------------------ */
-
 label {
     max-width: 33%;
 }
 
 
-/* -------------Contact Us form page------------------------------------ */
-
-
-/* -------------Template------------------------------------ */
-
 /* -------------Media Queries------------------------------------ */
-/* 320px, 768px, and 1200px are the most commonly used; these three values should be sufficient for targeting smart phones, tablets/laptops, and desktops */
-/*  --breakpoint-xs: 0;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px; */
+
+/* @media screen and (max-width: 575) { */
+/*(min-width: 320px) and */
+
+/* } */
+
+/* @media screen and (min-width: 576px) and (max-width: 767px) {} */
+@media screen and (min-width: 768px) {
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+}
+
+/* @media screen and (min-width: 768px) and (max-width: 991px) {} */
+
 @media screen and (min-width: 992px) {
+    nav {
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 100px 0 100px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        /* position: fixed; */
+        /* left: -50%;
+        top:auto; */
+    }
+
+    nav ul li {
+        margin: 0 5px;
+    }
+
+    nav ul li a {
+        width: 100%;
+        margin-left: 0;
+        display: block;
+        color: #532b1e;
+        font-size: 22px;
+        padding: 8px 15px;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        transition: all 0.3s ease;
+    }
+
+    nav ul li a.active {
+        color: #dad5d3;
+        background: #883f22;
+        border: 1px solid transparent;
+        border-radius: 5px;
+    }
+
+    nav ul li a:hover {
+        color: #F5F7BB;
+        background: #552f1e;
+    }
+
+    nav .menu-toggle-btn i {
+        color: #552f1e;
+        font-size: 22px;
+        cursor: pointer;
+        display: none;
+    }
+
+    /* ================================== */
+
     .card {
         font-size: 16px;
     }
@@ -315,6 +375,7 @@ label {
         width: 125px;
         height: 125px;
     }
+
     .gal-img {
         object-fit: cover;
         width: 100%;
@@ -322,6 +383,7 @@ label {
         max-width: 500px;
         /* max-height: 400px; */
     }
+
     .gal-wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -331,76 +393,9 @@ label {
         padding: 0;
         gap: 5px;
     }
-}
-
-
-
-
-
-@media (max-width: 1000px) {
-    nav {
-        padding: 0 40px 0 50px;
-    }
-}
-
-@media (max-width: 920px) {
-    nav .menu-toggle-btn i {
-        display: block;
-    }
-
-    #select:checked~.menu-toggle-btn i:before {
-        content: "\f00d";
-    }
-
-    nav ul {
-        position: fixed;
-        top: 130px;
-        left: -100%;
-        background: #ece7e1;
-        /* height: 100vh; */
-        height: 370px;
-        width: 100%;
-        text-align: center;
-        display: block;
-        border-bottom: 1px solid #552f1e;
-        transition: all 0.3s ease;
-    }
-
-    #select:checked~ul {
-        left: 0;
-    }
-
-    nav ul li {
-        width: 100%;
-        margin: 40px 0;
-    }
-
-    nav ul li a {
-        width: 100%;
-        margin-left: -100%;
-        display: block;
-        font-size: 20px;
-        transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
-
-    #select:checked~ul li a {
-        margin-left: 0px;
-    }
-
-    nav ul li a.active,
-    nav ul li a:hover {
-        color: #ece7e1;
-        background: #552f1e;
-    }
 
     /* FOOTER  */
-    .footer-container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
-    }
+
 }
 
 /* Tone down the animation to avoid vestibular motion triggers like scaling or panning large objects. */
@@ -410,19 +405,3 @@ label {
         animation-name: dissolve;
     }
 }
-
-
-
-
-/* @media(max-width: 320px) {
-    .grid {
-        padding-top: 10rem;
-    }
-}
-
-@media(max-width: 768px) {
-    .grid {
-        padding-top: 7rem;
-
-    }
-} */
