@@ -22,9 +22,6 @@ body {
     font-size: 1.125rem;
     line-height: 1.6;
     font-family: 'Montserrat', sans-serif;
-    /* min-height: 100%;
-    display: flex;
-    flex-direction: column;  */
 }
 
 /* -------------HEADER------------------------------------ */
@@ -32,7 +29,7 @@ nav {
     display: flex;
     height: 140px;
     width: 100%;
-    /* background: #F5F7BB; */
+
     background: #ece7e1;
     align-items: center;
     justify-content: space-between;
@@ -56,7 +53,6 @@ nav ul li {
 }
 
 nav ul li a {
-    /* color: #234e70; */
     color: #532b1e;
     text-decoration: none;
     font-size: 18px;
@@ -95,23 +91,24 @@ input[type="checkbox"] {
 
 /* -------------CONTENT SECTION ------------------------------------ */
 .container {
-    /* position: absolute; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    /* top: 300px; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
     text-align: center;
     justify-content: center;
-    /* z-index: -1; */
     width: 100%;
     min-height: 100%;
     padding: 0 30px;
     margin: 10px auto;
     color: #231a19;
 }
-
+#landing-p-msg {
+    text-align: justify;
+}
+.text-centering {
+    text-align: center;
+    font-weight: 900;
+}
 /* ------------- menu page  ------------- */
 .main-desc {
     background-color: rgba(0, 0, 0, .1);
@@ -134,10 +131,13 @@ input[type="checkbox"] {
 .page-nav-links a:link {
     text-decoration: none;
     margin: 5px;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 10px;
 }
 
 .page-nav-links a:hover {
-    /* background-color: rgba(35, 78, 112, 0.5); */
     background-color: #552f1e;
     color: #dad5d3;
     border: 1px solid transparent;
@@ -152,8 +152,6 @@ input[type="checkbox"] {
 }
 
 .top-link:hover {
-    /* text-decoration: underline; */
-    /* background-color: rgba(35, 78, 112, 0.5); */
     background-color: #552f1e;
     color: #ece7e1;
     border: 1px solid transparent;
@@ -167,7 +165,7 @@ input[type="checkbox"] {
 
 .card-hd {
     margin: 0;
-    padding-bottom: 1em;
+    padding: 1rem 0;
     border-bottom: 2px solid #ccc;
 
 }
@@ -210,9 +208,13 @@ input[type="checkbox"] {
 .product-info {
     line-height: 1.6;
     font-weight: 500;
-
+    font-size: 0.75rem;
+    text-align: justify;
 }
-
+#menu-download-link {
+    text-decoration: none;
+    border: none;
+}
 
 /* -------------Gallery main page------------------------------------ */
 .gal-wrapper {
@@ -244,8 +246,7 @@ input[type="checkbox"] {
     color: #ece7e1;
     margin-top: auto;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
     align-content: center;
     height: auto;
@@ -267,6 +268,14 @@ input[type="checkbox"] {
     align-items: center;
     text-align: center;
 }
+.address-link {
+    text-decoration: none;
+    color: inherit;
+}
+.address-link:hover {
+    color: #f6b565;
+    
+}
 
 .social-links {
     display: flex;
@@ -278,6 +287,14 @@ input[type="checkbox"] {
 .social-ic {
     align-items: center;
 }
+.social-ic:hover {
+    color: #f6b565;
+}
+/* while in mobile view the tel link is enabled and proceeds to opening the phone number in caliing screen */
+a[class="calling"] {
+    pointer-events: auto !important;
+    cursor: auto !important;
+ }
 
 /* ========================================== */
 
@@ -302,7 +319,45 @@ label {
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px; */
-@media screen and (min-width: 992px) {
+
+
+
+/* @media screen and (min-width: 30em) and (orientation: landscape) { ... } */
+
+/* @media (min-width: 768) and (max-width: 991) {  } */
+
+/* @media (min-width: 576) {} */
+
+/* @media screen and  (min-width: 768) { */
+@media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 768px;
+        width: 100%;
+        min-height: 100%;
+        padding: 0 40px;
+        margin: 10px auto;
+    }
+
+    /* FOOTER  */
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+}
+
+@media  (min-width: 992px) {
+    .container {
+        max-width: 1000px;
+        width: 100%;
+        min-height: 100%;
+        padding: 0 100px;
+        margin: 10px auto;
+    }
+
     .card {
         font-size: 16px;
     }
@@ -315,13 +370,15 @@ label {
         width: 125px;
         height: 125px;
     }
+
     .gal-img {
         object-fit: cover;
         width: 100%;
         height: 100%;
-        max-width: 500px;
+        max-width: 700px;
         /* max-height: 400px; */
     }
+
     .gal-wrapper {
         display: flex;
         flex-wrap: wrap;
@@ -331,27 +388,40 @@ label {
         padding: 0;
         gap: 5px;
     }
+    .footer-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        /* gap: 80px;
+        justify-content: center;
+        align-content: center; */
+        justify-content: space-between;
+        padding: 0 100px;
+        margin: 10px auto;
+        
+    }
+    /* while in desktop view the tel link is disabled */
+    .calling {
+        pointer-events: none;
+        cursor: default;
+    }
 }
 
 
-
-
-
+/* MQ for navigation bar responsivness */
 @media (max-width: 1000px) {
     nav {
         padding: 0 40px 0 50px;
     }
 }
-
+/* MQ for navigation bar responsivness */
 @media (max-width: 920px) {
     nav .menu-toggle-btn i {
         display: block;
     }
-
     #select:checked~.menu-toggle-btn i:before {
         content: "\f00d";
     }
-
     nav ul {
         position: fixed;
         top: 130px;
@@ -365,16 +435,13 @@ label {
         border-bottom: 1px solid #552f1e;
         transition: all 0.3s ease;
     }
-
     #select:checked~ul {
         left: 0;
     }
-
     nav ul li {
         width: 100%;
         margin: 40px 0;
     }
-
     nav ul li a {
         width: 100%;
         margin-left: -100%;
@@ -382,24 +449,13 @@ label {
         font-size: 20px;
         transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
-
     #select:checked~ul li a {
         margin-left: 0px;
     }
-
     nav ul li a.active,
     nav ul li a:hover {
         color: #ece7e1;
         background: #552f1e;
-    }
-
-    /* FOOTER  */
-    .footer-container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
     }
 }
 
@@ -411,15 +467,11 @@ label {
     }
 }
 
-
-
-
 /* @media(max-width: 320px) {
     .grid {
         padding-top: 10rem;
     }
 }
-
 @media(max-width: 768px) {
     .grid {
         padding-top: 7rem;

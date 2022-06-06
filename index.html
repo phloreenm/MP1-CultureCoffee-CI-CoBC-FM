@@ -23,7 +23,7 @@
   <!-- --------------------HEADER-------------------- -->
   <header role="header-navigation-area">
 
-    <!-- Code snippet sourced from: https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html -->
+    <!-- Code snippet sourced from: https://www.codinglabweb.com/2020/12/responsive-navigation-menu-bar-design.html -->
     <nav aria-label="Main Navigation" role="navigation">
       <a href="index.html"><img src="assets/imgs/CC-logo.webp" class="logo-img" alt="Culture Coffee logo"></a>
       <input type="checkbox" id="select">
@@ -46,8 +46,8 @@
       <h2 class="card-hd">
         Welcome to Culture Coffee café's website!
       </h2>
-      <p>Hi there!
-        It's so good to have you on our website!
+      <p id="landing-p-msg">Hi there!
+        <span class="text-centering">It's so good to have you on our website!</span> 
         <br>
 
         Knowing there are so many choices present locally, no one sticks to a product until it is exceptional. We know
@@ -67,7 +67,7 @@
 
 </div>
       <!-- ================================================================= -->
-      <a href="#top">Back to top of page</a>
+      <a href="#top" class="top-link">Back to top of page</a>
   </main>
 
   <!-- --------------------FOOTER-------------------- -->
@@ -75,7 +75,7 @@
     <!-- ADDRESS AREA  -->
     <section class="footer-address rev-bg foo-border center-all">
       <h3>Address</h3>
-      <p>69 Fisherton Street<br>Salisbury<br>SP2 7SU</p>
+      <a href="https://maps.app.goo.gl/S8mJDAB8vvpERGks5" target="_blank" rel="noopener noreferrer" class="address-link">67-69<br>Fisherton Street<br>Salisbury SP2 7SU</a>
     </section>
     <!-- SOCIAL LINKS -->
     <section class="footer-social rev-bg foo-border center-all">
@@ -97,8 +97,10 @@
     <!-- CONTACT-US -->
     <section class="footer-contact rev-bg foo-border center-all">
       <h3>Contact us</h3>
-      <p><i class="fas fa-envelope me-3 rev-bg"></i>info@culturecoffe.cafe</p>
-      <p><i class="fas fa-phone me-3 rev-bg"></i> + 44 7735194633</p>
+      <a href="mailto:info@culturecoffee.cafe?cc=sales@culturecoffee.cafe" 
+        class="address-link"><i class="fas fa-envelope me-3 rev-bg"></i>info@culturecoffee.cafe</a>
+      <p><i class="fas fa-phone me-3 rev-bg"></i><a href="tel:+447735194633" class="address-link calling"> + 44 7735194633</a></p>
+      
     </section>
 
   </footer>

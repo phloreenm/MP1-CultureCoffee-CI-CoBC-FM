@@ -4,44 +4,50 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
 ![GitHub language count](https://img.shields.io/github/languages/count/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
 ![GitHub top language](https://img.shields.io/github/languages/top/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
-<!-- ![LinkedIn](https://www.linkedin.com/in/phloreen/) -->
+# **Culture Coffee café - Milestone Project 1**
 
-
-# MP1-CultureCoffee-CI-CoBC-FM
-Milestone Project 1 - "Culture Coffee  café" - static page [C.I. &amp; CoB C]
-
+## **Table of Contents**
+1. [**About**](#about)
+    * [**Link to live website**](#link-to-live-website-is-here)
+    * [**Link to GitHub repository**](#link-to-github-repo-is-here)
+1. [**Table of Contents**](#table-of-contents)
+1. [**UX (User Experience)**](#ux-user-experience)
+    * [**User Stories**](#user-stories)
+    * [**The Strategy and the Scope Plane**](#the-strategy-and-the-scope-plane**)
+    * [**The Structure Plane**](#the-structure-plane)
+        *  [**Accessibility**](#accessibility)
+1. [**UI (User Interface)**](#ui-user-interface)
+    *  [**Wireframes**](#wireframes)
+    *  [**Layout**](#layout)
+        * [Navigation bar](#navigation-bar)
+        * [Main content](#main-content):
+            * [Home page](/index.htmlhtml)
+            * [Menu page](/cafesmenu.htmlhtml)
+            * [Gallery page](/gallery.htmlhtml)
+            * [Contact Us page](/contact.htmlhtml)
+        * [Footer area](#footer)
+    *  [***Text***](#-text-)
+    *  [***Colour theme***](#colours)
+    *  [**Accessibility**](#-accessibility-)
+    *  [**Responsiveness**](#-responsiveness-)
+1. [**Issues**](#issues)
+<!-- 1. [**Features**](#features)
+    *  [**Site-Navigation**](#site-navigation) -->
+1. [**Deployment**](#deployment)
+1. [**CREDITS:**](#credits)
+    *  [**Code Snipets:**](#code-snipets)
+    *  [**Research and Information:**](#research-and-information)
+1.  [**Improve Customer services**](#improve-customer-services)
+1.  [**Performance**](#performance)
+1.  [**Issues**](#issues-1)
+  
+  <!-- ============================== -->
 ## About  
     CC is a static website which is intended to promote, atract and offer information to potential and actual customers of Culture Coffee café. 
     Since this website was build as a Milesstone Project for my course, therefore educational purposes only, please be advised that some information on the website may not accurate and are displayed for the fore-mentioned scope.
+    ### Link to live website is [here](https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/)
 
-### Link to live website is [here](https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/)
 ### Link to GitHub repo is [here](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main)
-
-
-## **Table of Contents**
-
-- [MP1-CultureCoffee-CI-CoBC-FM](#mp1-culturecoffee-ci-cobc-fm)
-  - [About](#about)
-    - [Link to live website is here](#link-to-live-website-is-here)
-    - [Link to GitHub repo is here](#link-to-github-repo-is-here)
-  - [**Table of Contents**](#table-of-contents)
-  - [**UX (User Experience)**](#ux-user-experience)
-    - [**User Stories**](#user-stories)
-  - [**UI (User Interface)**](#ui-user-interface)
-    - [** Text **](#-text-)
-    - [** Accessibility **](#-accessibility-)
-  - [**Issues**](#issues)
-- [Features](#features)
-  - [Site-Navigation](#site-navigation)
-- [**CREDITS:**](#credits)
-  - [**Code Snipets:**](#code-snipets)
-  - [**Research and Information:**](#research-and-information)
-  - [**Improve Customer services**](#improve-customer-services)
-  - [**Accessibility**](#accessibility)
-  - [**Performance**](#performance)
-  - [**Issues**](#issues-1)
-  
-
 ## **UX (User Experience)**
 
 ### **User Stories**
@@ -71,6 +77,10 @@ I decided to display the User Story in a table (also a link at the bottom of the
 An online Excel version of the User Stories Board can be found [here](https://1drv.ms/x/s!AhVZRr1-0ZpXmKwYxEhkrC46UlGAow?e=utUtgc)
 
 ## **UI (User Interface)**
+
+### ** Wireframes **
+### ** Layout **
+    
 ### ** Text **
     - Fonts used:
         - General Headings: Proza Libre — Regular 400 (to stand out)
@@ -84,9 +94,23 @@ An online Excel version of the User Stories Board can be found [here](https://1d
 
 ### ** Accessibility **
 
+
     - In mobile view the main navigation bar is hidden behind an icon. The icon has normally applied a bouncing effect, but to avoid vestibular motion triggers the animation is reduced (in media queries section of the css file), when the user has disabled such effects.
     - 
     - Mark up different regions of web pages and applications, so that they can be identified by web browsers and assistive technologies.
+
+### ** Responsiveness **
+        Some commonly used breakpoints are 576px, 768px, and 992px. These values should cover most of the targetted devices, like smart phones, tablets/laptops, and desktops. 
+
+        For responsiveness on mobile devices the minimum supported width is 300px. Using smaller resolution would make the pictures unreasonbly undistinguisable. That's why I decided this would be the minimum body's width.
+        Going higher in the width resolution from 768px to 991 we see a mobile view adapted for tablets or some laptop screens, with larger paddings and margins, but keeping the text slightly smaller than in full desktop view.
+
+        Going over 992px in width the layout adapts to a full desktop view, with a maximum width of the main content.
+
+        The navigation bar has a little different responsivness than the rest of the layout because of the size of the text from navigation bar, and also because I din not want navigation's items to wrap in desktop or tablet view mode.
+        Therefore the transformation of the navgation bar from desktop view to mobile view happens much earlier, going down from 920px.
+
+
 
 ===========================================
 ## **Issues**
@@ -95,29 +119,9 @@ An online Excel version of the User Stories Board can be found [here](https://1d
 
 
 
-# Features
-## Site-Navigation
-Site's structure is very simple, following
-    - [Home page](/index.html):
-        - contains a header with responsive navigation bar
-        - a section area which contains some welcoming content
-            - inside there are some key-words (as 'coffee') which are also main categories in the menu area, are used as link to the sections on the Café's Menu page, so that customers are able to navigate straight to the menu lists.
-        - a footer area which displays useful information, like:
-            - Address
-            - Social links
-            - Contact details
-            - A copyrighting notice.
-    - [card](/card.html): the page contains the same navigation bar and footer
-        - The content section displays lists of avialbale products for selling at the cafe
-    - [Gallery](/gallery.html): 
-        - The gallery's main section contains a small collection of real photos presenting the cafe and some products and activities.
-    - [Contact](/contact.html): 
-        - This page contains a contact form with fields grouped by sections:
-            - Name and Surname - required
-            - Email address and contact number - required
-            - Message subject and message body - required
-            - An optional
 
+# **Deployment:**
+deployment
 
 # **CREDITS:**
 ##  **Code Snipets:**
@@ -125,7 +129,8 @@ Site's structure is very simple, following
     2. Content flexbox cards code sourced from here: https://www.youtube.com/watch?v=cJjej5udWVE
 ## **Research and Information:** 
     - [Coffee Types List](https://www.baristainstitute.com/blog/emmi-kinnunen/january-2022/affogato-ristretto-list-most-common-coffee-drinks)
-    - [Things All Restaurant Website Designs Need to Include](https://pos.toasttab.com/blog/on-the-line/7-things-restaurant-websites-need-to-include): as highlithed in this article, having some specific sections on your restaurand (cafe in our case), improves a lot the customer experience and the chances of attracting new customers raises. 
+    - [Things All Restaurant Website Designs Need to Include](https://pos.toasttab.com/blog/on-the-line/7-things-restaurant-websites-need-to-include): as highlithed in this article, having some specific sections on your restaurand (cafe in our case), improves a lot the customer experience and the chances of attracting new customers raises.
+    - [Initiating Voice Calls from HTML Email Newsletters](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/) 
 
 ## **Improve Customer services**
     IMPROVING CUSTOMERS SERVICES POLL - 
