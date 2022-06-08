@@ -7,8 +7,10 @@
 # **Culture Coffee café - Milestone Project 1**
 
 ![very good|200x100,10%](/assets/imgs/gallery-imgs/02.MGF_2468.webp)
+![very good|200x100,100%](/assets/imgs/gallery-imgs/02.MGF_2468.webp)
+![very good|200x100](/assets/imgs/gallery-imgs/02.MGF_2468.webp)
 
-![very good|512x397,100%](/assets/imgs/gallery-imgs/MGF_2460.webp)
+<!-- ![very good|512x397,100%](/assets/imgs/image.webp) -->
 
 ## **Table of Contents**
 1. [**About**](#about)
@@ -80,7 +82,7 @@ I decided to display the User Story in a table (also a link at the bottom of the
 |                     |                   | &#10003;         | provide pictures gallery                             | present the premise's interior design                 |                                                                                   |                                                                                                   |
 
 An online Excel version of the User Stories Board can be found [here](https://1drv.ms/x/s!AhVZRr1-0ZpXmKwYxEhkrC46UlGAow?e=utUtgc)
-
+[Back to contents](#table-of-contents)
 ## **UI (User Interface)**
 
 ### ** Wireframes **
