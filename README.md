@@ -6,6 +6,10 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
 # **Culture Coffee café - Milestone Project 1**
 
+![very good|200x100,10%](/assets/imgs/gallery-imgs/02.MGF_2468.webp)
+
+![very good|512x397,100%](/assets/imgs/gallery-imgs/MGF_2460.webp)
+
 ## **Table of Contents**
 1. [**About**](#about)
     * [**Link to live website**](#link-to-live-website-is-here)
@@ -45,7 +49,8 @@
 ## About  
     CC is a static website which is intended to promote, atract and offer information to potential and actual customers of Culture Coffee café. 
     Since this website was build as a Milesstone Project for my course, therefore educational purposes only, please be advised that some information on the website may not accurate and are displayed for the fore-mentioned scope.
-    ### Link to live website is [here](https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/)
+
+### Link to live website is [here](https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/)
 
 ### Link to GitHub repo is [here](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main)
 ## **UX (User Experience)**
