@@ -23,6 +23,9 @@ body {
     line-height: 1.6;
     font-family: 'Montserrat', sans-serif;
 }
+a {
+    color: #231a19;
+}
 
 /* -------------HEADER------------------------------------ */
 nav {
@@ -102,14 +105,17 @@ input[type="checkbox"] {
     margin: 10px auto;
     color: #231a19;
 }
+
 #landing-p-msg {
     text-align: justify;
 }
+
 .text-centering {
     text-align: center;
     font-weight: 900;
 }
-/* ------------- menu page  ------------- */
+
+/* ------------- Menu page  ------------- */
 .main-desc {
     background-color: rgba(0, 0, 0, .1);
     background-blend-mode: multiply;
@@ -130,6 +136,7 @@ input[type="checkbox"] {
 
 .page-nav-links a:link {
     text-decoration: none;
+    color: #231a19 !important;
     margin: 5px;
     padding: 5px;
     background-color: transparent;
@@ -138,8 +145,9 @@ input[type="checkbox"] {
 }
 
 .page-nav-links a:hover {
-    background-color: #552f1e;
-    color: #dad5d3;
+    background-color: rgba(87, 48, 30, 0.1);
+    /* color: #dad5d3; */
+    color: #231a19;
     border: 1px solid transparent;
     border-radius: 10px;
     padding: 5px;
@@ -211,6 +219,7 @@ input[type="checkbox"] {
     font-size: 0.75rem;
     text-align: justify;
 }
+
 #menu-download-link {
     text-decoration: none;
     border: none;
@@ -251,7 +260,9 @@ input[type="checkbox"] {
     align-content: center;
     height: auto;
     width: 100%;
-    padding: 0 100px 0 100px;
+    /* padding: 0 100px 0 100px; */
+    padding: 0 30px;
+    margin: 10px auto;
 }
 
 .foo-border {
@@ -263,38 +274,50 @@ input[type="checkbox"] {
     color: #ece7e1 !important;
 }
 
+.foo-hd-text {
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    margin-top: 1em;
+}
+
 .center-all {
     justify-content: center;
     align-items: center;
     text-align: center;
 }
+
 .address-link {
     text-decoration: none;
     color: inherit;
 }
+
 .address-link:hover {
     color: #f6b565;
-    
 }
 
 .social-links {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
 }
 
 .social-ic {
     align-items: center;
+    padding: 2vh;
 }
-.social-ic:hover {
-    color: #f6b565;
+
+div.social-ic i:hover {
+    color: #f6b565 !important;
+    font-size: 2rem;
+    transition: 1s ease-out;
 }
+
 /* while in mobile view the tel link is enabled and proceeds to opening the phone number in caliing screen */
 a[class="calling"] {
     pointer-events: auto !important;
     cursor: auto !important;
- }
+}
 
 /* ========================================== */
 
@@ -338,18 +361,29 @@ label {
         margin: 10px auto;
     }
 
+    .card {
+        font-size: 16px;
+    }
+
     /* FOOTER  */
     .footer-container {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: center;
+        justify-content: space-between;
         align-content: center;
+        padding: 0 100px;
+        margin: 10px auto;
+    }
+
+    .foo-hd-text {
+        border-bottom: 1px solid transparent;
+        margin: 0 10px;
     }
 
 }
 
-@media  (min-width: 992px) {
+@media (min-width: 992px) {
     .container {
         max-width: 1000px;
         width: 100%;
@@ -388,18 +422,17 @@ label {
         padding: 0;
         gap: 5px;
     }
+
     .footer-container {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        /* gap: 80px;
-        justify-content: center;
-        align-content: center; */
         justify-content: space-between;
         padding: 0 100px;
         margin: 10px auto;
-        
+
     }
+
     /* while in desktop view the tel link is disabled */
     .calling {
         pointer-events: none;
@@ -414,14 +447,17 @@ label {
         padding: 0 40px 0 50px;
     }
 }
+
 /* MQ for navigation bar responsivness */
 @media (max-width: 920px) {
     nav .menu-toggle-btn i {
         display: block;
     }
+
     #select:checked~.menu-toggle-btn i:before {
         content: "\f00d";
     }
+
     nav ul {
         position: fixed;
         top: 130px;
@@ -435,13 +471,16 @@ label {
         border-bottom: 1px solid #552f1e;
         transition: all 0.3s ease;
     }
+
     #select:checked~ul {
         left: 0;
     }
+
     nav ul li {
         width: 100%;
         margin: 40px 0;
     }
+
     nav ul li a {
         width: 100%;
         margin-left: -100%;
@@ -449,9 +488,11 @@ label {
         font-size: 20px;
         transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
+
     #select:checked~ul li a {
         margin-left: 0px;
     }
+
     nav ul li a.active,
     nav ul li a:hover {
         color: #ece7e1;
