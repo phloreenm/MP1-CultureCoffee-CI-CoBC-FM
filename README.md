@@ -25,6 +25,7 @@
         *  [**Accessibility**](#accessibility)
 1. [**UI (User Interface)**](#ui-user-interface)
     *  [**Wireframes**](assets/docs/wireframes.md)
+    *  [**Site structure**](#site-structure)
     *  [**Layout**](#layout)
         * [Header](#header)
         * [Main content](#main-content):
@@ -90,6 +91,15 @@ An online Excel version of the User Stories Board can be found [here](https://1d
 # **UI (User Interface)**
 The wireframe sketches are located in [wireframes.md](/assets/docs/wireframes.md) file.
 <!-- ### **Wireframes** -->
+## **Site structure**
+The site's structure follows a simple linear design. From the home page you may access any other page through the navigation menu. This is a straight forward aproach. The same navigation menu is accesible on every other page, even on the [404.html](404.html) one. But not on the Code Institute page, which confirms the fors has been successfuly submited.
+One reason behing this aproach is the idea behind the [Mental Model](https://en.wikipedia.org/wiki/Mental_model) natural thought process, more exactly, the users build mental models and use these 
+>"to assess relations among topics and to guess where to find things they haven’t seen before".[ (Site Structure theory)](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
+
+The following diagram represents this structure:
+
+![Site's structure](assets/imgs/readme/site-structure-diagram.jpg)
+
 ## **Layout**
 The general layout of the website is composed of:
 ### **HEADER** 
@@ -113,13 +123,7 @@ The general layout of the website is composed of:
         - the TEL is also a link, which while in mobile view the tel link is enabled and proceeds to opening the phone number in calling screen, but if viewed on a desktop, the link is disabled. As described [here](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/),  *tel: support is great across mobile clients, it can be unreliable on the desktop and in webmail clients.*
 
 
-## **Site structure**
-The site's structure follows a simple linear design. From the home page you may access any other page through the navigation menu. This is a straight forward aproach. The same navigation menu is accesible on every other page, even on the [404.html](404.html) one. But not on the Code Institute page, which confirms the fors has been successfuly submited.
-One reason behing this aproach is the idea behind the [Mental Model](https://en.wikipedia.org/wiki/Mental_model) natural thought process, more exactly, the users build mental models and use these 
->"to assess relations among topics and to guess where to find things they haven’t seen before".[ (Site Structure theory)](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
 
-The following diagram represents this structure:
-![Site's structure](assets/imgs/site-structure-diagram.jpg)
 
 
 
