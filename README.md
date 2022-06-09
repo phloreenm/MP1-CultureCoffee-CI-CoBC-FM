@@ -1,20 +1,18 @@
-![](static/assets/imgs/responsibedesign-01.webp)
-
 ![GitHub contributors](https://img.shields.io/github/contributors/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
 ![GitHub last commit](https://img.shields.io/github/last-commit/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
 ![GitHub language count](https://img.shields.io/github/languages/count/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
 ![GitHub top language](https://img.shields.io/github/languages/top/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
 
-# **<span style="color:orange">Culture Coffee café - Milestone Project 1</span>**
+<div style="display:flex; flex-wrap:wrap; lign-items: baseline;; min-height:225px">
+    <div style="display:flex;margin:0 auto; align-items:center;">
+    <a href="https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/"><img src="assets/imgs/readme/CC-logo-bg1.png" alt="Website Logo" width="200px" height="200px"/></a>
+    </div>
+    <div style="display:flex; margin:0 auto; align-items:center;">
+    <h1 style="color:#ECE7E1; background-color:#552F1E; font-weight:700; text-align:center;padding:1em;border:1px solid transparent; border-radius:10px;">Culture Coffee café - Milestone Project 1</h1>
+    </div>
+</div>
 
-
-![very good|200x100,10%](/assets/imgs/gallery-imgs/02.MGF_2468.webp "Hover over image picture description")
-
-![very good|200x100,100%](/assets/imgs/gallery-imgs/02.MGF_2468.webp)
-![very good|200x100](/assets/imgs/gallery-imgs/02.MGF_2468.webp)
-
-<!-- ![very good|512x397,100%](/assets/imgs/image.webp) -->
-
+---
 # **Table of Contents**
 1. [**About the site**](#about-the-site)
     * [**Link to live website**](#link-to-live-website-is-here)
@@ -37,8 +35,8 @@
         * [Footer area](#footer)
     *  [***Text***](#-text-)
     *  [***Colour theme***](#colours)
-    *  [**Accessibility**](#-accessibility-)
-    *  [**Responsiveness**](#-responsiveness-)
+    *  [**Accessibility**](#accessibility)
+    *  [**Responsiveness**](#responsiveness)
 1. [**Performance**](#performance)
 1. [**Testing**](assets/docs/testing.md)
 1. [**Issues**](#issues)
@@ -46,22 +44,13 @@
 1. [**CREDITS:**](#credits)
     *  [**Code Snipets:**](#code-snipets)
     *  [**Research and Information:**](#research-and-information)
-<!-- 1.  [**Improve Customer services**](#improve-customer-services) -->
-
-  
-  <!-- ============================== -->
-  
+<!-- 1.  [**Improve Customer services**](#improve-customer-services) -->  
   ---
 ## **About the site** 
-
 ***Culture Coffee cafe*** is a static website which is intended to promote, atract and offer information to potential and actual customers of Culture Coffee café. 
 Since this website was build as a Milesstone Project for my course, therefore educational purposes only, please be advised that some information on the website may not accurate and are displayed for the fore-mentioned scope.
-
 ### Link to live website is [here](https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/)
-
-### Link to GitHub repo is [here](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main)
-
-            
+### Link to GitHub repo is [here](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main)  
 [Back to Table of Contents](#table-of-contents)
 
 ---
@@ -98,10 +87,39 @@ An online Excel version of the User Stories Board can be found [here](https://1d
 ---
 
 ## **UI (User Interface)**
-### ** Wireframes **
-### ** Layout **
-    
-### ** Text **
+The wireframe sketches are located in [wireframes.md](/assets/docs/wireframes.md) file.
+<!-- ### **Wireframes** -->
+### **Layout**
+The general layout of the website is composed of:
+ - HEADER - contains the company's logo and, depending on the device's screen width, a menu navigation bar to the top right or a hamburger menu button, which opens the hidden (by default in mobile view) menu.
+
+    On screens up to 920px width:
+    ![Mobile view](assets/imgs/readme/nav-bar-mobile-tablet-view.jpg)
+    On screens larger than 920px width:
+    ![Desktop view](/assets/imgs/readme/nav-bar-desktop-view.jpg)
+ - SECTION - contains the page's specific subjects (like information, cafes menu, pictures gallery, contact form or the 404 page).
+
+ - FOOTER - has three sub-area, as follows:
+    - ADDRESS - has a link with the Google Maps location of the Cafe shop. Accessing the link will offer you the posibility to ask for directions towards the shop. Depending on the device used, the behaviour differs: on mobile deviced it will open the Google Maps app and on desktop device it will open a new page with Google Maps.
+    - SOCIAL MEDIA LINK - linked icons to acces the social media pages of the cafe shop. On hover over these icons, they grow in size by `2rem`.
+    - CONTACT US:
+        - The EMAIL has the `mailto:` link, so if the user want's, by pressing on the e-mail address, the default email client is opened. The `Send to` and `CC` section are prefilled.
+        
+        <span text-align:center>![Client's default app opens already having destinators emails completed:](/assets/imgs/readme/mailto-client.jpg)</span>
+        - the TEL is also a link, which while in mobile view the tel link is enabled and proceeds to opening the phone number in calling screen, but if viewed on a desktop, the link is disabled. As described [here](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/),  *tel: support is great across mobile clients, it can be unreliable on the desktop and in webmail clients.*
+
+
+### **Site structure**
+The site's structure follows a simple linear design. From the home page you may access any other page through the navigation menu. This is a straight forward aproach. The same navigation menu is accesible on every other page, even on the [404.html](404.html) one. But not on the Code Institute page, which confirms the fors has been successfuly submited.
+One reason behing this aproach is the idea behind the [Mental Model](https://en.wikipedia.org/wiki/Mental_model) natural thought process, more exactly, the users build mental models and use these 
+>"to assess relations among topics and to guess where to find things they haven’t seen before".[ (Site Structure theory)](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
+
+The following diagram represents this structure:
+![Site's structure](/assets/imgs/site-structure-diagram.jpg)
+
+
+
+### **Text**
 - Fonts used:
     - General Headings: Proza Libre — Regular 400 (to stand out)
     - Menu items heading: Lato - 3,4,7,9
@@ -114,12 +132,51 @@ An online Excel version of the User Stories Board can be found [here](https://1d
             
 [Back to Table of Contents](#table-of-contents)
 
+### **Colours**
+Choosing the site's color theme was a bit tricky for me.
+
+I have a *Moderate Deutan colour blindness*. This doesn't affect me in a manner where I could not see colours, as many people might believe when they hear "colour blindness". But it more related to colour sensivity. Is just that in some specific cases (low or crepuscular light, for example) I might not perceive colours as others. For this reason I needed help from someone else, so in some moments in the development of this project I had to ask for a second opinion.
+
+Finally, the color theme I decided to use in this project is actually is based on the color of a coffee bean. So I primarly used an image of coffee beans. From that, using the tools available at [coolors.co](https://coolors.co/) I extracted the main pallete colors.
+The extracted color nuances were too many, so I had to finnaly decide to which basic color I'll use. 
+After, to create an acceptable contrast, I've used the generator so that I'll will give me colors to fit one each other.
+As a result the final contrast ratio is everywhere above 9:1. All contrast test were conducted on [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/) and [WebAIM - Contrast Checker](https://webaim.org/resources/contrastchecker/). The result can be consulted in the [dedicated file](assets/docs/contrast.md).
+
+
+Basic color theme:
+navigation menu bg: #ece7e1
+Nav menu button: #552f1e
+Nav menu links text: #F5F7BB
+Nav menu links bg: #552f1e
+Nav menu links bg active: #883f22 - a washed out version of the 
+
+
+Top page link bg hover: #552f1e
+Top page link text hover: #552f1e
+
+Links default text color: #231a19
+Menu mavigation link hover: #231a19
+
+footer background: #552f1e
+footer text color: #ece7e1
+footer hover link: #f6b565
+
+Special color:
+Nav menu links bg active: #883f22 - a washed out version of the 
+card bottom separator: #ccc
+
 ---
 ### **Accessibility**
 
 - In mobile view the main navigation bar is hidden behind an icon. The icon has normally applied a bouncing effect, but to avoid vestibular motion triggers the animation is reduced (in media queries section of the css file), when the user has disabled such effects.
-- 
+
 - Mark up different regions of web pages and applications, so that they can be identified by web browsers and assistive technologies.
+
+
+#### **Contrast**
+To test the contrast of the page, I've used [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast). I've inserted links from live website and then I downloaded the reports.
+
+- Navigation Bar
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -143,14 +200,7 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 
 [Back to Table of Contents](#table-of-contents)
 
----
-## **Issues**
-    - Hover effects won't work properly on touch mobile devices (which are using a touch screen), so a media query for that has to be implemented.
 
-
-
-
-[Back to Table of Contents](#table-of-contents)
 
 ---
 # **Deployment:**
@@ -161,7 +211,7 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 ---
 # **CREDITS:**
  ## **Code Snipets:**
-- :arrow_right: Header layout and effects inspired from here: https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html
+- Header layout and effects inspired from here: https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html
 - Content flexbox cards code sourced from here: https://www.youtube.com/watch?v=cJjej5udWVE
 ## **Research and Information:** 
 - [Coffee Types List](https://www.baristainstitute.com/blog/emmi-kinnunen/january-2022/affogato-ristretto-list-most-common-coffee-drinks)
@@ -169,13 +219,15 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 - [Initiating Voice Calls from HTML Email Newsletters](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/) 
 ## **Other resources:**
 - [Emoji markup list](https://gist.github.com/rxaviers/7360908)
+- [Site structuring](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
+- [Mental model](https://en.wikipedia.org/wiki/Mental_model)
 
 [Back to Table of Contents](#table-of-contents)
 
 ---
 # **Improve Customer services**
-    IMPROVING CUSTOMERS SERVICES POLL - 
-        How often do you use our products?
+IMPROVING CUSTOMERS SERVICES POLL - 
+    How often do you use our products?
 
     Which features are most valuable to you
     How would you compare our products to our competitors’?
@@ -191,24 +243,31 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 
 ---
 # **Accessibility**
-    - [Acces](): Navigation card items contain a Boostrap class .sr-only which indicates to screen readers at which page we are, helping visualy impaired users navigating throught the website using screen readers.
-    - [Landmarks](https://accessibility.blog.gov.uk/2016/05/27/using-navigation-landmarks/)Internet Explorer 11, which does not have accessibility support for the HTML5 elements used to provide landmarks, but which does support the equivalent ARIA roles. 
-    https://tink.uk/enhancing-aria-landmarks-with-aria-labelledby/
+- [Accessibility](): Navigation card items contain a Boostrap class .sr-only which indicates to screen readers at which page we are, helping visualy impaired users navigating throught the website using screen readers.
+- [Landmarks](https://accessibility.blog.gov.uk/2016/05/27/using-navigation-landmarks/)Internet Explorer 11, which does not have accessibility support for the HTML5 elements used to provide landmarks, but which does support the equivalent ARIA roles. 
+[enhancing-aria-landmarks-with-aria-labelledby](https://tink.uk/enhancing-aria-landmarks-with-aria-labelledby/)
 
 [Back to Table of Contents](#table-of-contents)
 
 ---
 # **Performance**
-    1. To improve loading speed, I used *.webp image format  (https://developers.google.com/speed/webp)
-    2. Images were resized to 768px for the long side. This resolution is enough to display good images for breakpoint-md: 768px. On large screens the gallery is presented as a grid of images, but as the width of the screen is lowered, the grid adapts to 2 or 1 column images.
+1. To improve loading speed, I used *.webp image format  (https://developers.google.com/speed/webp)
+2. Images were resized to 768px for the long side. This resolution is enough to display good images for breakpoint-md: 768px. On large screens the gallery is presented as a grid of images, but as the width of the screen is lowered, the grid adapts to 2 or 1 column images.
 
 [Back to Table of Contents](#table-of-contents)
 
 ---
 # **Issues**
-    - [Contact Page legend text centering](): an issue I had was centering the legend element, which wasn't easy achievable through css, because of the cross browsers incompatibility. There an in-line property solved it (https://www.geeksforgeeks.org/html-legend-align-attribute/). Issues discussed [HERE](https://stackoverflow.com/questions/4006824/how-to-center-the-legend-element-what-to-use-instead-of-aligncenter-attribu)
-    - I could not find a FontAwesome icon for Tripadvisor. Issue is discussed [HERE](https://github.com/FortAwesome/Font-Awesome/issues/18180)
-    - While site was deployed on github Pages, the images on the site wouldn't load. Found out that I have to remove the '/' from the link. Example: <<src="/assets/imgs/coffees/image.jpeg>> -> in this format the images wouldn't load, so I had to remove the backslash before the 'assets' folder. Found this through the Developer's Tools in Chrome.
+- [Contact Page legend text centering](): an issue I had was centering the legend element, which wasn't easy achievable through css, because of the cross browsers incompatibility. There an in-line property solved it (https://www.geeksforgeeks.org/html-legend-align-attribute/). Issues discussed [HERE](https://stackoverflow.com/questions/4006824/how-to-center-the-legend-element-what-to-use-instead-of-aligncenter-attribu)
+- I could not find a FontAwesome icon for Tripadvisor. Issue is discussed [HERE](https://github.com/FortAwesome/Font-Awesome/issues/18180)
+- While site was deployed on github Pages, the images on the site wouldn't load. Found out that I have to remove the '/' from the link. Example:
+`<src="/assets/imgs/coffees/image.jpeg>` -> in this format the images wouldn't load, so I had to remove the backslash before the 'assets' folder. Found this through the Developer's Tools in Chrome.
+- I couldn't use Extended Syntax for Markdown documents, as while I was trying to use Footnotes, for example, it wasn't rendered in my GitHub repository. Therefore I had to use links inside the content to credit the extracted ideas from the respective sources.
+- Wasn't able to use emoji in this document.
+- Hover effects won't work properly on touch mobile devices (which are using a touch screen), so a media query for that has to be implemented.
 
+[Back to Table of Contents](#table-of-contents)
 
-[^1]:
+---
+# **Thanks**
+I will not end this project without saying a big thank you to all of you who helped me in working on this website.

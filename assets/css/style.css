@@ -146,7 +146,6 @@ input[type="checkbox"] {
 
 .page-nav-links a:hover {
     background-color: rgba(87, 48, 30, 0.1);
-    /* color: #dad5d3; */
     color: #231a19;
     border: 1px solid transparent;
     border-radius: 10px;
