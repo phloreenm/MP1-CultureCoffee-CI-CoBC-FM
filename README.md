@@ -26,7 +26,7 @@
 1. [**UI (User Interface)**](#ui-user-interface)
     *  [**Wireframes**](assets/docs/wireframes.md)
     *  [**Layout**](#layout)
-        * [Navigation bar](#navigation-bar)
+        * [Header](#header)
         * [Main content](#main-content):
             * [Home page](index.htmlhtml)
             * [Menu page](cafesmenu.htmlhtml)
@@ -36,6 +36,7 @@
     *  [***Text***](#-text-)
     *  [***Colour theme***](#colours)
     *  [**Accessibility**](#accessibility)
+        *  [**Contrast ratio**](#contrast-ratio)
     *  [**Responsiveness**](#responsiveness)
 1. [**Performance**](#performance)
 1. [**Testing**](assets/docs/testing.md)
@@ -46,7 +47,7 @@
     *  [**Research and Information:**](#research-and-information)
 <!-- 1.  [**Improve Customer services**](#improve-customer-services) -->  
   ---
-## **About the site** 
+# **About the site** 
 ***Culture Coffee cafe*** is a static website which is intended to promote, atract and offer information to potential and actual customers of Culture Coffee café. 
 Since this website was build as a Milesstone Project for my course, therefore educational purposes only, please be advised that some information on the website may not accurate and are displayed for the fore-mentioned scope.
 ### Link to live website is [here](https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/)
@@ -54,9 +55,9 @@ Since this website was build as a Milesstone Project for my course, therefore ed
 [Back to Table of Contents](#table-of-contents)
 
 ---
-## **UX (User Experience)**
+# **UX (User Experience)**
 
-### **User Stories**
+## **User Stories**
 I decided to display the User Story in a table (also a link at the bottom of the table). Since some user stories (like First time user and Existing User) might actually follow the same 
 
 | As a/an             | I want to...      | So that I can... | Scenario 1 | Scenario 2 | Acceptance Criteria |
@@ -86,30 +87,33 @@ An online Excel version of the User Stories Board can be found [here](https://1d
 
 ---
 
-## **UI (User Interface)**
+# **UI (User Interface)**
 The wireframe sketches are located in [wireframes.md](/assets/docs/wireframes.md) file.
 <!-- ### **Wireframes** -->
-### **Layout**
+## **Layout**
 The general layout of the website is composed of:
- - HEADER - contains the company's logo and, depending on the device's screen width, a menu navigation bar to the top right or a hamburger menu button, which opens the hidden (by default in mobile view) menu.
+### **HEADER** 
+- contains the company's logo and, depending on the device's screen width, a menu navigation bar to the top right or a hamburger menu button, which opens the hidden (by default in mobile view) menu.
 
     On screens up to 920px width:
     ![Mobile view](assets/imgs/readme/nav-bar-mobile-tablet-view.jpg)
     On screens larger than 920px width:
     ![Desktop view](/assets/imgs/readme/nav-bar-desktop-view.jpg)
- - SECTION - contains the page's specific subjects (like information, cafes menu, pictures gallery, contact form or the 404 page).
+### **SECTION**
+- contains the page's specific subjects (like information, cafes menu, pictures gallery, contact form or the 404 page).
 
- - FOOTER - has three sub-area, as follows:
+### **FOOTER**
+- has three sub-area, as follows:
     - ADDRESS - has a link with the Google Maps location of the Cafe shop. Accessing the link will offer you the posibility to ask for directions towards the shop. Depending on the device used, the behaviour differs: on mobile deviced it will open the Google Maps app and on desktop device it will open a new page with Google Maps.
     - SOCIAL MEDIA LINK - linked icons to acces the social media pages of the cafe shop. On hover over these icons, they grow in size by `2rem`.
     - CONTACT US:
-        - The EMAIL has the `mailto:` link, so if the user want's, by pressing on the e-mail address, the default email client is opened. The `Send to` and `CC` section are prefilled.
-        
+        - The EMAIL has the `mailto:` link, so if the user want's, by pressing on the e-mail address, the default email client is opened. The `Send to` and `CC` section are prefilled with the right email destinators addresses.
+
         <span text-align:center>![Client's default app opens already having destinators emails completed:](/assets/imgs/readme/mailto-client.jpg)</span>
         - the TEL is also a link, which while in mobile view the tel link is enabled and proceeds to opening the phone number in calling screen, but if viewed on a desktop, the link is disabled. As described [here](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/),  *tel: support is great across mobile clients, it can be unreliable on the desktop and in webmail clients.*
 
 
-### **Site structure**
+## **Site structure**
 The site's structure follows a simple linear design. From the home page you may access any other page through the navigation menu. This is a straight forward aproach. The same navigation menu is accesible on every other page, even on the [404.html](404.html) one. But not on the Code Institute page, which confirms the fors has been successfuly submited.
 One reason behing this aproach is the idea behind the [Mental Model](https://en.wikipedia.org/wiki/Mental_model) natural thought process, more exactly, the users build mental models and use these 
 >"to assess relations among topics and to guess where to find things they haven’t seen before".[ (Site Structure theory)](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
@@ -119,7 +123,7 @@ The following diagram represents this structure:
 
 
 
-### **Text**
+## **Text**
 - Fonts used:
     - General Headings: Proza Libre — Regular 400 (to stand out)
     - Menu items heading: Lato - 3,4,7,9
@@ -132,7 +136,7 @@ The following diagram represents this structure:
             
 [Back to Table of Contents](#table-of-contents)
 
-### **Colours**
+## **Colours**
 Choosing the site's color theme was a bit tricky for me.
 
 I have a *Moderate Deutan colour blindness*. This doesn't affect me in a manner where I could not see colours, as many people might believe when they hear "colour blindness". But it more related to colour sensivity. Is just that in some specific cases (low or crepuscular light, for example) I might not perceive colours as others. For this reason I needed help from someone else, so in some moments in the development of this project I had to ask for a second opinion.
@@ -166,14 +170,14 @@ Nav menu links bg active: #883f22 - a washed out version of the
 card bottom separator: #ccc
 
 ---
-### **Accessibility**
+# **Accessibility**
 
 - In mobile view the main navigation bar is hidden behind an icon. The icon has normally applied a bouncing effect, but to avoid vestibular motion triggers the animation is reduced (in media queries section of the css file), when the user has disabled such effects.
 
 - Mark up different regions of web pages and applications, so that they can be identified by web browsers and assistive technologies.
 
 
-#### **Contrast**
+## **Contrast**
 To test the contrast of the page, I've used [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast). I've inserted links from live website and then I downloaded the reports.
 
 - Navigation Bar
@@ -182,7 +186,7 @@ To test the contrast of the page, I've used [Color Contrast Accessibility Valida
 
 ---
 
-### **Responsiveness**
+# **Responsiveness**
 
 - Some commonly used breakpoints are 576px, 768px, and 992px. These values should cover most of the targetted devices, like smart phones, tablets/laptops, and desktops. 
 
@@ -210,7 +214,7 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 
 ---
 # **CREDITS:**
- ## **Code Snipets:**
+## **Code Snipets:**
 - Header layout and effects inspired from here: https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html
 - Content flexbox cards code sourced from here: https://www.youtube.com/watch?v=cJjej5udWVE
 ## **Research and Information:** 
@@ -218,6 +222,7 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 - [Things All Restaurant Website Designs Need to Include](https://pos.toasttab.com/blog/on-the-line/7-things-restaurant-websites-need-to-include): as highlithed in this article, having some specific sections on your restaurand (cafe in our case), improves a lot the customer experience and the chances of attracting new customers raises.
 - [Initiating Voice Calls from HTML Email Newsletters](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/) 
 ## **Other resources:**
+- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 - [Emoji markup list](https://gist.github.com/rxaviers/7360908)
 - [Site structuring](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
 - [Mental model](https://en.wikipedia.org/wiki/Mental_model)
@@ -246,6 +251,10 @@ IMPROVING CUSTOMERS SERVICES POLL -
 - [Accessibility](): Navigation card items contain a Boostrap class .sr-only which indicates to screen readers at which page we are, helping visualy impaired users navigating throught the website using screen readers.
 - [Landmarks](https://accessibility.blog.gov.uk/2016/05/27/using-navigation-landmarks/)Internet Explorer 11, which does not have accessibility support for the HTML5 elements used to provide landmarks, but which does support the equivalent ARIA roles. 
 [enhancing-aria-landmarks-with-aria-labelledby](https://tink.uk/enhancing-aria-landmarks-with-aria-labelledby/)
+
+## **Contrast ratio**
+This testing and conclusions are documented in the following file:
+[**contrast.md**](/assets/docs/contrast.md)
 
 [Back to Table of Contents](#table-of-contents)
 
