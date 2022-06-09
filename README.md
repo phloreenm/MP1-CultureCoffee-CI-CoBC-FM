@@ -119,7 +119,7 @@ One reason behing this aproach is the idea behind the [Mental Model](https://en.
 >"to assess relations among topics and to guess where to find things they haven’t seen before".[ (Site Structure theory)](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
 
 The following diagram represents this structure:
-![Site's structure](/assets/imgs/site-structure-diagram.jpg)
+![Site's structure](assets/imgs/site-structure-diagram.jpg)
 
 
 
