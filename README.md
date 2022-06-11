@@ -28,7 +28,7 @@
     *  [**Site structure**](#site-structure)
     *  [**Layout**](#layout)
         * [Header](#header)
-        * [Main content](#section):
+        * [Main content](#main-content-section)
             * [Home page](#home-page)
             * [Menu page](#menu-page)
             * [Gallery page](#gallery-page)
@@ -103,32 +103,40 @@ The following diagram represents this structure:
 [Back to Table of Contents](#table-of-contents)
 
 ## **Layout**
-The general layout of the website is composed of:
+The general layout of the website is composed of three main areas: Header, Content and Footer. 
 ### **HEADER** 
-- contains the company's logo and, depending on the device's screen width, a menu navigation bar to the top right or a hamburger menu button, which opens the hidden (by default in mobile view) menu.
-
+- contains the company's logo and, depending on the device's screen width, a menu navigation bar to the top right (on larger screens) or a hamburger menu button (which opens the hidden menu - in mobile view).
     On screens up to 920px width:
     ![Mobile view](assets/imgs/readme/nav-bar-mobile-tablet-view.jpg)
     On screens larger than 920px width:
     ![Desktop view](/assets/imgs/readme/nav-bar-desktop-view.jpg)
-### **SECTION**
+### **MAIN CONTENT SECTION**
 - contains the page's specific subjects (like information, cafes menu, pictures gallery, contact form or the 404 page).
 
-#### Home page
+#### **Home page**
+Home page contains:
+- a welcoming message
+- some introductory information structured as Q&A form. Some sections (like menu lists) of the site are linked in the content of this area, making navigation handy. 
+    The purpose is to guide the visitor through the website content, guide and describe what the company has to offer.
 #### Menu page
-#### Gallery page
-#### Contact page
+The menu page is structured differently that the other pages, because the main purpose is to display the cafe's menu.
 
+#### Gallery page
+The Gallery page has only one purpose: to showoff some pictures depincting the interior design of the cafe, staff, making coffees, etc.
+
+#### Contact page
+The contact page is structured around a form, which the user may choose to fill. He may make a request, ask a question, propose a recommandation, make a complain and also be part of a small poll by votting (like which coffee he likes more).
 
 ### **FOOTER**
-- has three sub-area, as follows:
+- has three sub-areas, as follows:
     - ADDRESS - has a link with the Google Maps location of the Cafe shop. Accessing the link will offer you the posibility to ask for directions towards the shop. Depending on the device used, the behaviour differs: on mobile deviced it will open the Google Maps app and on desktop device it will open a new page with Google Maps.
     - SOCIAL MEDIA LINK - linked icons to acces the social media pages of the cafe shop. On hover over these icons, they grow in size by `2rem`.
     - CONTACT US:
         - The EMAIL has the `mailto:` link, so if the user want's, by pressing on the e-mail address, the default email client is opened. The `Send to` and `CC` section are prefilled with the right email destinators addresses.
 
         <span text-align:center>![Client's default app opens already having destinators emails completed:](/assets/imgs/readme/mailto-client.jpg)</span>
-        - the TEL is also a link, which while in mobile view the tel link is enabled and proceeds to opening the phone number in calling screen, but if viewed on a desktop, the link is disabled. As described [here](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/),  *tel: support is great across mobile clients, it can be unreliable on the desktop and in webmail clients.*
+        - the TEL is also a link, which, while in mobile view, is enabled and proceeds to opening the phone number in calling screen, but if viewed on a desktop, the link is disabled. As described [here](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/):  
+        > *tel: support is great across mobile clients, it can be unreliable on the desktop and in webmail clients.*
 
 
 
@@ -140,7 +148,8 @@ The general layout of the website is composed of:
     - General Headings: Proza Libre — Regular 400 (to stand out)
     - Menu items heading: Lato - 3,4,7,9
     - Paragraphs: 
-        Montserrat (good readability - designed for optimal readability on screens)
+        Montserrat (good readability - designed for optimal readability on screens) 
+        Font families groups:
         font-family: 'Proza Libre', sans-serif;
         font-family: 'Lato', sans-serif;
         font-family: 'Montserrat', sans-serif;

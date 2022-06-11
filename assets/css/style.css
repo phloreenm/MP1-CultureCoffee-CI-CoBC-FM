@@ -23,6 +23,7 @@ body {
     line-height: 1.6;
     font-family: 'Montserrat', sans-serif;
 }
+
 a {
     color: #231a19;
 }
@@ -102,25 +103,28 @@ input[type="checkbox"] {
     margin: 10px auto;
     color: #231a19;
 }
+
 .intro-main {
     display: flex;
     flex-direction: column;
 }
+
 .intro-area {
     display: flex;
     flex-direction: column;
     padding: 1em;
 }
-.intro-text-area{
+
+/* .intro-text-area{
     display: flex;
     flex-direction: column;
-}
-.intro-mob-hidden-img {
+} */
+/* .intro-mob-hidden-img {
     /* display: none !important; */
-    /* display: none; */
+/* display: none; */
 }
 
-.landing-p-msg {
+*/ .landing-p-msg {
     text-align: justify !important;
     text-justify: inter-word;
 }
@@ -372,7 +376,7 @@ label {
     .card {
         font-size: 16px;
     }
-    
+
     /* FOOTER  */
     .footer-container {
         display: flex;
@@ -399,31 +403,18 @@ label {
         padding: 0 100px;
         margin: 10px auto;
     }
+
     .intro-main {
         display: flex;
         flex-direction: column;
-        /* justify-content: space-between; */
     }
+
     .intro-area {
         display: flex;
-        flex-flow: row nowrap;
-        align-items: stretch;
-        max-width: 100%;
-    }
-    .intro-text-area{
-        display: flex;
         flex-direction: column;
-        flex: 1 0 60%;
-        padding: 1rem;
+        padding: 1em;
     }
-    .intro-mob-hidden-img {
-        display: flex;
-        flex: 0 1 30%;    
-    }
-    .intro-mob-hidden-img > img {
-        max-height: 30%;
 
-    }
     .card {
         font-size: 16px;
     }
@@ -442,7 +433,6 @@ label {
         width: 100%;
         height: 100%;
         max-width: 700px;
-        /* max-height: 400px; */
     }
 
     .gal-wrapper {
@@ -461,8 +451,11 @@ label {
         flex-wrap: nowrap;
         justify-content: space-between;
         padding: 0 100px;
-        margin: 10px auto;
-
+        /* margin: 10px auto; */
+        margin: 10px auto 0 auto;
+    }
+    .foo-border {
+        /* max-width: 1000px; */
     }
 
     /* while in desktop view the tel link is disabled */
