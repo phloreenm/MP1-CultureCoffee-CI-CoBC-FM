@@ -28,11 +28,11 @@
     *  [**Site structure**](#site-structure)
     *  [**Layout**](#layout)
         * [Header](#header)
-        * [Main content](#main-content):
-            * [Home page](index.htmlhtml)
-            * [Menu page](cafesmenu.htmlhtml)
-            * [Gallery page](gallery.htmlhtml)
-            * [Contact Us page](/contact.htmlhtml)
+        * [Main content](#section):
+            * [Home page](#home-page)
+            * [Menu page](#menu-page)
+            * [Gallery page](#gallery-page)
+            * [Contact page](#contact-page)
         * [Footer area](#footer)
     *  [***Text***](#-text-)
     *  [***Colour theme***](#colours)
@@ -100,6 +100,8 @@ The following diagram represents this structure:
 
 ![Site's structure](assets/imgs/readme/site-structure-diagram.jpg)
 
+[Back to Table of Contents](#table-of-contents)
+
 ## **Layout**
 The general layout of the website is composed of:
 ### **HEADER** 
@@ -111,6 +113,12 @@ The general layout of the website is composed of:
     ![Desktop view](/assets/imgs/readme/nav-bar-desktop-view.jpg)
 ### **SECTION**
 - contains the page's specific subjects (like information, cafes menu, pictures gallery, contact form or the 404 page).
+
+#### Home page
+#### Menu page
+#### Gallery page
+#### Contact page
+
 
 ### **FOOTER**
 - has three sub-area, as follows:
@@ -125,7 +133,7 @@ The general layout of the website is composed of:
 
 
 
-
+[Back to Table of Contents](#table-of-contents)
 
 ## **Text**
 - Fonts used:

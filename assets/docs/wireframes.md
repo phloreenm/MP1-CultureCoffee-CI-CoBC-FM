@@ -10,3 +10,6 @@ Back to MAIN [README.md](../../README.md)
 </div>
 
 ---
+
+
+Site's wireframes were made using Balsamisq app. Since the very first mock-up design, I had to adapt to layout two times. I found better ways of building the layout and also better looking elements positioning acrros the page.
