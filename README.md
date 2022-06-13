@@ -89,7 +89,7 @@ An online Excel version of the User Stories Board can be found [here](https://1d
 ---
 
 # **UI (User Interface)**
-The wireframe sketches are located in [wireframes.md](/assets/docs/wireframes.md) file.
+The wireframe sketches are located in [wireframes.md](/readme-files/docs/wireframes.md) file.
 <!-- ### **Wireframes** -->
 ## **Site structure**
 The site's structure follows a simple linear design. From the home page you may access any other page through the navigation menu. This is a straight forward aproach. The same navigation menu is accesible on every other page, even on the [404.html](404.html) one. But not on the Code Institute page, which confirms the fors has been successfuly submited.
@@ -98,7 +98,7 @@ One reason behing this aproach is the idea behind the [Mental Model](https://en.
 
 The following diagram represents this structure:
 
-![Site's structure](assets/imgs/readme/site-structure-diagram.jpg)
+![Site's structure](readme-files/readme-images/site-structure-diagram.jpg)
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -107,9 +107,9 @@ The general layout of the website is composed of three main areas: Header, Conte
 ### **HEADER** 
 - contains the company's logo and, depending on the device's screen width, a menu navigation bar to the top right (on larger screens) or a hamburger menu button (which opens the hidden menu - in mobile view).
     On screens up to 920px width:
-    ![Mobile view](assets/imgs/readme/nav-bar-mobile-tablet-view.jpg)
+    ![Mobile view](readme-files/readme-images/nav-bar-mobile-tablet-view.jpg)
     On screens larger than 920px width:
-    ![Desktop view](/assets/imgs/readme/nav-bar-desktop-view.jpg)
+    ![Desktop view](readme-files/readme-images/nav-bar-desktop-view.jpg)
 ### **MAIN CONTENT SECTION**
 - contains the page's specific subjects (like information, cafes menu, pictures gallery, contact form or the 404 page).
 
@@ -134,7 +134,7 @@ The contact page is structured around a form, which the user may choose to fill.
     - CONTACT US:
         - The EMAIL has the `mailto:` link, so if the user want's, by pressing on the e-mail address, the default email client is opened. The `Send to` and `CC` section are prefilled with the right email destinators addresses.
 
-        <span text-align:center>![Client's default app opens already having destinators emails completed:](/assets/imgs/readme/mailto-client.jpg)</span>
+        <span text-align:center>![Client's default app opens already having destinators emails completed:](readme-files/readme-images/mailto-client.jpg)</span>
         - the TEL is also a link, which, while in mobile view, is enabled and proceeds to opening the phone number in calling screen, but if viewed on a desktop, the link is disabled. As described [here](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/):  
         > *tel: support is great across mobile clients, it can be unreliable on the desktop and in webmail clients.*
 
@@ -229,7 +229,7 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 
 ---
 # **Deployment:**
-[Deployment PAGE](/assets/docs/deployment.md)
+[Deployment PAGE](/readme-files/docs/deployment.md)
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -275,7 +275,7 @@ IMPROVING CUSTOMERS SERVICES POLL -
 
 ## **Contrast ratio**
 This testing and conclusions are documented in the following file:
-[**contrast.md**](/assets/docs/contrast.md)
+[**contrast.md**](readme-files/docs/contrast.md)
 
 [Back to Table of Contents](#table-of-contents)
 
