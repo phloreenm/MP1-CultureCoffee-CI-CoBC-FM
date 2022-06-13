@@ -41,41 +41,39 @@
   </header>
   <!-- --------------------CONTENT SECTION-------------------- -->
   <main class="container" role="main">
-    <!-- ================================================================= -->
-    
-      <div class="cell">
-        <h1>Contact form</h1>
-        <p style="text-align: center;">Should you have any questions, please feel free to contact us using the form:
+
+      <section class="forms-section">
+        <h1>Contact form</h1> <br>
+        <p style="text-align: center; padding: 1em;">Should you have any questions, please feel free to contact by filling this form:
         </p>
   
-        <form method="POST" action="https://formdump.codeinstitute.net/" autocomplete="on" target="_blank">
+        <form id="forms-content" method="POST" action="https://formdump.codeinstitute.net/" autocomplete="on" target="_blank">
           <fieldset>
             <legend align="center">Name and Surname</legend>
             <label for="firstname"></label>
-            <input type="text" id="firstname" name="firstname" placeholder="Your first name" style="min-width: 70vw;"
+            <input class="input-areas" type="text" id="firstname" name="firstname" placeholder="First name"
               required>
   
             <label for="lastname"></label>
-            <input type="text" id="lastname" name="lastname" placeholder="Your last name" style="min-width: 70vw;"
+            <input class="input-areas" type="text" id="lastname" name="lastname" placeholder="Last name" 
               required>
           </fieldset>
   
           <fieldset>
             <legend align="center">Contact information</legend>
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" placeholder="Your email" style="min-width: 70vw;" required>
+            <!-- <label for="email">E-mail</label> -->
+            <input class="input-areas" type="email" id="email" name="email" placeholder="my@email.dom"  required>
   
-            <label for="phone-no">Phone number</label>
-            <input type="tel" id="phone-no" name="phone-no" pattern="[0-9]{4}[0-9]{3}[0-9]{4}" minlength="10"
-              maxlength="14" size="10" style="min-width: 70vw;"  placeholder="Your phone number" required> <br>
-            <small>Format: 0777-123-4321</small>
+            <!-- <label for="phone-no">Phone number</label> -->
+            <input class="input-areas" type="tel" id="phone-no" name="phone-no" pattern="[0-9]{4}[0-9]{3}[0-9]{4}" minlength="10"
+              maxlength="14" size="10" placeholder="0777-123-4321" required> <br>
+            <!-- <small>Format: 0777-123-4321</small> -->
           </fieldset>
-  
           <fieldset>
             <legend align="center">Please choose an enquiry reason</legend>
-            <select id="subject" name="subject" style="min-width: 70vw;">
-              <option value="card">card enquiries</option>
+            <select id="subject" name="subject">
               <option value="opening-hours">Opening hours</option>
+              <option value="card">Products enquiries</option>
               <option value="events">Hire for private celebrations, corporate parties</option>
               <option value="general">Other enquiry</option>
             </select>
@@ -84,13 +82,13 @@
           <fieldset>
             <legend align="center">Message</legend>
             <label for="message"></label>
-            <textarea id="message" name="message" placeholder="Write something.." style="min-width: 70vw;" autocomplete="off""></textarea>
+            <textarea class="input-areas" id="message" name="message" placeholder="Your message goes here" autocomplete="off""></textarea>
           </fieldset>
           <!-- CREDIT: Coffee list from here: https://www.baristainstitute.com/blog/emmi-kinnunen/january-2022/affogato-ristretto-list-most-common-coffee-drinks -->
           <fieldset>
             <legend align="center">For the purpose of improving our products list, would you answer a quick question?</legend>
             <label for="favorite-coffee">Which is your favorite coffee?</label>
-            <select id="favorite-coffee" name="fav-coffee-poll">
+            <select class="input-areas" id="favorite-coffee" name="fav-coffee-poll">
               <option value="espresso">ESPRESSO</option>
               <option value="espresso-panna">ESPRESSO CON PANNA</option>
               <option value="espresso-macchiato">ESPRESSO MACCHIATO</option>
@@ -117,26 +115,23 @@
           <input type="reset" name="reset" value="Reset Form">
   
         </form>
-      </div>
-    
-
-
-      <!-- ================================================================= -->
-      <!-- <a href="#top">Back to top of page</a> -->
+      </section>
+  
   </main>
 
-   <!-- --------------------FOOTER-------------------- -->
-   <footer class="footer-container rev-bg" role="contentinfo">
+  <!-- --------------------FOOTER-------------------- -->
+  <footer id="footer-area" class="footer-container rev-bg" role="contentinfo">
     <div class="footer-containt-box">
+      
       <!-- ADDRESS AREA  -->
       <section class="footer-address rev-bg foo-border center-all">
         <h3 class="foo-hd-text">Address</h3>
         <a title="Opens Google Maps directions" href="https://maps.app.goo.gl/S8mJDAB8vvpERGks5" target="_blank"
           rel="noopener noreferrer" class="address-link" alt>67-69<br>Fisherton Street<br>Salisbury SP2 7SU</a>
       </section>
+
       <!-- SOCIAL LINKS -->
       <section class="footer-social rev-bg foo-border center-all">
-
         <div class="social-title rev-bg center-all">
           <h3 class="foo-hd-text">Social Links</h3>
         </div>
@@ -161,7 +156,6 @@
             class="fas fa-envelope me-3 rev-bg"></i>info@culturecoffee.cafe</a>
         <p><i class="fas fa-phone me-3 rev-bg"></i><a href="tel:+447735194633" class="address-link calling"> + 44
             7735194633</a></p>
-
       </section>
     </div>
   </footer>

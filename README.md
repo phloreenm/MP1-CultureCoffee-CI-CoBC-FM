@@ -187,6 +187,7 @@ footer text color: #ece7e1
 footer hover link: #f6b565
 
 Special color:
+Main content Darken Blending color: variation of #883F22 in RGBA format.
 Nav menu links bg active: #883f22 - a washed out version of the 
 card bottom separator: #ccc
 
@@ -289,6 +290,7 @@ This testing and conclusions are documented in the following file:
 ---
 # **Issues**
 Along the development I encountered different issues. Some of them were fixed, for other I found a way around of just used a better solution.
+- When resizing the browser window to mobile view, at the left of the browser can be seen the hidden navigation bar transition effect.
 - [Contact Page legend text centering](): an issue I had was centering the legend element, which wasn't easy achievable through css, because of the cross browsers incompatibility. There an in-line property solved it (https://www.geeksforgeeks.org/html-legend-align-attribute/). Issues discussed [HERE](https://stackoverflow.com/questions/4006824/how-to-center-the-legend-element-what-to-use-instead-of-aligncenter-attribu)
 - I could not find a FontAwesome icon for Tripadvisor. Issue is discussed [HERE](https://github.com/FortAwesome/Font-Awesome/issues/18180)
 - While site was deployed on github Pages, the images on the site wouldn't load. Found out that I have to remove the '/' from the link. Example:
