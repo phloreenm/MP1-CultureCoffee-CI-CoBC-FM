@@ -168,13 +168,15 @@ input[type="checkbox"] {
 .page-nav-links {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 .page-nav-links a:link {
     text-decoration: none;
+    font-size: 0.7em;
     color: #231a19 !important;
     margin: 5px;
     padding: 5px;
@@ -206,6 +208,7 @@ input[type="checkbox"] {
 
 .card {
     font-size: 14px;
+    max-width: 100%;
 }
 
 .card-hd {
@@ -260,6 +263,7 @@ input[type="checkbox"] {
 #menu-download-link {
     text-decoration: none;
     border: none;
+    max-width: 100%;
 }
 
 /* -------------Gallery main page------------------------------------ */

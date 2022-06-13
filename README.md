@@ -52,7 +52,7 @@
 ***Culture Coffee cafe*** is a static website which is intended to promote, atract and offer information to potential and actual customers of Culture Coffee café. 
 Since this website was build as a Milesstone Project for my course, therefore educational purposes only, please be advised that some information on the website may not accurate and are displayed for the fore-mentioned scope.
 ### Link to live website is [here](https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/)
-### Link to GitHub repo is [here](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main)  
+### Link to this GitHub repo is [here](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main)  
 [Back to Table of Contents](#table-of-contents)
 
 ---
@@ -112,19 +112,26 @@ The general layout of the website is composed of three main areas: Header, Conte
     ![Desktop view](readme-files/readme-images/nav-bar-desktop-view.jpg)
 ### **MAIN CONTENT SECTION**
 - contains the page's specific subjects (like information, cafes menu, pictures gallery, contact form or the 404 page).
-
+- this area is limited to a `max-width: 1000px;` and a `padding: 0 100px;` in desktop view. Also the background-color is limited to this width and this should create a delimitation between the empty space and the actual main content.
+- in mobile view the pading is reduced to `30px` and the `width:100%`.
+:arrow_right:
 #### **Home page**
 Home page contains:
 - a welcoming message
 - some introductory information structured as Q&A form. Some sections (like menu lists) of the site are linked in the content of this area, making navigation handy. 
     The purpose is to guide the visitor through the website content, guide and describe what the company has to offer.
-#### Menu page
-The menu page is structured differently that the other pages, because the main purpose is to display the cafe's menu.
+#### **Menu page**
+The menu page is structured differently that the other pages, because the main purpose is to display the cafe's menu, sorted by categories. For that reason I found useful to use the grid system. The same result could be obtained with just using flexbox too, but my choice was grid for this page.
+- In mobile views the layout is formed on a column pattern. So the categories and their content are all displayed in column.
+- In desktop view the layout is still displayed in columns: the categories in columns and the the centent of two items on a row.
 
-#### Gallery page
+
+#### **Gallery page**
 The Gallery page has only one purpose: to showoff some pictures depincting the interior design of the cafe, staff, making coffees, etc.
+- In mobile view there are two views: when width is under 673px, the images are displayes in a single column. When the width is between 673 and 981px, the are two columns. Between 982px and 992px the are three columns. This is because of the default sizes of each image when in moobile view.
+- Over 992px is the desktop view and the images are displayed in a single column, at high resolution.
 
-#### Contact page
+#### **Contact page**
 The contact page is structured around a form, which the user may choose to fill. He may make a request, ask a question, propose a recommandation, make a complain and also be part of a small poll by votting (like which coffee he likes more).
 
 ### **FOOTER**
