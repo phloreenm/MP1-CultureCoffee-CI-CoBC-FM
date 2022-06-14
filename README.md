@@ -125,7 +125,6 @@ The menu page is structured differently that the other pages, because the main p
 - In mobile views the layout is formed on a column pattern. So the categories and their content are all displayed in column.
 - In desktop view the layout is still displayed in columns: the categories in columns and the the centent of two items on a row.
 
-
 #### **Gallery page**
 The Gallery page has only one purpose: to showoff some pictures depincting the interior design of the cafe, staff, making coffees, etc.
 - In mobile view there are two views: when width is under 673px, the images are displayes in a single column. When the width is between 673 and 981px, the are two columns. Between 982px and 992px the are three columns. This is because of the default sizes of each image when in moobile view.
@@ -246,6 +245,8 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 ## **Code Snipets:**
 - Header layout and effects inspired from here: https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html
 - Content flexbox cards code sourced from here: https://www.youtube.com/watch?v=cJjej5udWVE
+- [Customize the details element containing the internal links to manu categories](https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element)
+- [HR element styling](https://www.formget.com/css-hr/)
 ## **Research and Information:** 
 - [Coffee Types List](https://www.baristainstitute.com/blog/emmi-kinnunen/january-2022/affogato-ristretto-list-most-common-coffee-drinks)
 - [Things All Restaurant Website Designs Need to Include](https://pos.toasttab.com/blog/on-the-line/7-things-restaurant-websites-need-to-include): as highlithed in this article, having some specific sections on your restaurand (cafe in our case), improves a lot the customer experience and the chances of attracting new customers raises.

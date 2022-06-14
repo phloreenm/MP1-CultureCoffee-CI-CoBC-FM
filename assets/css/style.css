@@ -265,6 +265,35 @@ input[type="checkbox"] {
     max-width: 100%;
 }
 
+/* found a solution to customize my details-summary elements here: 
+https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element */
+details>summary {
+    list-style-type: '▶️';
+}
+
+details[open]>summary {
+    list-style-type: '🔽';
+    padding-bottom: 0.5rem;
+}
+
+details {
+    padding: 0.5rem;
+}
+
+details[open]>summary {
+    border-bottom: 1px solid transparent;
+}
+
+.details-hr {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
 /* -------------Gallery main page------------------------------------ */
 .gal-wrapper {
     display: flex;
@@ -296,24 +325,29 @@ input[type="checkbox"] {
     width: 100%;
     overflow: hidden;
 }
+
 #forms-content {
     display: flex;
     flex-direction: column;
     align-content: center;
 }
+
 fieldset {
     border: 1px solid transparent;
     margin-bottom: 1em;
     display: block;
 }
+
 legend {
     text-align: left;
 }
+
 select {
     background-color: rgba(236, 231, 225, 0.5);
 }
+
 select option {
-    background-color:#ece7e1;
+    background-color: #ece7e1;
     color: #231a19;
 }
 
@@ -324,7 +358,10 @@ select option {
     border: 1px solid transparent;
 }
 
-input[type=text], input[type=email], input[type=tel], select {
+input[type=text],
+input[type=email],
+input[type=tel],
+select {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -333,43 +370,46 @@ input[type=text], input[type=email], input[type=tel], select {
     border-radius: 4px;
     box-sizing: border-box;
 }
+
 #message {
     min-height: 150px;
     border: 1px solid #dad5d3;
 }
+
 input[type=submit] {
-      width: 100%;
-      background-color: #552f1e ;
-      color: #ece7e1;
-      padding: 14px 20px;
-      margin: 8px 0;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
+    width: 100%;
+    background-color: #552f1e;
+    color: #ece7e1;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
-  
+
 input[type=submit]:hover {
     background-color: #883F22;
     color: #f6b565;
     transition: 0.3s ease-out;
 }
+
 input[type=reset] {
-      width: 100%;
-      background-color: #552f1e ;
-      color: #ece7e1;
-      padding: 14px 20px;
-      margin: 8px 0;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
+    width: 100%;
+    background-color: #552f1e;
+    color: #ece7e1;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
-  
+
 input[type=reset]:hover {
     background-color: #883F22;
     color: #f6b565;
     transition: 0.3s ease-out;
 }
-  
+
 
 /* -------------FOOTER------------------------------------ */
 footer {
@@ -438,7 +478,8 @@ footer {
 .social-ic {
     align-items: center;
     padding: 2vh;
-    font-size: 1.4rem;;
+    font-size: 1.4rem;
+    ;
 }
 
 div.social-ic i:hover {
