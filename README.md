@@ -117,16 +117,20 @@ The general layout of the website is composed of three main areas: Header, Conte
 
 #### **Home page**
 Home page main section contains:
-- a welcoming message
+- a welcoming message at the top.
 - some introductory information structured as Q&A form. Some sections (like menu lists) of the site are linked in the content of this area, making navigation handy. 
 The purpose is to guide the visitor through the website's content, and describe what the company has to offer.
+- Top of the page in mobile view:
+![](/readme-files/readme-images/01-2-homepage-mobileview-top-screenshot-.jpg) 
+- Bottom of the page in mobile view:
+![](/readme-files/readme-images/01-2-homepage-mobileview--bottomscreenshot-.jpg) 
 
 #### **Menu page**
 The menu page is structured differently that the other pages, because the main purpose is to display the cafe's menu, sorted by categories. For that reason I found useful to use the grid system. The same result could be obtained with just using flexbox too, but my choice was grid for this page.
-- In mobile views the layout is formed on a column pattern. So the categories and their content are all displayed in column.
-- In desktop view the layout is still displayed in columns: the categories in columns and the the content as two items on a row.
-- Acros the content of the page there is a link "Back to top"(of the page), to help the user to jump to the main navigation bar area.
-- I chose to create a menu specific to this page only.
+- In mobile views the layout is formed on a column pattern. So the categories and their content are all displayed in columns.
+- In desktop view the center layout is displayed in a column: the categories in this column and the the content as two items on a row.
+- Acros the content of the page there is a link `Back to top`(... of the page), to help the user to jump to the main navigation bar area.
+- I chose to create another menu specific to this page only.
     - This menu only contains internal links on the same page, to the main categories from the list, which are: Coffees, Dishes, Cakes and Wines. 
     - Using this menu the navigation is quicker for the user, if he's interested in a specific product and is not interested to see other items. 
     - It is available at the bottom of the page too.
@@ -137,30 +141,27 @@ The menu page is structured differently that the other pages, because the main p
     ![MENU OPENED](/readme-files/readme-images/02-7-cafemenu-internal-links-menu-opened-screenshot%20.png)
     The user may choose to colapse the menu by clicking again `🔽 Click to close quick menu links` area.
     You may notice that the text content changes from "open" to "close". The ▶️ and 🔽 icons display the status of the `<details>` element.
-    - In mobile and desktop view, this area keeps the same layout, by adapting to the viewport.
+    - In mobile and desktop view, this area keeps the same layout, by adapting its width to the viewport.
     ![Mobile view](/readme-files/readme-images/02-8-cafemenu-internal-links-menu-opened-mobileview-screenshot%20.png)
 
 
 #### **Gallery page**
 The Gallery page has only one purpose: to showoff some pictures depincting the interior design of the cafe, staff, making coffees, etc.
 - In mobile view there are two views: when width is under 673px, the images are displayed on a single column:
-
 ![Mobile 1 col Preview](readme-files/readme-images/03-8-gallery-mobileview-1col-sm-img-screenshot-.jpg)
 
 - When the width is between 673 and 981px, the are two columns:
-
 ![Mobile 2 col Preview](readme-files/readme-images/03-7-gallery-mobileview-2col-sm-img-screenshot-.jpg)
 
 - Between 982px and 992px the are three columns. This is because of the default sizes of each image for this view:
-
 ![3 col Preview](readme-files/readme-images/03-6-gallery-tablet-desktopview-3col-md-img-screenshot-.jpg)
 
 - Over 992px is the desktop view and the images are displayed on a single column, at high resolution:
-
 ![Desktop 1 col Preview](readme-files/readme-images/03-5-gallery-desktopview-1col-lg-img-screenshot-.jpg)
 
 #### **Contact page**
 The contact page is structured around a form, containing multiple fields, which the user may choose to fill. The user can make a request, ask a question, propose a recommandation, make a complain and also take part to a poll by votting his favorite coffee.
+
 
 
 
