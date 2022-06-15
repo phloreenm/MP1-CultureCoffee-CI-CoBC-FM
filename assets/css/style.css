@@ -367,7 +367,7 @@ select {
     padding: 12px 20px;
     margin: 8px 0;
     display: block;
-    border: 1px solid transparent;
+    border: 1px solid #dad5d3;
     border-radius: 4px;
     box-sizing: border-box;
 }
@@ -560,6 +560,7 @@ label {
         justify-content: space-between;
         width: 100%;
         margin-bottom: 0;
+        padding-bottom: 0 !important;
     }
 
     .footer-containt-box {

@@ -112,26 +112,57 @@ The general layout of the website is composed of three main areas: Header, Conte
     ![Desktop view](readme-files/readme-images/nav-bar-desktop-view.jpg)
 ### **MAIN CONTENT SECTION**
 - contains the page's specific subjects (like information, cafes menu, pictures gallery, contact form or the 404 page).
-- this area is limited to a `max-width: 1000px;` and a `padding: 0 100px;` in desktop view. Also the background-color is limited to this width and this should create a delimitation between the empty space and the actual main content.
-- in mobile view the pading is reduced to `30px` and the `width:100%`.
-:arrow_right:
+- this area is limited to a `max-width: 1000px;` there is also a `padding: 0 100px;` in desktop view. Also the background-color is limited to this width and this should create a delimitation between the empty space and the actual main content.
+- in mobile view the pading is reduced to `30px` and the `width:100%`, so more information would fit on smaller screens.
+
 #### **Home page**
-Home page contains:
+Home page main section contains:
 - a welcoming message
 - some introductory information structured as Q&A form. Some sections (like menu lists) of the site are linked in the content of this area, making navigation handy. 
-    The purpose is to guide the visitor through the website content, guide and describe what the company has to offer.
+The purpose is to guide the visitor through the website's content, and describe what the company has to offer.
+
 #### **Menu page**
 The menu page is structured differently that the other pages, because the main purpose is to display the cafe's menu, sorted by categories. For that reason I found useful to use the grid system. The same result could be obtained with just using flexbox too, but my choice was grid for this page.
 - In mobile views the layout is formed on a column pattern. So the categories and their content are all displayed in column.
-- In desktop view the layout is still displayed in columns: the categories in columns and the the centent of two items on a row.
+- In desktop view the layout is still displayed in columns: the categories in columns and the the content as two items on a row.
+- Acros the content of the page there is a link "Back to top"(of the page), to help the user to jump to the main navigation bar area.
+- I chose to create a menu specific to this page only.
+    - This menu only contains internal links on the same page, to the main categories from the list, which are: Coffees, Dishes, Cakes and Wines. 
+    - Using this menu the navigation is quicker for the user, if he's interested in a specific product and is not interested to see other items. 
+    - It is available at the bottom of the page too.
+    - Since using JS is not required for this project, I needed to find a way to change the text of a specific area, when the state changes. I found out that the `<details>` element can help.
+    So when this menu is collapsed, the user is asked to acces this menu by clicking the `▶️  Click to open quick menu links`:
+    ![MENU CLOSED](/readme-files/readme-images/02-6-cafemenu-internal-links-menu-closed-screenshot%20.png)
+    After the user clicks, the menu opens like this:
+    ![MENU OPENED](/readme-files/readme-images/02-7-cafemenu-internal-links-menu-opened-screenshot%20.png)
+    The user may choose to colapse the menu by clicking again `🔽 Click to close quick menu links` area.
+    You may notice that the text content changes from "open" to "close". The ▶️ and 🔽 icons display the status of the `<details>` element.
+    - In mobile and desktop view, this area keeps the same layout, by adapting to the viewport.
+    ![Mobile view](/readme-files/readme-images/02-8-cafemenu-internal-links-menu-opened-mobileview-screenshot%20.png)
+
 
 #### **Gallery page**
 The Gallery page has only one purpose: to showoff some pictures depincting the interior design of the cafe, staff, making coffees, etc.
-- In mobile view there are two views: when width is under 673px, the images are displayes in a single column. When the width is between 673 and 981px, the are two columns. Between 982px and 992px the are three columns. This is because of the default sizes of each image when in moobile view.
-- Over 992px is the desktop view and the images are displayed in a single column, at high resolution.
+- In mobile view there are two views: when width is under 673px, the images are displayed on a single column:
+
+![Mobile 1 col Preview](readme-files/readme-images/03-8-gallery-mobileview-1col-sm-img-screenshot-.jpg)
+
+- When the width is between 673 and 981px, the are two columns:
+
+![Mobile 2 col Preview](readme-files/readme-images/03-7-gallery-mobileview-2col-sm-img-screenshot-.jpg)
+
+- Between 982px and 992px the are three columns. This is because of the default sizes of each image for this view:
+
+![3 col Preview](readme-files/readme-images/03-6-gallery-tablet-desktopview-3col-md-img-screenshot-.jpg)
+
+- Over 992px is the desktop view and the images are displayed on a single column, at high resolution:
+
+![Desktop 1 col Preview](readme-files/readme-images/03-5-gallery-desktopview-1col-lg-img-screenshot-.jpg)
 
 #### **Contact page**
-The contact page is structured around a form, which the user may choose to fill. He may make a request, ask a question, propose a recommandation, make a complain and also be part of a small poll by votting (like which coffee he likes more).
+The contact page is structured around a form, containing multiple fields, which the user may choose to fill. The user can make a request, ask a question, propose a recommandation, make a complain and also take part to a poll by votting his favorite coffee.
+
+
 
 ### **FOOTER**
 - has three sub-areas, as follows:
@@ -306,6 +337,7 @@ Along the development I encountered different issues. Some of them were fixed, f
 - I couldn't use Extended Syntax for Markdown documents, as while I was trying to use Footnotes, for example, it wasn't rendered in my GitHub repository. Therefore I had to use links inside the content to credit the extracted ideas from the respective sources.
 - Wasn't able to use emoji in this document.
 - Hover effects won't work properly on touch mobile devices (which are using a touch screen), so a media query for that has to be implemented.
+- The navigation menu, while in mobile view, is displayed OVER the content of the page. So opening the menu in mobile view, the actual content below the header won't go lower to make place for the menu items. I didn't want to use JS and/or Boostrap, so this was an acceptable compromise I had to accept for the purpose of this project.
 
 [Back to Table of Contents](#table-of-contents)
 
