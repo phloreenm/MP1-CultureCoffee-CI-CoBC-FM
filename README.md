@@ -34,7 +34,7 @@
             * [Gallery page](#gallery-page)
             * [Contact page](#contact-page)
         * [Footer area](#footer)
-    *  [***Text***](#-text-)
+    *  [***Text***](#text)
     *  [***Colour theme***](#colours)
     *  [**Accessibility**](#accessibility)
         *  [**Contrast ratio**](#contrast-ratio)
