@@ -154,7 +154,7 @@ input[type="checkbox"] {
 }
 
 /* ------------- Menu page  ------------- */
-.main-desc {
+/* .main-desc {
     background-color: rgba(0, 0, 0, .1);
     background-blend-mode: multiply;
     text-align: justify;
@@ -162,7 +162,7 @@ input[type="checkbox"] {
     border: 2px solid transparent;
     border-radius: 10px;
     margin: 10px auto;
-}
+} */
 
 .page-nav-links {
     display: flex;
@@ -262,6 +262,7 @@ input[type="checkbox"] {
     text-decoration: none;
     border: none;
     max-width: 100%;
+    font-size: 0.7em;
 }
 
 /* found a solution to customize my details-summary elements here: 
