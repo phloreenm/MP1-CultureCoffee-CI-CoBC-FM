@@ -5,7 +5,7 @@
 
 <div style="display:flex; flex-wrap:wrap; lign-items: baseline;; min-height:225px">
     <div style="display:flex;margin:0 auto; align-items:center;">
-    <a href="https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/"><img src="readme-files/readme-images/CC-logo-bg1.png" alt="Website Logo" width="200px" height="200px"/></a>
+    <a href="https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/"><img src="readme-files/readme-images/cc-logo-bg1.png" alt="Website Logo" width="200px" height="200px"/></a>
     </div>
     <div style="display:flex; margin:0 auto; align-items:center;">
     <h1 style="color:#ECE7E1; background-color:#552F1E; font-weight:700; text-align:center;padding:1em;border:1px solid transparent; border-radius:10px;">Culture Coffee café - Milestone Project 1</h1>
@@ -53,6 +53,10 @@
 Since this website was build as a Milesstone Project for my course, therefore educational purposes only, please be advised that some information on the website may not accurate and are displayed for the fore-mentioned scope.
 ### Link to live website is [here](https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/)
 ### Link to this GitHub repo is [here](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main)  
+
+Some sections of this documentation have been moved to a different file, specific to that content. The reason is all that information in this docuemnt only woud've made navigation difficult. So for example, `wireframes.md` or `testing.md`, are different files and they are linked in this document.
+Inside those separate files there are links back to the main readme.md file too.
+
 [Back to Table of Contents](#table-of-contents)
 
 ---
@@ -89,7 +93,7 @@ An online Excel version of the User Stories Board can be found [here](https://1d
 ---
 
 # **UI (User Interface)**
-The wireframe sketches are located in [wireframes.md](/readme-files/docs/wireframes.md) file.
+The wireframe sketches are located in [wireframes.md](readme-files/docs/wireframes.md) file.
 <!-- ### **Wireframes** -->
 ## **Site structure**
 The site's structure follows a simple linear design. From the home page you may access any other page through the navigation menu. This is a straight forward aproach. The same navigation menu is accesible on every other page, even on the [404.html](404.html) one. But not on the Code Institute page, which confirms the fors has been successfuly submited.
@@ -280,24 +284,58 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 ---
 # **CREDITS:**
 ## **Code Snipets:**
-- Header layout and effects inspired from here: https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html
-- Content flexbox cards code sourced from here: https://www.youtube.com/watch?v=cJjej5udWVE
+- [Header layout and effects](https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html)
+- [Content flexbox cards code](https://www.youtube.com/watch?v=cJjej5udWVE)
 - [Customize the details element containing the internal links to manu categories](https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element)
 - [HR element styling](https://www.formget.com/css-hr/)
+- [Cafe Menu Quick Menu links with <details> & <summary> elements>](https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element)
 ## **Research and Information:** 
-- [Coffee Types List](https://www.baristainstitute.com/blog/emmi-kinnunen/january-2022/affogato-ristretto-list-most-common-coffee-drinks)
-- [Things All Restaurant Website Designs Need to Include](https://pos.toasttab.com/blog/on-the-line/7-things-restaurant-websites-need-to-include): as highlithed in this article, having some specific sections on your restaurand (cafe in our case), improves a lot the customer experience and the chances of attracting new customers raises.
-- [Initiating Voice Calls from HTML Email Newsletters](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/) 
+- Coffee Types [List](https://www.baristainstitute.com/blog/emmi-kinnunen/january-2022/affogato-ristretto-list-most-common-coffee-drinks)
+- Things All Restaurant Website Designs Need to [Include](https://pos.toasttab.com/blog/on-the-line/7-things-restaurant-websites-need-to-include): as highlithed in this article, having some specific sections on your restaurand (cafe in our case), improves a lot the customer experience and the chances of attracting new customers raises.
+- Initiating [Voice Calls from HTML Email Newsletters](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/) 
+- Tone down the animation to avoid [vestibular motion triggers like scaling or panning large objects.](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)
+
+## **Media:**
+- Images used for Cafe Menu product list are all credited in the code, but also in this list:
+    - Coffees:
+        - [Affogato](https://www.pexels.com/ro-ro/@rachel-claire/)
+        - [Espresso](https://www.pexels.com/ro-ro/@victorfreitas/)
+        - [Caffè Latte](https://www.pexels.com/ro-ro/@chevanon/)
+        - [Caffè Mocha (Mocaccino)](https://www.pexels.com/ro-ro/@content-pixie-1405717/)
+        - [Café au Lait](https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-Cafe-Au-Lait-OL.jpg)
+        - [Cappuccino](https://www.pexels.com/ro-ro/@jayoke/)
+        - [Cold Brew Coffee](https://www.pexels.com/ro-ro/@marta-dzedyshko-1042863/)
+        - [Espresso con Panna](https://i2.wp.com/www.teacoffeecup.com/wp-content/uploads/2020/08/classic-espresso-con-panna.jpg)
+        - [Espresso Macchiato](https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-Five-o-clock-break.png)
+        - [Greek Frappé](https://www.pexels.com/ro-ro/@freestocks/)
+        - [Freakshake](https://www.pexels.com/ro-ro/@alleksana/)
+    - Dishes
+        - [Sautéed tiger prawns](https://www.youtube.com/watch?v=FJbhplyVBUE)
+        - [Vine tomato salad](https://pixabay.com/photos/vegetables-vegetable-pan-grilling-1620561/)
+        - [Scottish mussels](https://www.scottishshellfish.co.uk/scottishmusselscookedinwhitebeer/)
+        - [Delicious quiches](https://www.pexels.com/ro-ro/@shkrabaanthony/)
+    - Cakes
+        - [Caramel apple pie](https://www.pexels.com/ro-ro/@polina-tankilevitch/)
+        - [Vegan cheesecake](https://www.pexels.com/ro-ro/@alesiakozik/)
+        - [Strawberry gâteau](https://www.pexels.com/ro-ro/@suzyhazelwood/)
+        - [Belgian Waffles](https://www.pexels.com/ro-ro/@monica-turlui-36421873/)
+    - Wines:
+        - [Red Dry Agiorgitiko 2017](https://www.cellartracker.com/wine.asp?iWine=3660056)
+        - [Monograph Rose Agiorgitiko 2016](https://gaiawines.gr/en/monograph-rose-en/)
+        - [La Gioiosa Prosecco 2012](https://www.vivino.com/HK/en/la-gioiosa-valdobbiadene-prosecco-superiore/w/1148479)
+        - [Prunus Dão Tinto 2017](https://www.wine-searcher.com/find/gota+prvt+select+prunus+blanco+dao+portugal/2017/uk)
+- Images used in Gallery page are my own, made with my dSLR.
+- [FontAwesome](https://fontawesome.com/) icons were used accros the site.
+
 ## **Other resources:**
 - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
-- [Emoji markup list](https://gist.github.com/rxaviers/7360908)
 - [Site structuring](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
 - [Mental model](https://en.wikipedia.org/wiki/Mental_model)
 
 [Back to Table of Contents](#table-of-contents)
 
 ---
-# **Improve Customer services**
+<!-- # **Improve Customer services**
 IMPROVING CUSTOMERS SERVICES POLL - 
     How often do you use our products?
 
@@ -309,7 +347,7 @@ IMPROVING CUSTOMERS SERVICES POLL -
     How easy is it to use our product?
     How would you rate the value for money?
     How likely are you to recommend this product to others?
-    How could we improve our product to better meet your needs? 
+    How could we improve our product to better meet your needs?  -->
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -348,5 +386,9 @@ Along the development I encountered different issues. Some of them were fixed, f
 [Back to Table of Contents](#table-of-contents)
 
 ---
-# **Thanks**
-I will not end this project without saying a big thank you to all of you who helped me in working on this website.
+# **Aknowledgment**
+I will not end this project without saying a big "thank you!" to all of you who helped me in working on this project.
+Firstly to my family who supported me all along in every aspect, especialy in being absent at some important moments.
+Of course, nothing would have been possible without everyting Code Institue has to offer through this course and its slack community. 
+Since I am officialy taking this course at City of Bristol College, a big thanks to my tutors, [Pasquale F.](https://www.linkedin.com/in/pasquale-fasulo-68612218a/) and Ben S. for every step they've been with me through the learning process.
+And last but not least, to my mentor, [Adegbenga Adeye](https://github.com/deye9), whose insights were always very helpful and helped me shape this project.
