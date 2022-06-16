@@ -334,9 +334,9 @@ details[open]>summary {
 }
 
 fieldset {
+    display: block;
     border: 1px solid transparent;
     margin-bottom: 1em;
-    display: block;
 }
 
 legend {
@@ -354,8 +354,8 @@ select option {
 
 .input-areas {
     line-height: 1.6em;
-    min-width: 300px;
-    width: 100%;
+    /* min-width: 300px; */
+    width: 95%;
     border: 1px solid transparent;
 }
 

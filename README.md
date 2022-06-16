@@ -121,9 +121,11 @@ Home page main section contains:
 - some introductory information structured as Q&A form. Some sections (like menu lists) of the site are linked in the content of this area, making navigation handy. 
 The purpose is to guide the visitor through the website's content, and describe what the company has to offer.
 - Top of the page in mobile view:
-![](/readme-files/readme-images/01-2-homepage-mobileview-top-screenshot-.jpg) 
+
+- ![](/readme-files/readme-images/01-2-homepage-mobileview-top-screenshot-.jpg) 
 - Bottom of the page in mobile view:
-![](/readme-files/readme-images/01-2-homepage-mobileview--bottomscreenshot-.jpg) 
+
+- ![](/readme-files/readme-images/01-2-homepage-mobileview--bottomscreenshot-.jpg) 
 
 #### **Menu page**
 The menu page is structured differently that the other pages, because the main purpose is to display the cafe's menu, sorted by categories. For that reason I found useful to use the grid system. The same result could be obtained with just using flexbox too, but my choice was grid for this page.
@@ -161,7 +163,10 @@ The Gallery page has only one purpose: to showoff some pictures depincting the i
 
 #### **Contact page**
 The contact page is structured around a form, containing multiple fields, which the user may choose to fill. The user can make a request, ask a question, propose a recommandation, make a complain and also take part to a poll by votting his favorite coffee.
-
+<p align="center">
+  <img src="/" alt="desktop view" width="850">
+  <img src="/" alt="mobile view" width="422">
+</p>
 
 
 
