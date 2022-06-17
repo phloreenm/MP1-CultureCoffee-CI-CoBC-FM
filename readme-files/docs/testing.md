@@ -28,13 +28,13 @@ Back to MAIN [README.md](../../README.md)
   * [**Accessability**](#accessability)
 
 ## **During Development Testing**
-During the development process, I was manually testing in the following ways:-
+While developing the website I've tested its functionality locally (Live Server in VS Code or through `python3 -m http.server command`), but also the deployed page on GitHub Pages.
 
 1. Manually testing each element for appearance and responsiveness via a simulated live server using an extension in VSCode.
     
-1. Published the page via GitHub pages and shared with fellow students to test and received feedback.
+1. The webpage was deployed on GitHub Pages and I've asked few friends to check the page as a normal user and then send me a feedback.
 
-1. Created a post on linked in and asked my network of over 400 developers to review the site and report any issues. The post was viewed more than 1200 times and no issues were reported back in the comments.
+1. Created 
 
 ### ***Manual Testing:***
 * During testing, I used four different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
@@ -43,10 +43,13 @@ During the development process, I was manually testing in the following ways:-
   2. Firefox  
   3. Opera
   4. Edge
-## **Final Testing**
-### **Validation Testing**
+  6. Safari
+
 
 * I then used the devtools to simulate different screen sizes/devices from 320 px up to 4000px in width. 
 * In addition to this, I also asked several people to test using iPhones and Apple Mac laptops/desktops using safari. These users reported no issues or bugs only style suggestions.
+## **Final Testing**
+### **Validation Testing**
+- For HTML validator I've used the [Nu Html Checker](https://validator.w3.org/nu/). I've tested the pages one by one by using the link of the deployed website and by text input. The later was faster, because the deployed page on GitHub Pages is taking longer to refresh.
 
 ### ***Bugs and Fixes:***

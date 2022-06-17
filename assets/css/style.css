@@ -238,6 +238,7 @@ input[type="checkbox"] {
     font-family: 'Lato', sans-serif;
     font-weight: 700;
 }
+
 .product-price {
     font-size: 0.75em;
     font-weight: 300;
@@ -455,6 +456,11 @@ footer {
 .address-link {
     text-decoration: none;
     color: inherit;
+    padding: 15px 15px;
+}
+
+footer > .address-link{
+    padding: 150px 150px;
 }
 
 .address-link:hover {
@@ -471,7 +477,7 @@ footer {
 .social-ic {
     align-items: center;
     padding: 2vh;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     ;
 }
 
