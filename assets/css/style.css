@@ -332,7 +332,7 @@ fieldset {
 }
 
 legend {
-    text-align: left;
+    margin: 0 auto;
 }
 
 select {
