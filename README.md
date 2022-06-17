@@ -382,6 +382,12 @@ Along the development I encountered different issues. Some of them were fixed, f
 - Wasn't able to use emoji in this document.
 - Hover effects won't work properly on touch mobile devices (which are using a touch screen), so a media query for that has to be implemented.
 - The navigation menu, while in mobile view, is displayed OVER the content of the page. So opening the menu in mobile view, the actual content below the header won't go lower to make place for the menu items. I didn't want to use JS and/or Boostrap, so this was an acceptable compromise I had to accept for the purpose of this project.
+- While [validating](https://validator.w3.org) I had an error 
+    > End tag nav seen, but there were open elements.
+
+    > Unclosed element ul.
+
+    but couldn't find any opened or unclosed elements.
 
 [Back to Table of Contents](#table-of-contents)
 
