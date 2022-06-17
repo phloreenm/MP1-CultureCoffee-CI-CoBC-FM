@@ -346,7 +346,6 @@ select option {
 
 .input-areas {
     line-height: 1.6em;
-    /* min-width: 300px; */
     width: 95%;
     border: 1px solid transparent;
 }
@@ -365,7 +364,8 @@ select {
 }
 
 #message {
-    min-height: 150px;
+    min-height: 100px;
+    width: 100%;
     border: 1px solid #dad5d3;
 }
 
