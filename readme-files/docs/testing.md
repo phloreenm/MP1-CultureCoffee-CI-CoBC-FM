@@ -2,7 +2,7 @@ Back to MAIN [README.md](../../README.md)
 
 <div style="display:flex; flex-wrap:wrap; lign-items: baseline;; min-height:225px">
     <div style="display:flex;margin:0 auto; align-items:center;">
-    <a href="https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/"><img src="../../assets/imgs/readme/CC-logo-bg1.png" alt="Website Logo" width="200px" height="200px"/></a>
+    <a href="https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/"><img src="../../readme-files/readme-images/cc-logo-bg1.png" alt="Website Logo" width="200px" height="200px"/></a>
     </div>
     <div style="display:flex; margin:0 auto; align-items:center;">
     <h1 style="color:#ECE7E1; background-color:#552F1E; font-weight:700; text-align:center;padding:1em;border:1px solid transparent; border-radius:10px;">Culture Coffee café - Milestone Project 1</h1>
@@ -17,7 +17,7 @@ Back to MAIN [README.md](../../README.md)
 * [**Development Testing**](#during-development-testing)
     * [*Manual Testing*](#manual-testing)
     * [*Bugs and Fixes*](#bugs-and-fixes)
-* [**Release Testing**](#post-development-testing)
+* [**Final Testing**](#final-testing)
   * [**Validators**](#validators)
       * [*HTML*](#html---httpsvalidatorw3orgnu)
       * [*CSS*](#css---httpsjigsaww3orgcss-validator)
@@ -43,6 +43,8 @@ During the development process, I was manually testing in the following ways:-
   2. Firefox  
   3. Opera
   4. Edge
+## **Final Testing**
+### **Validation Testing**
 
 * I then used the devtools to simulate different screen sizes/devices from 320 px up to 4000px in width. 
 * In addition to this, I also asked several people to test using iPhones and Apple Mac laptops/desktops using safari. These users reported no issues or bugs only style suggestions.
