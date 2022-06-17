@@ -19,20 +19,19 @@
 <body>
   <a id="top"></a>
   <!-- --------------------HEADER-------------------- -->
-  <header role="headernavigationarea">
-
+  <header>
     <!-- Code snippet sourced from: https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html -->
-    <nav aria-label="Main Navigation">
+    <nav aria-label="Main Navigation" role="navigation">
       <a href="index.html"><img src="assets/imgs/CC-logo.webp" class="logo-img" alt="Culture Coffee logo"></a>
       <input type="checkbox" id="select">
       <label for="select" class="menu-toggle-btn">
         <i class="fa-solid fa-bars fa-bounce"></i>
       </label>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="cafesmenu.html">Café's Menu</a></li>
-        <li><a href="gallery.html">Pictures Gallery</a></li>
-        <li><a class="active" href="contact.html">Contact Us</a></li>
+      <ul role="menu>
+        <li><a href="index.html" role="menuitem">Home</a></li>
+        <li><a href="cafesmenu.html" role="menuitem">Café's Menu</a></li>
+        <li><a href="gallery.html" role="menuitem">Pictures Gallery</a></li>
+        <li><a class="active" href="contact.html" role="menuitem">Contact Us</a></li>
       </ul>
     </nav>
 
@@ -81,7 +80,7 @@
           <fieldset>
             <legend align="center">Message</legend>
             <label for="message"></label>
-            <textarea class="input-areas" id="message" name="message" placeholder="Your message goes here" autocomplete="off"  
+            <textarea class="input-areas" id="message" placeholder="Your message goes here" autocomplete="off"  role="textbox"
             required></textarea>
           </fieldset>
           <!-- CREDIT: Coffee list from here: https://www.baristainstitute.com/blog/emmi-kinnunen/january-2022/affogato-ristretto-list-most-common-coffee-drinks -->
