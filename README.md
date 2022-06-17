@@ -40,9 +40,9 @@
         *  [**Contrast ratio**](#contrast-ratio)
     *  [**Responsiveness**](#responsiveness)
 1. [**Performance**](#performance)
-1. [**Testing**](assets/docs/testing.md)
+1. [**Testing**](readme-files/docs/testing.md)
 1. [**Issues**](#issues)
-1. [**Deployment**](assets/docs/deployment.md)
+1. [**Deployment**](readme-files/docs/deployment.md)
 1. [**CREDITS:**](#credits)
     *  [**Code Snipets:**](#code-snipets)
     *  [**Research and Information:**](#research-and-information)
@@ -286,7 +286,7 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 ## **Code Snipets:**
 - [Header layout and effects](https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html)
 - [Content flexbox cards code](https://www.youtube.com/watch?v=cJjej5udWVE)
-- [Customize the details element containing the internal links to manu categories](https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element)
+- [Customize the details element containing the internal links to menu categories](https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element)
 - [HR element styling](https://www.formget.com/css-hr/)
 - [Cafe Menu Quick Menu links with <details> & <summary> elements>](https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element)
 ## **Research and Information:** 
@@ -335,19 +335,6 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 [Back to Table of Contents](#table-of-contents)
 
 ---
-<!-- # **Improve Customer services**
-IMPROVING CUSTOMERS SERVICES POLL - 
-    How often do you use our products?
-
-    Which features are most valuable to you
-    How would you compare our products to our competitors’?
-    What important features are we missing?
-    What are you trying to solve by using our product?
-    What other types of people could find our product useful?
-    How easy is it to use our product?
-    How would you rate the value for money?
-    How likely are you to recommend this product to others?
-    How could we improve our product to better meet your needs?  -->
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -387,7 +374,7 @@ Along the development I encountered different issues. Some of them were fixed, f
 
     > Unclosed element ul.
 
-    but couldn't find any opened or unclosed elements.
+    but couldn't find any opened or unclosed elements. These errors dissapeared after I corrected the other errors.
 
 [Back to Table of Contents](#table-of-contents)
 

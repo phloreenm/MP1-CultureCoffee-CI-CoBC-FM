@@ -18,19 +18,20 @@ Back to MAIN [README.md](../../README.md)
     * [*Manual Testing*](#manual-testing)
     * [*Bugs and Fixes*](#bugs-and-fixes)
 * [**Final Testing**](#final-testing)
-  * [**Validators**](#validators)
-      * [*HTML*](#html---httpsvalidatorw3orgnu)
-      * [*CSS*](#css---httpsjigsaww3orgcss-validator)
+  * [**Validators**](#validation-testing)
+      * [*HTML*](#http-validation)
+      * [*CSS*](#css-validation)
   * [**Lighthouse Scores**](#lighthouse-scores)
-      * [*Desktop Version:*](#desktop-version)
       * [*Mobile Version*](#mobile-version)
-      * [*Lighthouse Score Feedback From Third Party Testers*](#lighthouse-score-feedback-from-third-party-testers)
+      * [*Desktop Version:*](#desktop-version)
+      
+      <!-- * [*Lighthouse Score Feedback From Third Party Testers*](#lighthouse-score-feedback-from-third-party-testers) -->
   * [**Accessability**](#accessability)
 
 ## **During Development Testing**
 While developing the website I've tested its functionality locally (Live Server in VS Code or through `python3 -m http.server command`), but also the deployed page on GitHub Pages.
 
-1. Manually testing each element for appearance and responsiveness via a simulated live server using an extension in VSCode.
+1. I've conducted manual testing for each element for appearance and responsiveness via a simulated live server using an extension in VSCode.
     
 1. The webpage was deployed on GitHub Pages and I've asked few friends to check the page as a normal user and then send me a feedback.
 
@@ -51,5 +52,14 @@ While developing the website I've tested its functionality locally (Live Server 
 ## **Final Testing**
 ### **Validation Testing**
 - For HTML validator I've used the [Nu Html Checker](https://validator.w3.org/nu/). I've tested the pages one by one by using the link of the deployed website and by text input. The later was faster, because the deployed page on GitHub Pages is taking longer to refresh.
-
-### ***Bugs and Fixes:***
+-  For CSS validation I've used [The W3C CSS Validation Service](https://jigsaw.w3.org/). The `style.css` file is used for all the pages, but I've tested all pages individualy, just to make sure everything goes right.
+- **Mobile testing:**
+  - 1:
+    ![](../readme-images/lighthouse-index-mobile-testing.jpg)
+  - 2:
+    ![](../readme-images/lighthouse-index-mobile-testing2.jpg)
+- **Desktop testing:**
+  - 1:
+    ![](../readme-images/lighthouse-index-desktop-testing.jpg)
+  - 2:
+    ![](../readme-images/lighthouse-index-desktop-testing2.jpg)
