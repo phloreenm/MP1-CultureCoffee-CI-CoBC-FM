@@ -68,15 +68,62 @@ While developing the website I've tested its functionality locally (Live Server 
 ### **Validation Testing**
 - For HTML validator I've used the [Nu Html Checker](https://validator.w3.org/nu/). I've tested the pages one by one by using the link of the deployed website and by text input. The later was faster, because the deployed page on GitHub Pages is taking longer to refresh.
 -  For CSS validation I've used [The W3C CSS Validation Service](https://jigsaw.w3.org/). The `style.css` file is used for all the pages, but I've tested all pages individualy, just to make sure everything goes right.
-- **Mobile testing:**
-  - 1:
+- HTML validator Results:
+<p align="center">
+      <strong>index.html</strong> final validation results:<br>
+        <img width="600px" src="../readme-images/01-0-no-errors-httpsvalidator.w3.jpg">
+</p>
+<p align="center">
+      <strong>cafesmenu.html</strong> final HTML validation results:<br>
+        <img width="600px" src="../readme-images/02-0-no-errors-httpsvalidator.w3.jpg">
+</p>
+<p align="center">
+      <strong>gallery.html</strong> final HTML validation results:<br>
+        <img width="600px" src="../readme-images/03-0-no-errors-httpsvalidator.w3.jpg">
+</p>
+<p align="center">
+      <strong>gallery.html</strong> final HTML validation results:<br>
+        <img width="600px" src="../readme-images/04-0-no-errors-httpsvalidator.w3.jpg">
+</p>
+<p align="center">
+      <strong>formconfirmation.html</strong> final HTML validation results:<br>
+        <img width="600px" src="../readme-images/05-0-no-errors-httpsvalidator.w3.jpg">
+</p>
+
+- CSS validator results:
+<p align="center">
+      <strong>index.html</strong> final CSS validation results:<br>
+        <img width="600px" src="../readme-images/01-0-no-errors-jigsaw.w3.jpg">
+</p>
+<p align="center">
+      <strong>cafesmenu.html</strong> final CSS validation results:<br>
+        <img width="600px" src="../readme-images/02-0-jigsaw.w3.jpg">
+</p>
+<p align="center">
+      <strong>gallery.html</strong> final CSS validation results:<br>
+        <img width="600px" src="../readme-images/03-0-no-errors-jigsaw.w3.jpg">
+</p>
+<p align="center">
+      <strong>contact.html</strong> final CSS validation results:<br>
+        <img width="600px" src="../readme-images/04-0-no-errors-jigsaw.w3.jpg">
+</p>
+<p align="center">
+      <strong>formconfirmation.html</strong> final CSS validation results:<br>
+        <img width="600px" src="../readme-images/05-no-errors-jigsaw.w3.jpg">
+</p>
+
+
+---
+
+- **Lighthouse Mobile testing:**
+  - I part:
     ![Mobile Device report 1](../readme-images/lighthouse-index-mobile-testing.jpg)
-  - 2:
+  - II part:
     ![Mobile Device report 2](../readme-images/lighthouse-index-mobile-testing2.jpg)
-- **Desktop testing:**
-  - 1:
+- **Lighthouse  Desktop testing:**
+  - I part:
     ![Desktop Device report 1](../readme-images/lighthouse-index-desktop-testing.jpg)
-  - 2:
+  - II part:
     ![Desktop Device report 2](../readme-images/lighthouse-index-desktop-testing2.jpg)
 
 ---
