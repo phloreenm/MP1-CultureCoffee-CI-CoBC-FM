@@ -3,15 +3,10 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
 ![GitHub top language](https://img.shields.io/github/languages/top/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
 
-<div style="display:flex; flex-wrap:wrap; lign-items: baseline;; min-height:225px">
-    <div style="display:flex;margin:0 auto; align-items:center;">
-    <a href="https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/"><img src="readme-files/readme-images/cc-logo-bg1.png" alt="Website Logo" width="200px" height="200px"/></a>
-    </div>
-    <div style="display:flex; margin:0 auto; align-items:center;">
-    <h1 style="color:#ECE7E1; background-color:#552F1E; font-weight:700; text-align:center;padding:1em;border:1px solid transparent; border-radius:10px;">Culture Coffee café - Milestone Project 1</h1>
-    </div>
-</div>
-
+<p align="center">
+    <img width="100%" src="readme-files/readme-images/readme-banner.jpg">
+  </p>
+  
 ---
 # **Table of Contents**
 1. [**About the site**](#about-the-site)
@@ -363,9 +358,10 @@ Along the development I encountered different issues. Some of them were fixed, f
 - When resizing the browser window to mobile view, at the left of the browser can be seen the hidden navigation bar transition effect.
 - [Contact Page legend text centering](): an issue I had was centering the legend element, which wasn't easy achievable through css, because of the cross browsers incompatibility. There an in-line property solved it (https://www.geeksforgeeks.org/html-legend-align-attribute/). Issues discussed [HERE](https://stackoverflow.com/questions/4006824/how-to-center-the-legend-element-what-to-use-instead-of-aligncenter-attribu)
 - I could not find a FontAwesome icon for Tripadvisor. Issue is discussed [HERE](https://github.com/FortAwesome/Font-Awesome/issues/18180)
-- While site was deployed on github Pages, the images on the site wouldn't load. Found out that I have to remove the '/' from the link. Example:
-`<src="/assets/imgs/coffees/image.jpeg>` -> in this format the images wouldn't load, so I had to remove the backslash before the 'assets' folder. Found this through the Developer's Tools in Chrome.
+- While site was deployed on github Pages, the images on the site wouldn't load. Found out that I have to remove the '/' from the relative links. Example:
+`<src="/assets/imgs/coffees/image.jpeg>` -> in this format the images wouldn't load, so I had to remove the backslash before the 'assets' folder. Found this through the Developer's Tools in Chrome. In VS Code having the `/` won't affect loading, but on GitHub alt-text is being shown.
 - I couldn't use Extended Syntax for Markdown documents, as while I was trying to use Footnotes, for example, it wasn't rendered in my GitHub repository. Therefore I had to use links inside the content to credit the extracted ideas from the respective sources.
+- To size images I had to use HTML.
 - Wasn't able to use emoji in this document.
 - Hover effects won't work properly on touch mobile devices (which are using a touch screen), so a media query for that has to be implemented.
 - The navigation menu, while in mobile view, is displayed OVER the content of the page. So opening the menu in mobile view, the actual content below the header won't go lower to make place for the menu items. I didn't want to use JS and/or Boostrap, so this was an acceptable compromise I had to accept for the purpose of this project.

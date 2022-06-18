@@ -65,9 +65,20 @@ While developing the website I've tested its functionality locally (Live Server 
     ![Desktop Device report 2](../readme-images/lighthouse-index-desktop-testing2.jpg)
 - **Conclusions:**
 - Performance score was affected by the external libraries I've used (Google Fonts, FontAwesome), but disabling them wasn't an option.
-- CEO lower score was caused by an anchor linking to an internal link.
+- CEO lower score across all pages ofthe website was caused by an anchor linking to an internal link.
   ![SEO Score](/readme-files/readme-images/lighthouse-SEO-low-score-cause.jpg)
   The suggested solution was to use `pre-connect` resource 'to estabilish early connection to thirst-party origins':
   ![Pre-Connect](../readme-images/lighthouse-performance-pre-connect.jpg)
 - Below the SEO section there is a 'Mobile Friendly' recommandation, which suggests `Tap targets are not sized appropriately`, so I've tested all the links, especially the ones in the footer area, and testing them on smartphone devices looked and felt perfectly normal. The text is readable and the links are sized enought to be clickable.
-  ![Mobile Friendly](../readme-images/lighthouse-mobile-friendly-recommandation.jpg)
+  ![Mobile Friendly](../readme-images/lighthouse-mobile-friendly-recommandation.jpg "Mobile Friendly Recommandation"){align=center}
+
+  <!-- ![MarineGEO circle logo](/assets/img/MarineGEO_logo.png "MarineGEO logo") {align=center} -->
+
+  <img align="right" width="100" height="100" src="../readme-images/lighthouse-mobile-friendly-recommandation.jpg">
+  <p align="center">
+    <img width="460" height="300" src="../readme-images/lighthouse-mobile-friendly-recommandation.jpg">
+  </p>
+  <p align="left">
+    <img width="460" height="300" src="../readme-images/lighthouse-mobile-friendly-recommandation.jpg">
+  </p>
+  [[../readme-images/lighthouse-mobile-friendly-recommandation.jpg|width=400px]]
