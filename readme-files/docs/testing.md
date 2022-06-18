@@ -55,11 +55,13 @@ While developing the website I've tested its functionality locally (Live Server 
 -  For CSS validation I've used [The W3C CSS Validation Service](https://jigsaw.w3.org/). The `style.css` file is used for all the pages, but I've tested all pages individualy, just to make sure everything goes right.
 - **Mobile testing:**
   - 1:
-    ![](../readme-images/lighthouse-index-mobile-testing.jpg)
+    ![Mobile Device report 1](../readme-images/lighthouse-index-mobile-testing.jpg)
   - 2:
-    ![](../readme-images/lighthouse-index-mobile-testing2.jpg)
+    ![Mobile Device report 2](../readme-images/lighthouse-index-mobile-testing2.jpg)
 - **Desktop testing:**
   - 1:
-    ![](../readme-images/lighthouse-index-desktop-testing.jpg)
+    ![Desktop Device report 1](../readme-images/lighthouse-index-desktop-testing.jpg)
   - 2:
-    ![](../readme-images/lighthouse-index-desktop-testing2.jpg)
+    ![Desktop Device report 2](../readme-images/lighthouse-index-desktop-testing2.jpg)
+- CEO low score was caused by an anchor linking to an internal link
+  ![](/readme-files/readme-images/lighthouse-SEO-low-score-cause.jpg)
