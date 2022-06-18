@@ -63,5 +63,11 @@ While developing the website I've tested its functionality locally (Live Server 
     ![Desktop Device report 1](../readme-images/lighthouse-index-desktop-testing.jpg)
   - 2:
     ![Desktop Device report 2](../readme-images/lighthouse-index-desktop-testing2.jpg)
-- CEO low score was caused by an anchor linking to an internal link
-  ![](/readme-files/readme-images/lighthouse-SEO-low-score-cause.jpg)
+- **Conclusions:**
+- Performance score was affected by the external libraries I've used (Google Fonts, FontAwesome), but disabling them wasn't an option.
+- CEO lower score was caused by an anchor linking to an internal link.
+  ![SEO Score](/readme-files/readme-images/lighthouse-SEO-low-score-cause.jpg)
+  The suggested solution was to use `pre-connect` resource 'to estabilish early connection to thirst-party origins':
+  ![Pre-Connect](../readme-images/lighthouse-performance-pre-connect.jpg)
+- Below the SEO section there is a 'Mobile Friendly' recommandation, which suggests `Tap targets are not sized appropriately`, so I've tested all the links, especially the ones in the footer area, and testing them on smartphone devices looked and felt perfectly normal. The text is readable and the links are sized enought to be clickable.
+  ![Mobile Friendly](../readme-images/lighthouse-mobile-friendly-recommandation.jpg)
