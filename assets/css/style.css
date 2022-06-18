@@ -608,10 +608,10 @@ label {
 
     nav ul {
         position: fixed;
-        top: 130px;
+        top: 125px;
         left: -100%;
         background: #ece7e1;
-        height: 370px;
+        height: 250px;
         width: 100%;
         text-align: center;
         display: block;
@@ -625,14 +625,14 @@ label {
 
     nav ul li {
         width: 100%;
-        margin: 40px 0;
+        margin: 0;
     }
 
     nav ul li a {
         width: 100%;
         margin-left: -100%;
         display: block;
-        font-size: 20px;
+        font-size: 22px;
         transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     }
 
