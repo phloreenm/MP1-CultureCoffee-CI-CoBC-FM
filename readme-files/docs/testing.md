@@ -19,7 +19,7 @@
       * [*Desktop Version:*](#desktop-version)
       
       <!-- * [*Lighthouse Score Feedback From Third Party Testers*](#lighthouse-score-feedback-from-third-party-testers) -->
-  * [**Accessability**](#accessability)
+  * [**Issues**](#issues)
 
 ## **During Development Testing**
 While developing the website I've tested its functionality locally (Live Server in VS Code or through `python3 -m http.server command`), but also the deployed page on GitHub Pages.
@@ -32,18 +32,34 @@ While developing the website I've tested its functionality locally (Live Server 
 
 ### ***Manual Testing:***
 * During testing, I've used four different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
-#### Mobile Devices (Smartphone and Tablet):
+#### Mobile Devices Browsers (Smartphone and Tablet):
 - Chrome
 - Firefox  
 - Opera
 - Edge
 - Safari
-#### Desktop:
+#### Desktop bBrowsers:
 - Chrome
 - Firefox  
 - Opera
 - Edge
 - Safari
+#### Testing on individidual devices:
+- Smartphones
+  - Samsung Galaxy S7 (5.1 inches / 1440 x 2560)
+  - iPhone 13 mini (5.4 inches / 1080 x 2340)
+  - Samsung Galaxy S21 Ultra (6.8 inches / 1440 x 3200)
+- Tablet:
+  - Samsung Galaxy Tab S4 LTE (10.5 inches / 1600 x 2560)
+- Laptops:
+  - Dell 5290 (Screen Size 12.50 inches / 1366 x 768)
+  - Dell 7390 2 in 1 (Screen Size	13.3 inches /	1920 x 1080)
+  - Apple MacBook Air M1 (13.3 inches / 2560 x 1600)
+- Desktop monitors:
+  - Lenovo ThinkVision T27p-10 27" UHD (27.0 inches / 3840 x 2160)
+  - ASUS ProArt Display PA247CV 23.8 (23.8 inches / 1920 x 1080)
+  - MSI Optix MAG162V (15.6 inches / 1920 x 1080)
+
 
 * I then used the devtools to simulate different screen sizes/devices from 320 px up to 4000px in width. 
 * In addition to this, I also asked several people to test using iPhones and Apple Mac laptops/desktops using safari. These users reported no issues or bugs only style suggestions.
@@ -69,6 +85,20 @@ While developing the website I've tested its functionality locally (Live Server 
   ![Pre-Connect](../readme-images/lighthouse-performance-pre-connect.jpg)
 - Below the SEO section there is a 'Mobile Friendly' recommandation, which suggests `Tap targets are not sized appropriately`, so I've tested all the links, especially the ones in the footer area, and testing them on smartphone devices looked and felt perfectly normal. The text is readable and the links are sized enought to be clickable.
   ![Mobile Friendly](../readme-images/lighthouse-mobile-friendly-recommandation.jpg "Mobile Friendly Recommandation")
+## **Issues**
+- On iPhone 13 mini using Safari browser there is an issue:
+ - On **Café's Menu** page the internal links area is not displayed correctly.
+  - ![](../readme-images/13mini-safari-details-element-closed.jpg)
+  ![](../readme-images/13mini-safari-details-element-opened.jpg)
+
+But on Samsung Galaxy S7 on Chrome is displayed correctly:
+  - ![](../readme-images/s7-chrome-details-element-opened.jpg)
+
+  - Searching online to solve this issue, I've' found out that there is a wide issue with Safari compatibility when using and styling the details element. A better solution would've been to avoid using this element.
+
+- On a smartphone in landscape display mode, the menu is not scrollable and is displayed partially:
+
+  - ![](../readme-images/s7-landscape-menu-display.jpg)
 
   --- 
 
