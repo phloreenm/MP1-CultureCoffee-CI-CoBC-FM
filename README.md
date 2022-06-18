@@ -1,18 +1,17 @@
+<p align="center">
+    <img width="100%" src="readme-files/readme-images/readme-banner.jpg">
+</p>
+
 ![GitHub contributors](https://img.shields.io/github/contributors/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
 ![GitHub last commit](https://img.shields.io/github/last-commit/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
 ![GitHub language count](https://img.shields.io/github/languages/count/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
 ![GitHub top language](https://img.shields.io/github/languages/top/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
 
-<p align="center">
-    <img width="100%" src="readme-files/readme-images/readme-banner.jpg">
-  </p>
-  
----
 # **Table of Contents**
 1. [**About the site**](#about-the-site)
     * [**Link to live website**](#link-to-live-website-is-here)
     * [**Link to GitHub repository**](#link-to-github-repo-is-here)
-1. [**Table of Contents**](#table-of-contents)
+1. [**Table of Contents**](#table-of-contents)git
 1. [**UX (User Experience)**](#ux-user-experience)
     * [**User Stories**](#user-stories)
     * [**The Strategy and the Scope Plane**](#the-strategy-and-the-scope-plane**)
@@ -41,7 +40,10 @@
 1. [**CREDITS:**](#credits)
     *  [**Code Snipets:**](#code-snipets)
     *  [**Research and Information:**](#research-and-information)
-<!-- 1.  [**Improve Customer services**](#improve-customer-services) -->  
+    *  [**Media**](#media)
+    *  [**Other Resoruces:**](#other-resources)
+
+
   ---
 # **About the site** 
 ***Culture Coffee cafe*** is a static website which is intended to promote, atract and offer information to potential and actual customers of Culture Coffee café. 
@@ -49,7 +51,8 @@ Since this website was build as a Milesstone Project for my course, therefore ed
 ### Link to live website is [here](https://phloreenm.github.io/MP1-CultureCoffee-CI-CoBC-FM/)
 ### Link to this GitHub repo is [here](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main)  
 
-Some sections of this documentation have been moved to a different file, specific to that content. The reason is all that information in this docuemnt only woud've made navigation difficult. So for example, `wireframes.md` or `testing.md`, are different files and they are linked in this document.
+Some sections of this documentation have been moved to a different file, specific to that content.
+The reason is all that information in this docuement only woud've made navigation difficult. So for example, `wireframes.md`, `contrast.md` or `testing.md`, are different files and they are linked in this document.
 Inside those separate files there are links back to the main readme.md file too.
 
 [Back to Table of Contents](#table-of-contents)
@@ -278,12 +281,14 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 
 ---
 # **CREDITS:**
+
 ## **Code Snipets:**
 - [Header layout and effects](https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html)
 - [Content flexbox cards code](https://www.youtube.com/watch?v=cJjej5udWVE)
 - [Customize the details element containing the internal links to menu categories](https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element)
 - [HR element styling](https://www.formget.com/css-hr/)
-- [Cafe Menu Quick Menu links with <details> & <summary> elements>](https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element)
+- [Cafe Menu Quick Menu links with details & summary elements](https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element)
+
 ## **Research and Information:** 
 - Coffee Types [List](https://www.baristainstitute.com/blog/emmi-kinnunen/january-2022/affogato-ristretto-list-most-common-coffee-drinks)
 - Things All Restaurant Website Designs Need to [Include](https://pos.toasttab.com/blog/on-the-line/7-things-restaurant-websites-need-to-include): as highlithed in this article, having some specific sections on your restaurand (cafe in our case), improves a lot the customer experience and the chances of attracting new customers raises.
@@ -292,7 +297,7 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 
 ## **Media:**
 - Images used for Cafe Menu product list are all credited in the code, but also in this list:
-    - Coffees:
+     - Coffees:
         - [Affogato](https://www.pexels.com/ro-ro/@rachel-claire/)
         - [Espresso](https://www.pexels.com/ro-ro/@victorfreitas/)
         - [Caffè Latte](https://www.pexels.com/ro-ro/@chevanon/)
@@ -320,22 +325,28 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
         - [La Gioiosa Prosecco 2012](https://www.vivino.com/HK/en/la-gioiosa-valdobbiadene-prosecco-superiore/w/1148479)
         - [Prunus Dão Tinto 2017](https://www.wine-searcher.com/find/gota+prvt+select+prunus+blanco+dao+portugal/2017/uk)
 - Images used in Gallery page are my own, made with my dSLR.
-- [FontAwesome](https://fontawesome.com/) icons were used accros the site.
 
-## **Other resources:**
+
+## **Other resources and tools used:**
+- Code Validation:
+    - [W2C Markup Validation Service](https://validator.w3.org/nu/)
+    - [W2C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 - [Site structuring](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
 - [Mental model](https://en.wikipedia.org/wiki/Mental_model)
+- Tools:
+    - [Balsamiq - wireframes design](https://balsamiq.com/)
+    - [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/)
+    - [Adobe Photoshop v.23](https://www.adobe.com/uk/products/photoshop/)
+    - [FontAwesome](https://fontawesome.com/)
+    - [Google Fonts](https://fonts.google.com/)
 
-[Back to Table of Contents](#table-of-contents)
-
----
 
 [Back to Table of Contents](#table-of-contents)
 
 ---
 # **Accessibility**
-- [Accessibility](): Navigation card items contain a Boostrap class .sr-only which indicates to screen readers at which page we are, helping visualy impaired users navigating throught the website using screen readers.
+- [Accessibility](): 
 - [Landmarks](https://accessibility.blog.gov.uk/2016/05/27/using-navigation-landmarks/)Internet Explorer 11, which does not have accessibility support for the HTML5 elements used to provide landmarks, but which does support the equivalent ARIA roles. 
 [enhancing-aria-landmarks-with-aria-labelledby](https://tink.uk/enhancing-aria-landmarks-with-aria-labelledby/)
 
