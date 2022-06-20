@@ -36,8 +36,12 @@ Back to MAIN [README.md](../../README.md)
 # **Contact Page**
 ![Contact Page Contrast testing](../../readme-files/readme-images/04-contact-page-color-contrast-accessibility-validator.jpg)
 
-[Back to Table of Contents](#table-of-contents)
 
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 
 # **WebAIM check**
@@ -62,5 +66,13 @@ The automated services could not determine the contrast ratio for the elements w
 While the general contrast ratio is over 9:1 for most of the site content, for the links in the navigation menu (specifically the active element) and in the footer, while hovering, were both over a ratio of 5:1.
 
 These result conclude that the contrast ratio is over the 3:1 minimum required ratio.
+
+---
+
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 [Back to README.md](../../README.md)

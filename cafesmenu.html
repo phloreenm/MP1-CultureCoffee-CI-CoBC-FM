@@ -1,554 +1,462 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>Culture Coffee café</title>
-
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="icon" type="image/x-icon" href="/assets/imgs/favicon.ico">
-
     <script src="https://kit.fontawesome.com/96ce8820ba.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
+  </head>
+  <body>
     <a id="top"></a>
     <!-- HEADER -->
     <header>
-
-        <!-- Code snippet sourced from: https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html -->
-        <nav aria-label="Main Navigation">
-            <a href="index.html"><img src="assets/imgs/CC-logo.webp" class="logo-img" alt="Culture Coffee logo"></a>
-            <input type="checkbox" id="select">
-            <label for="select" class="menu-toggle-btn">
-                <i class="fa-solid fa-bars fa-bounce"></i>
-            </label>
-            <ul role="menu">
-                <li role="presentation"><a href="index.html" role="menuitem">Home</a></li>
-                <li role="presentation"><a class="active" href="cafesmenu.html" role="menuitem">Café's Menu</a></li>
-                <li role="presentation"><a href="gallery.html" role="menuitem">Pictures Gallery</a></li>
-                <li role="presentation"><a href="contact.html" role="menuitem">Contact Us</a></li>
-            </ul>
-        </nav>
-
+      <!-- Code snippet sourced from: https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html -->
+      <nav aria-label="Main Navigation">
+        <a href="index.html">
+          <img src="assets/imgs/CC-logo.webp" class="logo-img" alt="Culture Coffee logo">
+        </a>
+        <input type="checkbox" id="select">
+        <label for="select" class="menu-toggle-btn">
+          <i class="fa-solid fa-bars fa-bounce"></i>
+        </label>
+        <ul role="menu">
+          <li role="presentation">
+            <a href="index.html" role="menuitem">Home</a>
+          </li>
+          <li role="presentation">
+            <a class="active" href="cafesmenu.html" role="menuitem">Café's Menu</a>
+          </li>
+          <li role="presentation">
+            <a href="gallery.html" role="menuitem">Pictures Gallery</a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html" role="menuitem">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <!-- CONTENT SECTION -->
     <main class="container">
-        <!-- <br>
-        <h2 class="main-desc">Café's Menu</h2>
-        <br> -->
-        <br>
-        <details title="Click to open/close">
-            <summary></summary>
-            <div class="page-nav-links" role="listbox">
-                <div class="link-box"><a href="#coffees">Coffees</a></div>
-                <div class="link-box"><a href="#dishes">Dishes</a></div>
-                <div class="link-box"><a href="#cakes">Cakes</a></div>
-                <div class="link-box"><a href="#wines">Wines</a></div>
-            </div>
-            <hr class="details-hr">
-        </details>
-
-        <br>
-        <p><a id="menu-download-link" href="assets/docs/CC-menu.pdf" rel="noopener noreferrer"><em>Click here to
-                    download a complete version of our menu.</em></a></p>
-        <br>
-
-        <!--   Coffees  -->
-        <section class="card" role="group">
-            <a id="coffees"></a>
-            <!-- Coffees list and description sourced from here: https://www.baristainstitute.com/blog/emmi-kinnunen/january-2022/affogato-ristretto-list-most-common-coffee-drinks -->
-            <h2 class="card-hd">
-                Coffees
-            </h2>
-            <hr class="details-hr">
-            <div class="card-group">
-                <div class="card-item">
-                    <!-- image credits: https://www.pexels.com/ro-ro/@rachel-claire/ -->
-                    <img class="card-img" src="assets/imgs/coffees/01-affogato-pexels-rachel-claire-6126245.jpg"
-                        alt="Picture of an Affogato">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Affogato</span>
-                            <span class="product-price">£2.60</span>
-                        </h3>
-                        <p class="product-info">
-                            Espresso poured on a vanilla ice cream. Served in a cappuccino cup.
-                        </p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <!-- image credits: https://www.pexels.com/ro-ro/@victorfreitas/ -->
-                    <img class="card-img" src="assets/imgs/coffees/02-espresso-pexels-victor-freitas-685527.jpg"
-                        alt="Picture of an Espresso">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Espresso</span>
-                            <span class="product-price">£1.50</span>
-                        </h3>
-                        <p class="product-info">
-                            Espresso with added hot water (100–150 ml). Often served in a cappuccino cup. (The espresso
-                            is added into the hot water rather than all the water being flowed through the coffee that
-                            would lead to over extraction.)
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-group">
-                <div class="card-item">
-                    <!-- image credits: https://www.pexels.com/ro-ro/@chevanon/ -->
-                    <img class="card-img"
-                        src="assets/imgs/coffees/03-cafee-latte-pexels-chevanon-photography-312418.jpg"
-                        alt="Picture of Caffè latte">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Caffè Latte</span>
-                            <span class="product-price">£2.00</span>
-                        </h3>
-                        <p class="product-info">
-                            A tall, mild 'milk coffee' (about 150-300 ml). An espresso with steamed milk and only a
-                            little milk foam poured over it. Serve in a latte glass or a coffee cup. Flavoured syrup can
-                            be added.
-                        </p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <!-- image credits: https://www.pexels.com/ro-ro/@content-pixie-1405717/ -->
-                    <img class="card-img" src="assets/imgs/coffees/04-caffee-mocha-pexels-content-pixie-2836945.jpg"
-                        alt="Picture of Caffè Mocha also called Mocaccino">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Caffè Mocha (Mocaccino)</span>
-                            <span class="product-price">£2.10</span>
-                        </h3>
-                        <p class="product-info">
-                            A caffè latte with chocolate and whipped cream, made by pouring about 2 cl of chocolate
-                            sauce into the glass, followed by an espresso shot and steamed milk.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-group">
-                <div class="card-item">
-                    <!-- image credits: https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-Cafe-Au-Lait-OL.jpg -->
-                    <img class="card-img"
-                        src="assets/imgs/coffees/05-caffe-au-lait-nespresso-recipes-cafe-au-lait-ol.jpg"
-                        alt="Picture of Café au lait">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Café au Lait</span>
-                            <span class="product-price">£2.10</span>
-                        </h3>
-                        <p class="product-info">
-                            French morning coffee. Made by mixing dark roasted filter coffee (often prepared with French
-                            Press) and warm milk. Served in a bowl or a large coffee cup.
-                        </p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <!-- image credits: https://www.pexels.com/ro-ro/@jayoke/ -->
-                    <img class="card-img" src="assets/imgs/coffees/06-capuccino-pexels-jason-villanueva-851555.jpg"
-                        alt="Picture of a Cappuccino coffee">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Cappuccino</span>
-                            <span class="product-price">£2.20</span>
-                        </h3>
-                        <p class="product-info">
-                            A coffee drink consisting of espresso and a milk foam mixture (drink size about 160–240 ml).
-                            Served in a cappuccino cup.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-group">
-                <div class="card-item">
-                    <!-- image credits: https://www.pexels.com/ro-ro/@marta-dzedyshko-1042863/ -->
-                    <img class="card-img"
-                        src="assets/imgs/coffees/07-cold-brew-coffee-pexels-marta-dzedyshko-2067404.jpg"
-                        alt="Picture of a Cold Brew Coffee">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Cold Brew Coffee</span>
-                            <span class="product-price">£1.80</span>
-                        </h3>
-                        <p class="product-info">
-                            Cold Brew Coffee is a smooth, cold beverage prepared by brewing freshly ground coffee in
-                            cold water. In the Cold Brew process, time makes up for heat.
-                        </p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <!-- image credits: https://i2.wp.com/www.teacoffeecup.com/wp-content/uploads/2020/08/classic-espresso-con-panna.jpg -->
-                    <img class="card-img" src="assets/imgs/coffees/08-espresso-con-panna-classic-espresso-con-panna.jpg"
-                        alt="Picture of an Espresso con panna">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Espresso con Panna</span>
-                            <span class="product-price">£1.95</span>
-                        </h3>
-                        <p class="product-info">
-                            A shot of espresso topped with whipped cream. Served in an espresso cup.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-group">
-                <div class="card-item">
-                    <!-- image credits: https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-Five-o-clock-break.png-->
-                    <img class="card-img"
-                        src="assets/imgs/coffees/09-espresso-macchiato-nespresso-recipes-five-o-clock-break.png"
-                        alt="Picture of an Espresso Macchiato">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Espresso Macchiato</span>
-                            <span class="product-price">£1.60</span>
-                        </h3>
-                        <p class="product-info">
-                            Espresso with a little milk foam (drink size about 50 ml). Served in an espresso cup.
-                        </p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <!-- image credits: https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-Flat-White-by-Nespresso.jpg -->
-                    <img class="card-img"
-                        src="assets/imgs/coffees/10-fat-white-nespresso-recipes-flat-white-by-nespresso.jpg"
-                        alt="Picture of a Flat White">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Flat White</span>
-                            <span class="product-price">£2.25</span>
-                        </h3>
-                        <p class="product-info">
-                            A coffee drink with a double espresso and lightly frosted milk (About 150–240 ml). Served in
-                            a glass.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-group">
-                <div class="card-item">
-                    <!-- image credits: https://www.pexels.com/ro-ro/@freestocks/-->
-                    <img class="card-img" src="assets/imgs/coffees/11-greek-frappe-pexels-freestocksorg-230588.jpg"
-                        alt="Picture of an Espresso Macchiato">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Greek Frappé</span>
-                            <span class="product-price">£2.50</span>
-                        </h3>
-                        <p class="product-info">
-                            Rich iced coffee made of espresso, milk and ice. Flavoured syrup can be added (about 300
-                            ml). Mixed in a blender and served for example in a latte glass.
-                        </p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <!-- image credits: https://www.pexels.com/ro-ro/@alleksana/ -->
-                    <img class="card-img" src="assets/imgs/coffees/12-freakshake-pexels-alleksana-6463659.jpg"
-                        alt="Picture of Coffee Freakshakes">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Freakshake</span>
-                            <span class="product-price">£1.85</span>
-                        </h3>
-                        <p class="product-info">
-                            Basically anything that is blended/mixed/stirred and served with various topping that are
-                            very "instagrammable". Coffee Freakshakes are often made with cold brew coffee.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <a href="#top" class="top-link"><i class="fa-solid fa-angle-double-up"></i> Back to top</a>
-        <!--  Dishes  -->
-        <div class="card" role="group">
-            <a id="dishes"></a>
-            <h2 class="card-hd">
-                Dishes
-            </h2>
-            <hr class="details-hr">
-            <div class="card-group">
-                <div class="card-item">
-                    <!-- image credit: https://www.youtube.com/watch?v=FJbhplyVBUE -->
-                    <img class="card-img" src="assets/imgs/dishes/21-garlic-shrimp-greek-style.jpg"
-                        alt="Sauteed tiger prawns on plate">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Sauteed tiger prawns</span>
-                            <span class="product-price">£8.90</span>
-                        </h3>
-                        <p class="product-info">
-                            With a hint of garlic, lemon & parsley
-                        </p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <!-- Image credit: https://www.scottishshellfish.co.uk/scottishmusselscookedinwhitebeer/ -->
-                    <img class="card-img" src="assets/imgs/dishes/22-mussels-heidi-heiss-beer_webres.jpg"
-                        alt="Scottish mussels in a bowl">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Scottish mussels</span>
-                            <span class="product-price">£7.90</span>
-                        </h3>
-                        <p class="product-info">
-                            In garlic butter sauce with a dash of chardonnay.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-group">
-                <div class="card-item">
-                    <!-- image credits: https://pixabay.com/photos/vegetables-vegetable-pan-grilling-1620561/ -->
-                    <img class="card-img" src="assets/imgs/dishes/23-vegetables-g3f31a0386-640.jpg"
-                        alt="Vine tomato salad on plate">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Vine tomato salad</span>
-                            <span class="product-price">£7.10</span>
-                        </h3>
-                        <p class="product-info">
-                            With honey, oregano, preserved fruit & cream cheese
-                        </p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <!-- image credit: https://www.pexels.com/ro-ro/@shkrabaanthony/ -->
-                    <img class="card-img" src="assets/imgs/dishes/24-pexels-antoni-shkraba-5852260.jpg"
-                        alt="Trio of delicious quiches on plate">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Delicious quiches</span>
-                            <span class="product-price">£5.90</span>
-                        </h3>
-                        <p class="product-info">
-                            Broccoli & stilton; sun-dried tomato & herb; mushroom & parsley
-                        </p>
-                    </div>
-                </div>
-            </div>
-
+      <!-- <br><h2 class="main-desc">Café's Menu</h2><br> -->
+      <br>
+      <details title="Click to open/close">
+        <summary></summary>
+        <div class="page-nav-links" role="listbox">
+          <div class="link-box">
+            <a href="#coffees">Coffees</a>
+          </div>
+          <div class="link-box">
+            <a href="#dishes">Dishes</a>
+          </div>
+          <div class="link-box">
+            <a href="#cakes">Cakes</a>
+          </div>
+          <div class="link-box">
+            <a href="#wines">Wines</a>
+          </div>
         </div>
-        <a href="#top" class="top-link"><i class="fa-solid fa-angle-double-up"></i> Back to top</a>
-        <!--  Cakes  -->
-        <div class="card" role="group">
-            <a id="cakes"></a>
-            <h2 class="card-hd">
-                Cakes
-            </h2>
-            <hr class="details-hr">
-            <div class="card-group">
-                <div class="card-item">
-                    <!-- image credits: https://www.pexels.com/ro-ro/@polina-tankilevitch/ -->
-                    <img class="card-img" src="assets/imgs/cakes/31-pexels-polina-tankilevitch-5419182.jpg"
-                        alt="Caramel apple pie on a plate">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Caramel apple pie</span>
-                            <span class="product-price">£3.10</span>
-                        </h3>
-                        <p class="product-info">
-                            With homemade pie crust and salted caramel sauce.
-                        </p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <!-- image credits: https://www.pexels.com/ro-ro/@alesiakozik/ -->
-                    <img class="card-img" src="assets/imgs/cakes/32-pexels-alesia-kozik-6631965.jpg"
-                        alt="Vegan cheesecake">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Vegan cheesecake</span>
-                            <span class="product-price">£3.20</span>
-                        </h3>
-                        <p class="product-info">
-                            The entire cheesecake, from the filling to the crust, is completely vegan, made with pureed
-                            silken tofu, graham cracker crust;.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-group">
-                <div class="card-item">
-                    <!-- image credits: https://www.pexels.com/ro-ro/@suzyhazelwood/ -->
-                    <img class="card-img" src="assets/imgs/cakes/33-pexels-suzy-hazelwood-1098592.jpg"
-                        alt="Strawberry gâteau">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Strawberry gâteau</span>
-                            <span class="product-price">£3.50</span>
-                        </h3>
-                        <p class="product-info">
-                            It is a biscuit-like cake or scone, that is split and filled with strawberries and sweetened
-                            whipped cream.
-                        </p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <!-- imager credits: https://www.pexels.com/ro-ro/@monica-turlui-36421873/ -->
-                    <img class="card-img" src="assets/imgs/cakes/34-pexels-monica-turlui-7218634.jpg"
-                        alt="Belgian Waffles">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Belgian Waffles</span>
-                            <span class="product-price">£3.40</span>
-                        </h3>
-                        <p class="product-info">
-                            With whipped cream and strawberries or with maple syrup and butter.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <a href="#top" class="top-link"><i class="fa-solid fa-angle-double-up"></i> Back to top</a>
-        <!--  Wines  -->
-        <div class="card" role="group">
-            <a id="wines"></a>
-            <h2 class="card-hd">
-                Wines
-            </h2>
-            <hr class="details-hr">
-            <div class="card-group">
-                <div class="card-item">
-                    <!-- image credits: https://www.cellartracker.com/wine.asp?iWine=3660056 -->
-                    <img class="card-img"
-                        src="assets/imgs/wines/41-red-dry-wine-a3c4587c-25df-47a3-9816-506a79ecc9bb.jpg"
-                        alt="A bottle of Nemea Agiorgitiko 2017">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Red Dry Agiorgitiko 2017</span>
-                            <span class="product-price">£14.10</span>
-                        </h3>
-                        <p class="product-info">
-                            A simple quaffer, but pleasant enough. Pomegranate, cherry aromas, soft, airy palate,
-                            perhaps a bit of residual sugar rounds it out.
-                        </p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <!-- image credits: https://gaiawines.gr/en/monograph-rose-en/ -->
-                    <img class="card-img" src="assets/imgs/wines/42-rose-gaiawines-rose-monograph-168x735-1.jpg"
-                        alt="Label of a Monograph Rose Agiorgitiko bottle">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Monograph Rose Agiorgitiko 2016</span>
-                            <span class="product-price">£15.70</span>
-                        </h3>
-                        <p class="product-info">
-                            With the “mountainous” Agiorgitiko and Moscofilero combined harmonized, offering the fruity
-                            aromas and the freshness.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card-group">
-                <div class="card-item">
-                    <!-- image credits: https://www.vivino.com/HK/en/la-gioiosa-valdobbiadene-prosecco-superiore/w/1148479 -->
-                    <img class="card-img" src="assets/imgs/wines/43-hpxcgoiHRTCxrDfRjSP-xg_pb_x600.jpg"
-                        alt="Label of a La Gioiosa Prosecco 2012 bottle">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">La Gioiosa Prosecco 2012</span>
-                            <span class="product-price">£31.50</span>
-                        </h3>
-                        <p class="product-info">
-                            From one of Italy’s leading producers, one single-vintage prosecco is very expressive, with
-                            lovely fruit and vibrancy.
-                        </p>
-                    </div>
-                </div>
-                <div class="card-item">
-                    <!-- image credits: https://www.wine-searcher.com/find/gota+prvt+select+prunus+blanco+dao+portugal/2017/uk -->
-                    <img class="card-img" src="assets/imgs/wines/44-11030209.jpg"
-                        alt="Label of a Prunus Dao Tinto 2017 bottle">
-                    <div class="product-content">
-                        <h3 class="product-title">
-                            <span class="product-name">Prunus Dao Tinto 2017</span>
-                            <span class="product-price">£24.50</span>
-                        </h3>
-                        <p class="product-info">
-                            Lightly oaked, perfectly balanced, with a silky texture and crisp edge. A nose cram-packed
-                            with mulberries, blackberries and anise.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- Back to top link -->
-        <a href="#top" class="top-link"><i class="fa-solid fa-angle-double-up"></i> Back to top</a>
         <hr class="details-hr">
-        <details title="Click to open/close">
-
-            <summary></summary>
-            <div class="page-nav-links" role="listbox">
-                <div class="link-box"><a href="#coffees">Coffees</a></div>
-                <div class="link-box"><a href="#dishes">Dishes</a></div>
-                <div class="link-box"><a href="#cakes">Cakes</a></div>
-                <div class="link-box"><a href="#wines">Wines</a></div>
+      </details>
+      <br>
+      <p>
+        <a id="menu-download-link" href="assets/docs/CC-menu.pdf" rel="noopener noreferrer">
+          <em>Click here to download a complete version of our menu.</em>
+        </a>
+      </p>
+      <br>
+      <!--   Coffees  -->
+      <section class="card" role="group">
+        <a id="coffees"></a>
+        <!-- Coffees list and description sourced from here: https://www.baristainstitute.com/blog/emmi-kinnunen/january-2022/affogato-ristretto-list-most-common-coffee-drinks -->
+        <h2 class="card-hd"> Coffees </h2>
+        <hr class="details-hr">
+        <div class="card-group">
+          <div class="card-item">
+            <!-- image credits: https://www.pexels.com/ro-ro/@rachel-claire/ -->
+            <img class="card-img" src="assets/imgs/coffees/01-affogato-pexels-rachel-claire-6126245.jpg" alt="Picture of an Affogato">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Affogato</span>
+                <span class="product-price">£2.60</span>
+              </h3>
+              <p class="product-info"> Espresso poured on a vanilla ice cream. Served in a cappuccino cup. </p>
             </div>
-        </details>
+          </div>
+          <div class="card-item">
+            <!-- image credits: https://www.pexels.com/ro-ro/@victorfreitas/ -->
+            <img class="card-img" src="assets/imgs/coffees/02-espresso-pexels-victor-freitas-685527.jpg" alt="Picture of an Espresso">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Espresso</span>
+                <span class="product-price">£1.50</span>
+              </h3>
+              <p class="product-info"> Espresso with added hot water (100–150 ml). Often served in a cappuccino cup. (The espresso is added into the hot water rather than all the water being flowed through the coffee that would lead to over extraction.) </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card-item">
+            <!-- image credits: https://www.pexels.com/ro-ro/@chevanon/ -->
+            <img class="card-img" src="assets/imgs/coffees/03-cafee-latte-pexels-chevanon-photography-312418.jpg" alt="Picture of Caffè latte">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Caffè Latte</span>
+                <span class="product-price">£2.00</span>
+              </h3>
+              <p class="product-info"> A tall, mild 'milk coffee' (about 150-300 ml). An espresso with steamed milk and only a little milk foam poured over it. Serve in a latte glass or a coffee cup. Flavoured syrup can be added. </p>
+            </div>
+          </div>
+          <div class="card-item">
+            <!-- image credits: https://www.pexels.com/ro-ro/@content-pixie-1405717/ -->
+            <img class="card-img" src="assets/imgs/coffees/04-caffee-mocha-pexels-content-pixie-2836945.jpg" alt="Picture of Caffè Mocha also called Mocaccino">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Caffè Mocha (Mocaccino)</span>
+                <span class="product-price">£2.10</span>
+              </h3>
+              <p class="product-info"> A caffè latte with chocolate and whipped cream, made by pouring about 2 cl of chocolate sauce into the glass, followed by an espresso shot and steamed milk. </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card-item">
+            <!-- image credits: https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-Cafe-Au-Lait-OL.jpg -->
+            <img class="card-img" src="assets/imgs/coffees/05-caffe-au-lait-nespresso-recipes-cafe-au-lait-ol.jpg" alt="Picture of Café au lait">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Café au Lait</span>
+                <span class="product-price">£2.10</span>
+              </h3>
+              <p class="product-info"> French morning coffee. Made by mixing dark roasted filter coffee (often prepared with French Press) and warm milk. Served in a bowl or a large coffee cup. </p>
+            </div>
+          </div>
+          <div class="card-item">
+            <!-- image credits: https://www.pexels.com/ro-ro/@jayoke/ -->
+            <img class="card-img" src="assets/imgs/coffees/06-capuccino-pexels-jason-villanueva-851555.jpg" alt="Picture of a Cappuccino coffee">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Cappuccino</span>
+                <span class="product-price">£2.20</span>
+              </h3>
+              <p class="product-info"> A coffee drink consisting of espresso and a milk foam mixture (drink size about 160–240 ml). Served in a cappuccino cup. </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card-item">
+            <!-- image credits: https://www.pexels.com/ro-ro/@marta-dzedyshko-1042863/ -->
+            <img class="card-img" src="assets/imgs/coffees/07-cold-brew-coffee-pexels-marta-dzedyshko-2067404.jpg" alt="Picture of a Cold Brew Coffee">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Cold Brew Coffee</span>
+                <span class="product-price">£1.80</span>
+              </h3>
+              <p class="product-info"> Cold Brew Coffee is a smooth, cold beverage prepared by brewing freshly ground coffee in cold water. In the Cold Brew process, time makes up for heat. </p>
+            </div>
+          </div>
+          <div class="card-item">
+            <!-- image credits: https://i2.wp.com/www.teacoffeecup.com/wp-content/uploads/2020/08/classic-espresso-con-panna.jpg -->
+            <img class="card-img" src="assets/imgs/coffees/08-espresso-con-panna-classic-espresso-con-panna.jpg" alt="Picture of an Espresso con panna">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Espresso con Panna</span>
+                <span class="product-price">£1.95</span>
+              </h3>
+              <p class="product-info"> A shot of espresso topped with whipped cream. Served in an espresso cup. </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card-item">
+            <!-- image credits: https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-Five-o-clock-break.png-->
+            <img class="card-img" src="assets/imgs/coffees/09-espresso-macchiato-nespresso-recipes-five-o-clock-break.png" alt="Picture of an Espresso Macchiato">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Espresso Macchiato</span>
+                <span class="product-price">£1.60</span>
+              </h3>
+              <p class="product-info"> Espresso with a little milk foam (drink size about 50 ml). Served in an espresso cup. </p>
+            </div>
+          </div>
+          <div class="card-item">
+            <!-- image credits: https://www.nespresso.com/ncp/res/uploads/recipes/nespresso-recipes-Flat-White-by-Nespresso.jpg -->
+            <img class="card-img" src="assets/imgs/coffees/10-fat-white-nespresso-recipes-flat-white-by-nespresso.jpg" alt="Picture of a Flat White">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Flat White</span>
+                <span class="product-price">£2.25</span>
+              </h3>
+              <p class="product-info"> A coffee drink with a double espresso and lightly frosted milk (About 150–240 ml). Served in a glass. </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card-item">
+            <!-- image credits: https://www.pexels.com/ro-ro/@freestocks/-->
+            <img class="card-img" src="assets/imgs/coffees/11-greek-frappe-pexels-freestocksorg-230588.jpg" alt="Picture of an Espresso Macchiato">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Greek Frappé</span>
+                <span class="product-price">£2.50</span>
+              </h3>
+              <p class="product-info"> Rich iced coffee made of espresso, milk and ice. Flavoured syrup can be added (about 300 ml). Mixed in a blender and served for example in a latte glass. </p>
+            </div>
+          </div>
+          <div class="card-item">
+            <!-- image credits: https://www.pexels.com/ro-ro/@alleksana/ -->
+            <img class="card-img" src="assets/imgs/coffees/12-freakshake-pexels-alleksana-6463659.jpg" alt="Picture of Coffee Freakshakes">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Freakshake</span>
+                <span class="product-price">£1.85</span>
+              </h3>
+              <p class="product-info"> Basically anything that is blended/mixed/stirred and served with various topping that are very "instagrammable". Coffee Freakshakes are often made with cold brew coffee. </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a href="#top" class="top-link">
+        <i class="fa-solid fa-angle-double-up"></i> Back to top </a>
+      <!--  Dishes  -->
+      <div class="card" role="group">
+        <a id="dishes"></a>
+        <h2 class="card-hd"> Dishes </h2>
+        <hr class="details-hr">
+        <div class="card-group">
+          <div class="card-item">
+            <!-- image credit: https://www.youtube.com/watch?v=FJbhplyVBUE -->
+            <img class="card-img" src="assets/imgs/dishes/21-garlic-shrimp-greek-style.jpg" alt="Sauteed tiger prawns on plate">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Sauteed tiger prawns</span>
+                <span class="product-price">£8.90</span>
+              </h3>
+              <p class="product-info"> With a hint of garlic, lemon & parsley </p>
+            </div>
+          </div>
+          <div class="card-item">
+            <!-- Image credit: https://www.scottishshellfish.co.uk/scottishmusselscookedinwhitebeer/ -->
+            <img class="card-img" src="assets/imgs/dishes/22-mussels-heidi-heiss-beer_webres.jpg" alt="Scottish mussels in a bowl">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Scottish mussels</span>
+                <span class="product-price">£7.90</span>
+              </h3>
+              <p class="product-info"> In garlic butter sauce with a dash of chardonnay. </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card-item">
+            <!-- image credits: https://pixabay.com/photos/vegetables-vegetable-pan-grilling-1620561/ -->
+            <img class="card-img" src="assets/imgs/dishes/23-vegetables-g3f31a0386-640.jpg" alt="Vine tomato salad on plate">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Vine tomato salad</span>
+                <span class="product-price">£7.10</span>
+              </h3>
+              <p class="product-info"> With honey, oregano, preserved fruit & cream cheese </p>
+            </div>
+          </div>
+          <div class="card-item">
+            <!-- image credit: https://www.pexels.com/ro-ro/@shkrabaanthony/ -->
+            <img class="card-img" src="assets/imgs/dishes/24-pexels-antoni-shkraba-5852260.jpg" alt="Trio of delicious quiches on plate">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Delicious quiches</span>
+                <span class="product-price">£5.90</span>
+              </h3>
+              <p class="product-info"> Broccoli & stilton; sun-dried tomato & herb; mushroom & parsley </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#top" class="top-link">
+        <i class="fa-solid fa-angle-double-up"></i> Back to top </a>
+      <!--  Cakes  -->
+      <div class="card" role="group">
+        <a id="cakes"></a>
+        <h2 class="card-hd"> Cakes </h2>
+        <hr class="details-hr">
+        <div class="card-group">
+          <div class="card-item">
+            <!-- image credits: https://www.pexels.com/ro-ro/@polina-tankilevitch/ -->
+            <img class="card-img" src="assets/imgs/cakes/31-pexels-polina-tankilevitch-5419182.jpg" alt="Caramel apple pie on a plate">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Caramel apple pie</span>
+                <span class="product-price">£3.10</span>
+              </h3>
+              <p class="product-info"> With homemade pie crust and salted caramel sauce. </p>
+            </div>
+          </div>
+          <div class="card-item">
+            <!-- image credits: https://www.pexels.com/ro-ro/@alesiakozik/ -->
+            <img class="card-img" src="assets/imgs/cakes/32-pexels-alesia-kozik-6631965.jpg" alt="Vegan cheesecake">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Vegan cheesecake</span>
+                <span class="product-price">£3.20</span>
+              </h3>
+              <p class="product-info"> The entire cheesecake, from the filling to the crust, is completely vegan, made with pureed silken tofu, graham cracker crust;. </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card-item">
+            <!-- image credits: https://www.pexels.com/ro-ro/@suzyhazelwood/ -->
+            <img class="card-img" src="assets/imgs/cakes/33-pexels-suzy-hazelwood-1098592.jpg" alt="Strawberry gâteau">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Strawberry gâteau</span>
+                <span class="product-price">£3.50</span>
+              </h3>
+              <p class="product-info"> It is a biscuit-like cake or scone, that is split and filled with strawberries and sweetened whipped cream. </p>
+            </div>
+          </div>
+          <div class="card-item">
+            <!-- imager credits: https://www.pexels.com/ro-ro/@monica-turlui-36421873/ -->
+            <img class="card-img" src="assets/imgs/cakes/34-pexels-monica-turlui-7218634.jpg" alt="Belgian Waffles">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Belgian Waffles</span>
+                <span class="product-price">£3.40</span>
+              </h3>
+              <p class="product-info"> With whipped cream and strawberries or with maple syrup and butter. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#top" class="top-link">
+        <i class="fa-solid fa-angle-double-up"></i> Back to top </a>
+      <!--  Wines  -->
+      <div class="card" role="group">
+        <a id="wines"></a>
+        <h2 class="card-hd"> Wines </h2>
+        <hr class="details-hr">
+        <div class="card-group">
+          <div class="card-item">
+            <!-- image credits: https://www.cellartracker.com/wine.asp?iWine=3660056 -->
+            <img class="card-img" src="assets/imgs/wines/41-red-dry-wine-a3c4587c-25df-47a3-9816-506a79ecc9bb.jpg" alt="A bottle of Nemea Agiorgitiko 2017">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Red Dry Agiorgitiko 2017</span>
+                <span class="product-price">£14.10</span>
+              </h3>
+              <p class="product-info"> A simple quaffer, but pleasant enough. Pomegranate, cherry aromas, soft, airy palate, perhaps a bit of residual sugar rounds it out. </p>
+            </div>
+          </div>
+          <div class="card-item">
+            <!-- image credits: https://gaiawines.gr/en/monograph-rose-en/ -->
+            <img class="card-img" src="assets/imgs/wines/42-rose-gaiawines-rose-monograph-168x735-1.jpg" alt="Label of a Monograph Rose Agiorgitiko bottle">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Monograph Rose Agiorgitiko 2016</span>
+                <span class="product-price">£15.70</span>
+              </h3>
+              <p class="product-info"> With the “mountainous” Agiorgitiko and Moscofilero combined harmonized, offering the fruity aromas and the freshness. </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card-item">
+            <!-- image credits: https://www.vivino.com/HK/en/la-gioiosa-valdobbiadene-prosecco-superiore/w/1148479 -->
+            <img class="card-img" src="assets/imgs/wines/43-hpxcgoiHRTCxrDfRjSP-xg_pb_x600.jpg" alt="Label of a La Gioiosa Prosecco 2012 bottle">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">La Gioiosa Prosecco 2012</span>
+                <span class="product-price">£31.50</span>
+              </h3>
+              <p class="product-info"> From one of Italy’s leading producers, one single-vintage prosecco is very expressive, with lovely fruit and vibrancy. </p>
+            </div>
+          </div>
+          <div class="card-item">
+            <!-- image credits: https://www.wine-searcher.com/find/gota+prvt+select+prunus+blanco+dao+portugal/2017/uk -->
+            <img class="card-img" src="assets/imgs/wines/44-11030209.jpg" alt="Label of a Prunus Dao Tinto 2017 bottle">
+            <div class="product-content">
+              <h3 class="product-title">
+                <span class="product-name">Prunus Dao Tinto 2017</span>
+                <span class="product-price">£24.50</span>
+              </h3>
+              <p class="product-info"> Lightly oaked, perfectly balanced, with a silky texture and crisp edge. A nose cram-packed with mulberries, blackberries and anise. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Back to top link -->
+      <a href="#top" class="top-link">
+        <i class="fa-solid fa-angle-double-up"></i> Back to top </a>
+      <hr class="details-hr">
+      <details title="Click to open/close">
+        <summary></summary>
+        <div class="page-nav-links" role="listbox">
+          <div class="link-box">
+            <a href="#coffees">Coffees</a>
+          </div>
+          <div class="link-box">
+            <a href="#dishes">Dishes</a>
+          </div>
+          <div class="link-box">
+            <a href="#cakes">Cakes</a>
+          </div>
+          <div class="link-box">
+            <a href="#wines">Wines</a>
+          </div>
+        </div>
+      </details>
     </main>
-
     <!-- FOOTER -->
     <footer id="footer-area" class="footer-container rev-bg">
-        <div class="footer-containt-box">
-    
-          <!-- ADDRESS AREA  -->
-          <section class="footer-address rev-bg foo-border center-all">
-            <h3 class="foo-hd-text">Address</h3>
-            
-            <a title="Opens Google Maps directions" href="https://maps.app.goo.gl/S8mJDAB8vvpERGks5" target="_blank"
-              rel="noopener noreferrer" class="address-link"><p>67-69</p><p>Fisherton Street</p><p>Salisbury, SP2 7SU</p></a>
-          </section>
-    
-          <!-- SOCIAL LINKS -->
-          <section class="footer-social rev-bg foo-border center-all">
-            <div class="social-title rev-bg center-all">
-              <h3 class="foo-hd-text">Social Links</h3>
+      <div class="footer-containt-box">
+        <!-- ADDRESS AREA  -->
+        <section class="footer-address rev-bg foo-border center-all">
+          <h3 class="foo-hd-text">Address</h3>
+          <a title="Opens Google Maps directions" href="https://maps.app.goo.gl/S8mJDAB8vvpERGks5" target="_blank" rel="noopener noreferrer" class="address-link">
+            <p>67-69</p>
+            <p>Fisherton Street</p>
+            <p>Salisbury, SP2 7SU</p>
+          </a>
+        </section>
+        <!-- SOCIAL LINKS -->
+        <section class="footer-social rev-bg foo-border center-all">
+          <div class="social-title rev-bg center-all">
+            <h3 class="foo-hd-text">Social Links</h3>
+          </div>
+          <div class="social-links rev-bg center-all">
+            <div class="social-ic">
+              <a title="Facebook page" href="http://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-facebook-square rev-bg center-all" aria-hidden="true"></i>
+              </a>
             </div>
-            <div class="social-links rev-bg center-all">
-              <div class="social-ic"><a title="Facebook page" href="http://www.facebook.com" target="_blank"
-                  rel="noopener noreferrer"><i class="fa-brands fa-facebook-square rev-bg center-all"
-                    aria-hidden="true"></i></a></div>
-              <div class="social-ic"><a title="Instagram page" href="http://www.instagram.com" target="_blank"
-                  rel="noopener noreferrer"><i class="fa-brands fa-instagram-square rev-bg center-all"
-                    aria-hidden="true"></i></a></div>
-              <div class="social-ic"><a title="Twitter page" href="http://www.twitter.com" target="_blank"
-                  rel="noopener noreferrer"><i class="fa-brands fa-twitter-square rev-bg center-all"
-                    aria-hidden="true"></i></a></div>
+            <div class="social-ic">
+              <a title="Instagram page" href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram-square rev-bg center-all" aria-hidden="true"></i>
+              </a>
             </div>
-    
-          </section>
-          <!-- CONTACT-US -->
-          <section class="footer-contact rev-bg foo-border center-all">
-            <h3 class="foo-hd-text">Contact us</h3>
-            <br>
-            <a title="Opens local Email client and send us an email"
-              href="mailto:info@culturecoffee.cafe?cc=sales@culturecoffee.cafe" class="address-link"><i
-                class="fas fa-envelope me-3 rev-bg"></i>info@culturecoffee.cafe</a>
-                <br>
-                <br>
-            <p><i class="fas fa-phone me-3 rev-bg"></i><a href="tel:+447735194633" class="address-link calling"> + 44
-                7735194633</a></p>
-          </section>
-        </div>
-      </footer>
-
-</body>
-
+            <div class="social-ic">
+              <a title="Twitter page" href="http://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-twitter-square rev-bg center-all" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- CONTACT-US -->
+        <section class="footer-contact rev-bg foo-border center-all">
+          <h3 class="foo-hd-text">Contact us</h3>
+          <br>
+          <a title="Opens local Email client and send us an email" href="mailto:info@culturecoffee.cafe?cc=sales@culturecoffee.cafe" class="address-link">
+            <i class="fas fa-envelope me-3 rev-bg"></i>info@culturecoffee.cafe </a>
+          <br>
+          <br>
+          <p>
+            <i class="fas fa-phone me-3 rev-bg"></i>
+            <a href="tel:+447735194633" class="address-link calling"> + 44 7735194633</a>
+          </p>
+        </section>
+      </div>
+    </footer>
+  </body>
 </html>
