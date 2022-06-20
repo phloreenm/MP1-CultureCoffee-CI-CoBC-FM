@@ -54,7 +54,11 @@ Some sections of this documentation have been moved to a different file, specifi
 The reason is all that information in this docuement only woud've made navigation difficult. So for example, `wireframes.md`, `contrast.md` or `testing.md`, are different files and they are linked in this document.
 Inside those separate files there are links back to the main readme.md file too.
 
-[Back to Table of Contents](#table-of-contents)
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 ---
 # **UX (User Experience)**
@@ -85,7 +89,11 @@ I decided to display the User Story in a table (also a link at the bottom of the
 
 An online Excel version of the User Stories Board can be found [here](https://1drv.ms/x/s!AhVZRr1-0ZpXmKwYxEhkrC46UlGAow?e=utUtgc)
 
-[Back to Table of Contents](#table-of-contents)
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 ---
 
@@ -101,7 +109,11 @@ The following diagram represents this structure:
 
 ![Site's structure](readme-files/readme-images/site-structure-diagram.jpg)
 
-[Back to Table of Contents](#table-of-contents)
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 ## **Layout**
 The general layout of the website is composed of three main areas: Header, Content and Footer. 
@@ -199,7 +211,11 @@ The contact page is structured around a form, containing multiple fields, which 
         font-family: 'Montserrat', sans-serif;
         font-family: 'Merriweather', serif;
             
-[Back to Table of Contents](#table-of-contents)
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 ## **Colours**
 Choosing the site's color theme was a bit tricky for me.
@@ -248,7 +264,11 @@ To test the contrast of the page, I've used [Color Contrast Accessibility Valida
 
 - Navigation Bar
 
-[Back to Table of Contents](#table-of-contents)
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 ---
 
@@ -268,7 +288,11 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 
 ===========================================
 
-[Back to Table of Contents](#table-of-contents)
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 
 
@@ -276,7 +300,11 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 # **Deployment:**
 [Deployment PAGE](/readme-files/docs/deployment.md)
 
-[Back to Table of Contents](#table-of-contents)
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 ---
 # **CREDITS:**
@@ -342,7 +370,11 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
     - [Google Fonts](https://fonts.google.com/)
 
 
-[Back to Table of Contents](#table-of-contents)
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 ---
 # **Accessibility**
@@ -361,7 +393,11 @@ This testing and conclusions are documented in the following file:
 1. To improve loading speed, I used *.webp image format  (https://developers.google.com/speed/webp)
 2. Images were resized to 768px for the long side. This resolution is enough to display good images for breakpoint-md: 768px. On large screens the gallery is presented as a grid of images, but as the width of the screen is lowered, the grid adapts to 2 or 1 column images.
 
-[Back to Table of Contents](#table-of-contents)
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 ---
 # **Issues**
@@ -383,7 +419,11 @@ Along the development I encountered different issues. Some of them were fixed, f
 
     but couldn't find any opened or unclosed elements. These errors dissapeared after I corrected the other errors.
 
-[Back to Table of Contents](#table-of-contents)
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 ---
 # **Aknowledgment**
