@@ -10,16 +10,16 @@
 * [**Development Testing**](#during-development-testing)
     * [*Manual Testing*](#manual-testing)
     * [*Bugs and Fixes*](#bugs-and-fixes)
-* [**Final Testing**](#final-testing)
+* [**Release Testing**](#release-testing)
   * [**Validators**](#validation-testing)
       * [*HTML*](#http-validation)
       * [*CSS*](#css-validation)
   * [**Lighthouse Scores**](#lighthouse-scores)
-      * [*Mobile Version*](#mobile-version)
-      * [*Desktop Version:*](#desktop-version)
+      * [*Mobile Version*](#lighthouse-mobile-testing)
+      * [*Desktop Version:*](#lighthouse-desktop-testing)
       
-      <!-- * [*Lighthouse Score Feedback From Third Party Testers*](#lighthouse-score-feedback-from-third-party-testers) -->
-  * [**Issues**](#issues)
+  * [**Conclusions**](#conclusions)
+  * [**Issues and Bugs**](#issues-and-bugs)
 
 ## **During Development Testing**
 While developing the website I've tested its functionality locally (Live Server in VS Code or through `python3 -m http.server command`), but also the deployed page on GitHub Pages.
@@ -64,7 +64,14 @@ While developing the website I've tested its functionality locally (Live Server 
   - MSI Optix MAG162V (15.6 inches / 1920 x 1080)
 * I also used the Device Toolbar from DevTools to simulate different devices with different widths, ranging from 300px to over 2000px.
 * At the end of this file, in the [**Issues and Bugs**](#issues-and-bugs) section, I've noted down some issues I encountered along these tests.
-## **Final Testing**
+<br>
+<p align="right">
+    <a href="#testing">Return to testing.md Table of Contents</a>
+</p>
+<br>
+
+
+## **Release Testing**
 ### **Validation Testing**
 - For HTML validator I've used the [Nu Html Checker](https://validator.w3.org/nu/). I've tested the pages one by one by using the link of the deployed website and by text input. The later was faster, because the deployed page on GitHub Pages is taking longer to refresh.
 -  For CSS validation I've used [The W3C CSS Validation Service](https://jigsaw.w3.org/). The `style.css` file is used for all the pages, but I've tested all pages individualy, just to make sure everything goes right.
@@ -90,6 +97,12 @@ While developing the website I've tested its functionality locally (Live Server 
         <img width="600px" src="../readme-images/05-0-no-errors-httpsvalidator.w3.jpg">
 </p>
 
+<br>
+<p align="right">
+    <a href="#testing">Return to testing.md Table of Contents</a>
+</p>
+<br>
+
 - CSS validator results:
 <p align="center">
       <strong>index.html</strong> final CSS validation results:<br>
@@ -112,23 +125,34 @@ While developing the website I've tested its functionality locally (Live Server 
         <img width="600px" src="../readme-images/05-no-errors-jigsaw.w3.jpg">
 </p>
 
+<br>
+<p align="right">
+    <a href="#testing">Return to testing.md Table of Contents</a>
+</p>
+<br>
 
 ---
-
-- **Lighthouse Mobile testing:**
+## **Lighthouse Scores**
+### **Lighthouse Mobile Testing**
   - I part:
     ![Mobile Device report 1](../readme-images/lighthouse-index-mobile-testing.jpg)
   - II part:
     ![Mobile Device report 2](../readme-images/lighthouse-index-mobile-testing2.jpg)
-- **Lighthouse  Desktop testing:**
+### **Lighthouse Desktop Testing**
   - I part:
     ![Desktop Device report 1](../readme-images/lighthouse-index-desktop-testing.jpg)
   - II part:
     ![Desktop Device report 2](../readme-images/lighthouse-index-desktop-testing2.jpg)
 
+<br>
+<p align="right">
+    <a href="#testing">Return to testing.md Table of Contents</a>
+</p>
+<br>
+
 ---
 
-- **Conclusions:**
+## **Conclusions**
 - Performance score was affected by the external libraries I've used (Google Fonts, FontAwesome), but disabling them wasn't an option.
 - Also, while testing, the performance can be infleunced by the __extensions__ the browser has installed and by the internet speed.
 - CEO lower score across all pages ofthe website was caused by an anchor linking to an internal link.
@@ -138,11 +162,17 @@ While developing the website I've tested its functionality locally (Live Server 
 - Below the SEO section there is a 'Mobile Friendly' recommandation, which suggests `Tap targets are not sized appropriately`, so I've tested all the links, especially the ones in the footer area, and testing them on smartphone devices looked and felt perfectly normal. The text is readable and the links are sized enought to be clickable.
   ![Mobile Friendly](../readme-images/lighthouse-mobile-friendly-recommandation.jpg "Mobile Friendly Recommandation")
 
+<br>
+<p align="right">
+    <a href="#testing">Return to testing.md Table of Contents</a>
+</p>
+<br>
+
 ---
 
 ## **Issues and Bugs**
 - On iPhone 13 mini using Safari browser :
- - On **Café's Menu** page the internal links area (used details and summary elements) is not displayed correctly:
+  - On **Café's Menu** page the internal links area (used details and summary elements) is not displayed correctly:
     <p align="center">
       Quick links menu heading not displayed:<br>
         <img width="400px" src="../readme-images/13mini-safari-details-element-closed.jpg">
@@ -155,7 +185,7 @@ While developing the website I've tested its functionality locally (Live Server 
         <img width="400px" src="../readme-images/s7-chrome-details-element-opened.jpg">
       </p>
     - Searching online to solve this issue, I've' found out that there is a wide issue with Safari compatibility when using and styling the details element. A better solution would've been to avoid using this element.
- - On **Contact** page, at the bottom, the `input type="submit"` and `input type="reset"` are displayed with very rounded corners, compared to any other device:
+  - On **Contact** page, at the bottom, the `input type="submit"` and `input type="reset"` are displayed with very rounded corners, compared to any other device:
         <p align="center">
           iPhone 13 mini on any browser:<br>
         <img width="400px" src="../readme-images/13mini-browser-submit-reset-display-difference.jpg">
@@ -174,10 +204,15 @@ While developing the website I've tested its functionality locally (Live Server 
     Menu displaying correctly:<br>
         <img width="400px" src="../readme-images/s7-landscape-menu-display-fixed.jpg">
     </p>
- 
 
   --- 
 
-[Back to top of the page](#testing)
+<br>
+<p align="right">
+    <a href="#testing">Return to Testing.md Table of Contents</a>
+</p>
+<br>
+
+---
 
 [Back to MAIN README.md](../../README.md)

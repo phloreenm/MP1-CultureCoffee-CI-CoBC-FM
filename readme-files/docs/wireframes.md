@@ -5,19 +5,19 @@
 </p>
 
 # **WIREFRAMES**
-- [**Landing Page**](#landing-page)
+- **Landing Page**
     - [**Mobile view**](#landing-page-mobile-view)
     - [**Tablet view**](#landing-page-tablet-view)
     - [**Desktop view**](#landing-page-desktop-view)
-- [**Cafe's Menu Page**](#cafesmenu-page)
+- **Cafe's Menu Page**
     - [**Mobile view**](#cafesmenu--mobile-view)
     - [**Tablet view**](#cafesmenu--tablet-view)
     - [**Desktop view**](#cafesmenu--desktop-view)
-- [**Gallery Page**](#gallery-page)
+- **Gallery Page**
     - [**Mobile view**](#gallery--mobile-view)
     - [**Tablet view**](#gallery--tablet-view)
     - [**Desktop view**](#gallery--desktop-view)
-- [**Contact Us Page**](#contact-us-page)
+- **Contact Us Page**
     - [**Mobile view**](#contact-us-mobile-view)
     - [**Tablet view**](#contact-us-tablet-view)
     - [**Desktop view**](#contact-us-desktop-view)
@@ -49,7 +49,11 @@ These are the latest Wireframes, on which site's layout was built.
     <img width="100%" src="../readme-images/wireframes/lp-des-view.jpg">
 </p>
 
-[Back to Wireframes Table of Contents](#wireframes)
+<br>
+<p align="right">
+    <a href="#wireframes">Return to Wireframes Table of Contents</a>
+</p>
+<br>
 
 ---
 
@@ -72,7 +76,11 @@ These are the latest Wireframes, on which site's layout was built.
     <img width="100%" src="../readme-images/wireframes/cm-des-view.jpg">
 </p>
 
-[Back to Wireframes Table of Contents](#wireframes)
+<br>
+<p align="right">
+    <a href="#wireframes">Return to Wireframes Table of Contents</a>
+</p>
+<br>
 
 ---
 
@@ -95,7 +103,11 @@ These are the latest Wireframes, on which site's layout was built.
     <img width="100%" src="../readme-images/wireframes/pg-des-view.jpg">
 </p>
 
-[Back to Wireframes Table of Contents](#wireframes)
+<br>
+<p align="right">
+    <a href="#wireframes">Return to Wireframes Table of Contents</a>
+</p>
+<br>
 
 ---
 
@@ -118,12 +130,14 @@ These are the latest Wireframes, on which site's layout was built.
     <img width="100%" src="../readme-images/wireframes/cu-des-view.jpg">
 </p>
 
-[Back to Wireframes Table of Contents](#wireframes)
-
 ---
 
+<br>
+<p align="right">
+    <a href="#wireframes">Return to Wireframes.md Table of Contents</a>
+</p>
+<br>
 
-
-[Top of the page](#wireframes)
+---
 
 [Back to MAIN README.md](../../README.md)

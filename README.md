@@ -17,7 +17,7 @@
     * [**The Structure Plane**](#the-structure-plane)
         *  [**Accessibility**](#accessibility)
 1. [**UI (User Interface)**](#ui-user-interface)
-    *  [**Wireframes**](assets/docs/wireframes.md)
+    *  [**Wireframes**](readme-files/docs/wireframes.md)
     *  [**Site structure**](#site-structure)
     *  [**Layout**](#layout)
         * [Header](#header)
@@ -60,7 +60,7 @@ Inside those separate files there are links back to the main readme.md file too.
 # **UX (User Experience)**
 
 ## **User Stories**
-I decided to display the User Story in a table (also a link at the bottom of the table). Since some user stories (like First time user and Existing User) might actually follow the same 
+I decided to display the User Story in a table (also a link at the bottom of the table). Since some user stories (like First time user and Existing User) might have common stories, 
 
 | As a/an             | I want to...      | So that I can... | Scenario 1 | Scenario 2 | Acceptance Criteria |
 |---------------------|-------------------|------------------|------------|------------|---------------------|
@@ -295,6 +295,7 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 - Tone down the animation to avoid [vestibular motion triggers like scaling or panning large objects.](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)
 
 ## **Media:**
+- Logo was created using [Logo Maker Pro on Android](https://play.google.com/store/apps/details?id=com.TTT.logomaker.logocreator.generator.designer)
 - Images used for Cafe Menu product list are all credited in the code, but also in this list:
      - Coffees:
         - [Affogato](https://www.pexels.com/ro-ro/@rachel-claire/)
@@ -391,3 +392,9 @@ Firstly to my family who supported me all along in every aspect, especialy in be
 Of course, nothing would have been possible without everyting Code Institue has to offer through this course and its slack community. 
 Since I am officialy taking this course at City of Bristol College, a big thanks to my tutors, [Pasquale F.](https://www.linkedin.com/in/pasquale-fasulo-68612218a/) and Ben S. for every step they've been with me through the learning process.
 And last but not least, to my mentor, [Adegbenga Adeye](https://github.com/deye9), whose insights were always very helpful and helped me shape this project.
+
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
