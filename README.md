@@ -11,7 +11,6 @@
 1. [**About the site**](#about-the-site)
     * [**Link to live website**](#link-to-live-website-is-here)
     * [**Link to GitHub repository**](#link-to-github-repo-is-here)
-1. [**Table of Contents**](#table-of-contents)git
 1. [**UX (User Experience)**](#ux-user-experience)
     * [**User Stories**](#user-stories)
     * [**The Strategy and the Scope Plane**](#the-strategy-and-the-scope-plane**)
