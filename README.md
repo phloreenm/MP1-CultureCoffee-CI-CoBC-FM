@@ -40,7 +40,7 @@
     *  [**Code Snipets:**](#code-snipets)
     *  [**Research and Information:**](#research-and-information)
     *  [**Media**](#media)
-    *  [**Other Resoruces:**](#other-resources)
+    *  [**Other Resources:**](#other-resources-and-tools-used)
 
 
   ---
@@ -101,8 +101,8 @@ An online Excel version of the User Stories Board can be found [here](https://1d
 The wireframe sketches are located in [wireframes.md](readme-files/docs/wireframes.md) file.
 <!-- ### **Wireframes** -->
 ## **Site structure**
-The site's structure follows a simple linear design. From the home page you may access any other page through the navigation menu. This is a straight forward aproach. The same navigation menu is accesible on every other page, even on the [404.html](404.html) one. But not on the Code Institute page, which confirms the fors has been successfuly submited.
-One reason behing this aproach is the idea behind the [Mental Model](https://en.wikipedia.org/wiki/Mental_model) natural thought process, more exactly, the users build mental models and use these 
+- The site's structure follows a simple linear design. From the home page you may access any other page through the navigation menu. This is a straight forward aproach. The same navigation menu is accesible on every other page, even on the [404.html](404.html) one. The [Form Confirmation page](formconfirmation.html)is displayed to confirms the form has been successfuly submited and you have the option to navigate back to the website or other internal links.
+- One reason behing this aproach (of the simple linear design) is the idea behind the [Mental Model](https://en.wikipedia.org/wiki/Mental_model) natural thought process, more exactly, the users build mental models and use these 
 >"to assess relations among topics and to guess where to find things they haven’t seen before".[ (Site Structure theory)](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
 
 The following diagram represents this structure:
@@ -355,7 +355,7 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 - Images used in Gallery page are my own, made with my dSLR.
 
 
-## **Other resources and tools used:**
+## **Other resources and tools used**
 - Code Validation:
     - [W2C Markup Validation Service](https://validator.w3.org/nu/)
     - [W2C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
@@ -368,7 +368,7 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
     - [Adobe Photoshop v.23](https://www.adobe.com/uk/products/photoshop/)
     - [FontAwesome](https://fontawesome.com/)
     - [Google Fonts](https://fonts.google.com/)
-
+    - [Document format - Beautify](https://codebeautify.org/htmlviewer)
 
 <br>
 <p align="right">
@@ -379,8 +379,8 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 ---
 # **Accessibility**
 - [Accessibility](): 
-- [Landmarks](https://accessibility.blog.gov.uk/2016/05/27/using-navigation-landmarks/)Internet Explorer 11, which does not have accessibility support for the HTML5 elements used to provide landmarks, but which does support the equivalent ARIA roles. 
-[enhancing-aria-landmarks-with-aria-labelledby](https://tink.uk/enhancing-aria-landmarks-with-aria-labelledby/)
+- [Landmarks](https://accessibility.blog.gov.uk/2016/05/27/using-navigation-landmarks/) Internet Explorer 11, which does not have accessibility support for the HTML5 elements used to provide landmarks, but which does support the equivalent ARIA roles. 
+[Enhancing-aria-landmarks-with-aria-labelledby](https://tink.uk/enhancing-aria-landmarks-with-aria-labelledby/)
 
 ## **Contrast ratio**
 This testing and conclusions are documented in the following file:
