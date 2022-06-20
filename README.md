@@ -107,7 +107,7 @@ The wireframe sketches are located in [wireframes.md](readme-files/docs/wirefram
 
 The following diagram represents this structure:
 
-![Site's structure](readme-files/readme-images/site-structure-diagram.jpg)
+![Site's structure](readme-files/readme-images/site-structure-diagram-upd.jpg)
 
 <br>
 <p align="right">
