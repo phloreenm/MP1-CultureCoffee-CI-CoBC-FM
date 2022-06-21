@@ -107,13 +107,10 @@ The wireframe sketches are located in [wireframes.md](readme-files/docs/wirefram
 
 The following diagram represents this structure:
 
-<!-- ![Site's structure](readme-files/readme-images/site-structure-diagram-upd.jpg) -->
-
- <figure align="center">
+<figure align="center">
   <img src="readme-files/readme-images/site-structure-diagram-upd.jpg" alt="Website structure diragram" width="70%">
   <figcaption>Site's structure</figcaption>
 </figure> 
-
 
 <br>
 <p align="right">
@@ -125,10 +122,18 @@ The following diagram represents this structure:
 The general layout of the website is composed of three main areas: Header, Content and Footer. 
 ### **HEADER** 
 - contains the company's logo and, depending on the device's screen width, a menu navigation bar to the top right (on larger screens) or a hamburger menu button (which opens the hidden menu - in mobile view).
-    On screens up to 920px width:
-    ![Mobile view](readme-files/readme-images/nav-bar-mobile-tablet-view.jpg)
-    On screens larger than 920px width:
-    ![Desktop view](readme-files/readme-images/nav-bar-desktop-view.jpg)
+
+<figure align="center">
+  <img src="readme-files/readme-images/nav-bar-mobile-tablet-view.jpg" alt="On screens up to 920px width" width="70%">
+  <figcaption>On screens up to 920px width (small screens)</figcaption>
+</figure> 
+
+<figure align="center">
+  <img src="readme-files/readme-images/nav-bar-desktop-view.jpg" alt="On screens larger than 920px width" width="70%">
+  <figcaption>On screens larger than 920px width (larger screens)</figcaption>
+</figure> 
+
+
 ### **MAIN CONTENT SECTION**
 - contains the page's specific subjects (like information, cafes menu, pictures gallery, contact form or the 404 page).
 - this area is limited to a `max-width: 1000px;` there is also a `padding: 0 100px;` in desktop view. Also the background-color is limited to this width and this should create a delimitation between the empty space and the actual main content.
@@ -161,9 +166,17 @@ The menu page is structured differently that the other pages, because the main p
     - It is available at the bottom of the page too.
     - Since using JS is not required for this project, I needed to find a way to change the text of a specific area, when the state changes. I found out that the `<details>` element can help.
     So when this menu is collapsed, the user is asked to acces this menu by clicking the `▶️  Click to open quick menu links`:
-    ![MENU CLOSED](readme-files/readme-images/02-6-cafemenu-internal-links-menu-closed-screenshot%20.png)
-    After the user clicks, the menu opens like this:
-    ![MENU OPENED](readme-files/readme-images/02-7-cafemenu-internal-links-menu-opened-screenshot%20.png)
+
+    <figure align="center">
+        <img src="readme-files/readme-images/02-6-cafemenu-internal-links-menu-closed-screenshot%20.png" alt="MENU CLOSED" width="90%">
+        <figcaption>Menu closed</figcaption>
+    </figure> 
+
+    <figure align="center">
+        <img src="readme-files/readme-images/02-7-cafemenu-internal-links-menu-opened-screenshot%20.png" alt="MENU OPENED" width="90%">
+        <figcaption>Menu opened - After the user clicks, the menu opens like this</figcaption>
+    </figure> 
+
     The user may choose to colapse the menu by clicking again `🔽 Click to close quick menu links` area.
     You may notice that the text content changes from "open" to "close". The ▶️ and 🔽 icons display the status of the `<details>` element.
     - In mobile and desktop view, this area keeps the same layout, by adapting its width to the viewport.
