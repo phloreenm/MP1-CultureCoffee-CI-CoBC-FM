@@ -107,7 +107,13 @@ The wireframe sketches are located in [wireframes.md](readme-files/docs/wirefram
 
 The following diagram represents this structure:
 
-![Site's structure](readme-files/readme-images/site-structure-diagram-upd.jpg)
+<!-- ![Site's structure](readme-files/readme-images/site-structure-diagram-upd.jpg) -->
+
+ <figure align="center">
+  <img src="readme-files/readme-images/site-structure-diagram-upd.jpg" alt="Website structure diragram" width="70%">
+  <figcaption>Site's structure</figcaption>
+</figure> 
+
 
 <br>
 <p align="right">
@@ -133,12 +139,16 @@ Home page main section contains:
 - a welcoming message at the top.
 - some introductory information structured as Q&A form. Some sections (like menu lists) of the site are linked in the content of this area, making navigation handy. 
 The purpose is to guide the visitor through the website's content, and describe what the company has to offer.
-- Top of the page in mobile view:
 
-- ![](/readme-files/readme-images/01-2-homepage-mobileview-top-screenshot-.jpg) 
-- Bottom of the page in mobile view:
+- Mobile and Desktop preview:
 
-- ![](/readme-files/readme-images/01-2-homepage-mobileview--bottomscreenshot-.jpg) 
+<p align="center"><strong>Mobile and desktop view</strong>:</p>
+<p align="center">
+    <img src="readme-files/readme-images/01-2-homepage-mobileview-screenshot-h900.jpg" alt="Left - Mobile view" height="370">
+    <img src="readme-files/readme-images/01-1-homepage-desktopview-screenshot-h600.jpg" alt="Bottom - Mobile view" height="370">
+</p>
+
+
 
 #### **Menu page**
 The menu page is structured differently that the other pages, because the main purpose is to display the cafe's menu, sorted by categories. For that reason I found useful to use the grid system. The same result could be obtained with just using flexbox too, but my choice was grid for this page.
@@ -160,7 +170,7 @@ The menu page is structured differently that the other pages, because the main p
             <p align="center">
                 <img src="readme-files/readme-images/02-8-cafemenu-internal-links-menu-opened-mobileview-screenshot%20.png" alt="Quick Links Menu - Mobile view" width="400">
             </p>
-    - Lower there is a linked text which downloads a version of the Cafe's menu in PDf format.
+    - Lower there is a linked text which downloads the complete Café's menu in PDf format.
         <p align="center">
             <img src="readme-files/readme-images/cafesmenu-dl-pdf-link-structure.jpg" alt="Download link" width="400">
         </p>
@@ -170,24 +180,24 @@ The menu page is structured differently that the other pages, because the main p
         - Under the Header there are the items displayed in a column or two columns, depending on screen size.         
         - At the end of each category there is a "Back to top" link.
         - Just before the Footer area, there is the same Quick Menu links displayed again, to ease users's navigation.
-        - Small screen and larger screen layout preview:
-            <p align="center">
-                <img src="readme-files/readme-images/cafesmenu-mb-structure.jpg" alt="mobile view" height=370">      
-                <img src="readme-files/readme-images/cafesmenu-des-structure.jpg" alt="desktop view" height="370">
-            </p>
+        <p align="center">Small screen and larger screen layout preview:<br>
+            <img src="readme-files/readme-images/cafesmenu-mb-structure.jpg" alt="mobile view" height=370">      
+            <img src="readme-files/readme-images/cafesmenu-des-structure.jpg" alt="desktop view" height="370">
+        </p>
 
 #### **Gallery page**
 The Gallery page has only one purpose: to showoff some pictures depincting the interior design of the cafe, staff, making coffees, etc.
-- In mobile view there are two views: when width is under 673px, the images are displayed on a single column:
-            <p align="center">  
+- In mobile view there are two views: 
+    - One column
+            <p align="center">Mobile view: width smaller than 672px<br>
                 <img src="readme-files/readme-images/03-8-gallery-mobileview-1col-sm-img-screenshot-.jpg" alt="Mobile One column Preview" height="370">
             </p>
-- When the width is between 673 and 992px, the are two columns:
-            <p align="center">  
+    - Two columns:
+            <p align="center">Mobile view: width between 673 and 992px <br>
                 <img src="readme-files/readme-images/03-7-gallery-mobileview-2col-sm-img-screenshot-.jpg" alt="Mobile 2 columns Preview" height="370">
             </p>
-- Over 992px is the desktop view and the images are displayed on a single column, at high resolution:
-            <p align="center">  
+- Desktop or large screen view: images are displayed on a single column, at high resolution:
+            <p align="center">Desktop view: width more than 992px <br>
                 <img src="readme-files/readme-images/03-5-gallery-desktopview-1col-lg-img-screenshot-.jpg" alt="Larger screens and Desktop pone column Preview" height="370">
             </p>
 
@@ -202,16 +212,28 @@ The Gallery page has only one purpose: to showoff some pictures depincting the i
 
 
 ### **FOOTER**
-- has three sub-areas, as follows:
-    - ADDRESS - has a link with the Google Maps location of the Cafe shop. Accessing the link will offer you the posibility to ask for directions towards the shop. Depending on the device used, the behaviour differs: on mobile deviced it will open the Google Maps app and on desktop device it will open a new page with Google Maps.
-    - SOCIAL MEDIA LINK - linked icons to acces the social media pages of the cafe shop. On hover over these icons, they grow in size by `2rem`.
-    - CONTACT US:
-        - The EMAIL has the `mailto:` link, so if the user want's, by pressing on the e-mail address, the default email client is opened. The `Send to` and `CC` section are prefilled with the right email destinators addresses.
-        <p align="center">
-            <img src="readme-files/readme-images/mailto-client.jpg" alt="Client's default app opens already having destinators emails completed" height="370">
-        </p>
+<p align="center">Mobile and Desktop view</p>
+<p align="center">
+    <img src="readme-files/readme-images/footer-mobileview-screenshot.jpg" alt="Footer in mobile view" width="25%">
+    <img src="readme-files/readme-images/footer-desktopview-screenshot-.jpg" alt="Footer in desktop view" width="60%">
+</p>
+
+- The footer is composed three sub-areas, as follows:
+    - **ADDRESS** - contains a link with the Google Maps location of the Cafe shop. Accessing the link will offer you the posibility to ask for directions towards the shop. Depending on the device used, the behaviour differs: on mobile deviced it will open the Google Maps app and on desktop device it will open a new tab with Google Maps.
+    - **SOCIAL MEDIA LINK** - linked icons to acces the social media pages of the café shop. On hover over these icons, they grow in size to `2rem`.
+    - **CONTACT US**
+        - The EMAIL contains the `mailto:` link, so if the user want's, by pressing on the e-mail address, the default email client is opened. The `Send to` and `CC` section are prefilled with the right email destinators addresses.
+            <p align="center">Testing on a smartphone:<br>
+                <img src="readme-files/readme-images/mailto-client.jpg" alt="Client's default app opens already having destinators emails completed" height="370">
+            </p>
         - The TEL section is also a link, which, while in mobile view, is enabled and proceeds to opening the phone number in calling screen, but if viewed on a desktop, the link is disabled. As described [here](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/):  
         > *tel: support is great across mobile clients, it can be unreliable on the desktop and in webmail clients.*
+
+        <p align="center">Preview:</p>
+        <p align="center">
+            <img src="readme-files/readme-images/tel-open-app.jpg" alt="Press phone number opens default calling application" height="370">
+            <img src="readme-files/readme-images/tel-call-screen.jpg" alt="Calling screen on a smartphone" height="370">
+        </p>
 
 
 
@@ -240,14 +262,13 @@ After, to create an acceptable contrast, I've used the generator so that I'll wi
 As a result the final contrast ratio is everywhere above 9:1. All contrast test were conducted on [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/) and [WebAIM - Contrast Checker](https://webaim.org/resources/contrastchecker/). The result can be consulted in the [dedicated file](assets/docs/contrast.md).
 
 <p align="center">
-    <img src="readme-files/readme-images/colormind---the-ai-powered-color-palette-generator.jpg" alt="Default color pallete" width="80%">
+    <img src="readme-files/readme-images/colormind---the-ai-powered-color-palette-generator.jpg" alt="Default color pallete - colormind.io" width="80%">
 </p>
 
-- `#231a19` - used mainly for text color
+- `#231a19` - used mainly for text color.
 - `#552f1e` - used for:
-    - Main navigation menu links background
-    - Top page link bg hover
-    - Top page link text hover
+    - Main navigation menu links background when hovered.
+    - Landing page internal links hover effect
 - `#883f22` - used for active page in main navigation links
 - `#f5f7bb` - used for hover text color change in links in main navigation bar and footer.
 - `#ece7e1` - used for:
@@ -255,36 +276,13 @@ As a result the final contrast ratio is everywhere above 9:1. All contrast test 
     - Main content background color in main page.
 
 
-Basic color theme:
-navigation menu bg: #ece7e1
-Nav menu button: #552f1e
-Nav menu links text: #F5F7BB
-Nav menu links bg: #552f1e
-Nav menu links bg active: #883f22 - a washed out version of the 
 
 
-Top page link bg hover: #552f1e
-Top page link text hover: #552f1e
-
-Links default text color: #231a19
-Menu mavigation link hover: #231a19
-
-footer background: #552f1e
-footer text color: #ece7e1
-
-
-Special color:
-Main content Darken Blending color: variation of #883F22 in RGBA format.
-Nav menu links bg active: #883f22 - a washed out version of the 
-card bottom separator: #ccc
+I've also used some special color:
+- The logo has dark blue and black with transparent background.
+- The arrows used in the quick menu categories list are blue.
 
 ---
-# **Accessibility**
-
-- In mobile view the main navigation bar is hidden behind an icon. The icon has normally applied a bouncing effect, but to avoid vestibular motion triggers the animation is reduced (in media queries section of the css file), when the user has disabled such effects.
-
-- Mark up different regions of web pages and applications, so that they can be identified by web browsers and assistive technologies.
-
 
 ## **Contrast**
 To test the contrast of the page, I've used [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast). I've inserted links from live website and then I downloaded the reports.
@@ -348,6 +346,9 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 - Things All Restaurant Website Designs Need to [Include](https://pos.toasttab.com/blog/on-the-line/7-things-restaurant-websites-need-to-include): as highlithed in this article, having some specific sections on your restaurand (cafe in our case), improves a lot the customer experience and the chances of attracting new customers raises.
 - Initiating [Voice Calls from HTML Email Newsletters](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/) 
 - Tone down the animation to avoid [vestibular motion triggers like scaling or panning large objects.](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)
+- [Using ARIA Landmarks](https://accessibility.oit.ncsu.edu/using-aria-landmarks-a-demonstration/)
+- [Site structuring](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
+- [Mental model](https://en.wikipedia.org/wiki/Mental_model)
 
 ## **Media:**
 - Logo was created using [Logo Maker Pro on Android](https://play.google.com/store/apps/details?id=com.TTT.logomaker.logocreator.generator.designer)
@@ -379,16 +380,13 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
         - [Monograph Rose Agiorgitiko 2016](https://gaiawines.gr/en/monograph-rose-en/)
         - [La Gioiosa Prosecco 2012](https://www.vivino.com/HK/en/la-gioiosa-valdobbiadene-prosecco-superiore/w/1148479)
         - [Prunus Dão Tinto 2017](https://www.wine-searcher.com/find/gota+prvt+select+prunus+blanco+dao+portugal/2017/uk)
-- Images used in Gallery page are my own, made with my dSLR.
+- Images used in Gallery page are my own, made with my dSLR, and processed with Photoshop.
 
 
 ## **Other resources and tools used**
 - Code Validation:
     - [W2C Markup Validation Service](https://validator.w3.org/nu/)
     - [W2C CSS Validation Service](https://jigsaw.w3.org/css-validator/)
-- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
-- [Site structuring](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
-- [Mental model](https://en.wikipedia.org/wiki/Mental_model)
 - Tools:
     - [Balsamiq - wireframes design](https://balsamiq.com/)
     - [Multi Device Website Mockup Generator](https://techsini.com/multi-mockup/)
@@ -396,6 +394,8 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
     - [FontAwesome](https://fontawesome.com/)
     - [Google Fonts](https://fonts.google.com/)
     - [Document format - Beautify](https://codebeautify.org/htmlviewer)
+    - [Colormind.io to extract website color](http://colormind.io/)
+- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 
 <br>
 <p align="right">
@@ -405,20 +405,23 @@ Therefore the transformation of the navgation bar from desktop view to mobile vi
 
 ---
 # **Accessibility**
-- [Accessibility](): 
-- [Landmarks](https://accessibility.blog.gov.uk/2016/05/27/using-navigation-landmarks/) Internet Explorer 11, which does not have accessibility support for the HTML5 elements used to provide landmarks, but which does support the equivalent ARIA roles. 
-[Enhancing-aria-landmarks-with-aria-labelledby](https://tink.uk/enhancing-aria-landmarks-with-aria-labelledby/)
+- The Accessibility score of 100 in Lightroom was obtained by using the recommended [landmarks](https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/HTML5.html) or *special regions, so that screen readers and other assistive technologies can jump to different sections of the site. These improve the overal navigation experience.
+- Each page has distinctly separated areas. The main content area of each page contains the right landmarks and ARIA landmarks, such as `role`, `aria-label`.
+- In mobile view the main navigation bar is hidden behind an icon. The icon has normally applied a bouncing effect, but to avoid *vestibular motion triggers* the animation is reduced (in media queries section of the css file), when the user has disabled such effects.
 
+l
 ## **Contrast ratio**
-This testing and conclusions are documented in the following file:
+This part of the testing and conclusions are documented in the folowing file:
 [**contrast.md**](readme-files/docs/contrast.md)
 
 [Back to Table of Contents](#table-of-contents)
 
 ---
 # **Performance**
-1. To improve loading speed, I used *.webp image format  (https://developers.google.com/speed/webp)
-2. Images were resized to 768px for the long side. This resolution is enough to display good images for breakpoint-md: 768px. On large screens the gallery is presented as a grid of images, but as the width of the screen is lowered, the grid adapts to 2 or 1 column images.
+1. To improve loading speeds, I've used *.webp image format  (https://developers.google.com/speed/webp) and *.png and *.jpg formats. Every image is been proccesed with Adobe Photoshop -> Export -> Save to Web -> and used low or medium presets for image quality.
+2. Images from Gallery page were resized to 768px for the long side. This resolution is enough to display good images for `breakpoint-md: 768px` .
+3. Images used on Cafe's Menu page were resized to small format and low quality, so it won't affect performance.
+4. The performance of the site was tested using the Lighthouse tool. The results were negatively influenced by two aspects (`links not crawable` and `pre-connect`), for which I did not find a solution to fit my needs. This aspect is described more detailed in [testing.md page](readme-files/docs/testing.md/#lighthouse-scores) file.
 
 <br>
 <p align="right">
@@ -430,13 +433,12 @@ This testing and conclusions are documented in the following file:
 # **Issues**
 Along the development I encountered different issues. Some of them were fixed, for other I found a way around of just used a better solution.
 - When resizing the browser window to mobile view, at the left of the browser can be seen the hidden navigation bar transition effect.
-- [Contact Page legend text centering](): an issue I had was centering the legend element, which wasn't easy achievable through css, because of the cross browsers incompatibility. There an in-line property solved it (https://www.geeksforgeeks.org/html-legend-align-attribute/). Issues discussed [HERE](https://stackoverflow.com/questions/4006824/how-to-center-the-legend-element-what-to-use-instead-of-aligncenter-attribu)
+- [Contact Page legend text centering](): an issue I had was centering the legend element, which wasn't easy achievable through CSS, because of the cross browsers incompatibility. There, an in-line property solved it (https://www.geeksforgeeks.org/html-legend-align-attribute/). Issues discussed [HERE](https://stackoverflow.com/questions/4006824/how-to-center-the-legend-element-what-to-use-instead-of-aligncenter-attribu)
 - I could not find a FontAwesome icon for Tripadvisor. Issue is discussed [HERE](https://github.com/FortAwesome/Font-Awesome/issues/18180)
 - While site was deployed on github Pages, the images on the site wouldn't load. Found out that I have to remove the '/' from the relative links. Example:
 `<src="/assets/imgs/coffees/image.jpeg>` -> in this format the images wouldn't load, so I had to remove the backslash before the 'assets' folder. Found this through the Developer's Tools in Chrome. In VS Code having the `/` won't affect loading, but on GitHub alt-text is being shown.
 - I couldn't use Extended Syntax for Markdown documents, as while I was trying to use Footnotes, for example, it wasn't rendered in my GitHub repository. Therefore I had to use links inside the content to credit the extracted ideas from the respective sources.
-- To size images I had to use HTML.
-- Wasn't able to use emoji in this document.
+- Wasn't able to use emoji in this document, because on preview they weren't rendered ar icons, but plain text.
 - Hover effects won't work properly on touch mobile devices (which are using a touch screen), so a media query for that has to be implemented.
 - The navigation menu, while in mobile view, is displayed OVER the content of the page. So opening the menu in mobile view, the actual content below the header won't go lower to make place for the menu items. I didn't want to use JS and/or Boostrap, so this was an acceptable compromise I had to accept for the purpose of this project.
 - While [validating](https://validator.w3.org) I had an error 
@@ -444,7 +446,7 @@ Along the development I encountered different issues. Some of them were fixed, f
 
     > Unclosed element ul.
 
-    but couldn't find any opened or unclosed elements. These errors dissapeared after I corrected the other errors.
+    but couldn't find any opened or unclosed elements. These errors dissapeared after I corrected some other errors.
 
 <br>
 <p align="right">
@@ -454,9 +456,9 @@ Along the development I encountered different issues. Some of them were fixed, f
 
 ---
 # **Aknowledgment**
-I will not end this project without saying a big "thank you!" to all of you who helped me in working on this project.
-Firstly to my family who supported me all along in every aspect, especialy in being absent at some important moments.
-Of course, nothing would have been possible without everyting Code Institue has to offer through this course and its slack community. 
+I would not be enough to finish this project without saying a big "thank you!" to all of you who helped me in working on this project.
+Firstly, to my family who supported me all along in every aspect, especialy in being absent at some important moments, because I had to study.
+Of course, nothing would have been possible without everyting Code Institue has to offer through this course and its wonderful Slack community. 
 Since I am officialy taking this course at City of Bristol College, a big thanks to my tutors, [Pasquale F.](https://www.linkedin.com/in/pasquale-fasulo-68612218a/) and Ben S. for every step they've been with me through the learning process.
 And last but not least, to my mentor, [Adegbenga Adeye](https://github.com/deye9), whose insights were always very helpful and helped me shape this project.
 
