@@ -64,7 +64,7 @@ Inside those separate files there are links back to the main readme.md file too.
 # **UX (User Experience)**
 
 ## **User Stories**
-I decided to display the User Story in a table (also a link at the bottom of the table). Since some user stories (like First time user and Existing User) might have common stories, 
+I decided to display the User Story in a table (there is also a link at the bottom of the table to the Excel version of this table). Since some user stories (like First time user and Existing User) might have common stories, 
 
 | As a/an             | I want to...      | So that I can... | Scenario 1 | Scenario 2 | Acceptance Criteria |
 |---------------------|-------------------|------------------|------------|------------|---------------------|
@@ -151,35 +151,53 @@ The menu page is structured differently that the other pages, because the main p
     - It is available at the bottom of the page too.
     - Since using JS is not required for this project, I needed to find a way to change the text of a specific area, when the state changes. I found out that the `<details>` element can help.
     So when this menu is collapsed, the user is asked to acces this menu by clicking the `▶️  Click to open quick menu links`:
-    ![MENU CLOSED](/readme-files/readme-images/02-6-cafemenu-internal-links-menu-closed-screenshot%20.png)
+    ![MENU CLOSED](readme-files/readme-images/02-6-cafemenu-internal-links-menu-closed-screenshot%20.png)
     After the user clicks, the menu opens like this:
-    ![MENU OPENED](/readme-files/readme-images/02-7-cafemenu-internal-links-menu-opened-screenshot%20.png)
+    ![MENU OPENED](readme-files/readme-images/02-7-cafemenu-internal-links-menu-opened-screenshot%20.png)
     The user may choose to colapse the menu by clicking again `🔽 Click to close quick menu links` area.
     You may notice that the text content changes from "open" to "close". The ▶️ and 🔽 icons display the status of the `<details>` element.
     - In mobile and desktop view, this area keeps the same layout, by adapting its width to the viewport.
-    ![Mobile view](/readme-files/readme-images/02-8-cafemenu-internal-links-menu-opened-mobileview-screenshot%20.png)
-
+            <p align="center">
+                <img src="readme-files/readme-images/02-8-cafemenu-internal-links-menu-opened-mobileview-screenshot%20.png" alt="Quick Links Menu - Mobile view" width="400">
+            </p>
+    - Lower there is a linked text which downloads a version of the Cafe's menu in PDf format.
+        <p align="center">
+            <img src="readme-files/readme-images/cafesmenu-dl-pdf-link-structure.jpg" alt="Download link" width="400">
+        </p>
+    
+    - The main content of this page is composed of four categories, each with a couple of cafe's menu items, grouped acordingly.
+        - Each category is delimited and begins with the header.
+        - Under the Header there are the items displayed in a column or two columns, depending on screen size.         
+        - At the end of each category there is a "Back to top" link.
+        - Just before the Footer area, there is the same Quick Menu links displayed again, to ease users's navigation.
+        - Small screen and larger screen layout preview:
+            <p align="center">
+                <img src="readme-files/readme-images/cafesmenu-mb-structure.jpg" alt="mobile view" height=370">      
+                <img src="readme-files/readme-images/cafesmenu-des-structure.jpg" alt="desktop view" height="370">
+            </p>
 
 #### **Gallery page**
 The Gallery page has only one purpose: to showoff some pictures depincting the interior design of the cafe, staff, making coffees, etc.
 - In mobile view there are two views: when width is under 673px, the images are displayed on a single column:
-![Mobile 1 col Preview](readme-files/readme-images/03-8-gallery-mobileview-1col-sm-img-screenshot-.jpg)
-
-- When the width is between 673 and 981px, the are two columns:
-![Mobile 2 col Preview](readme-files/readme-images/03-7-gallery-mobileview-2col-sm-img-screenshot-.jpg)
-
-- Between 982px and 992px the are three columns. This is because of the default sizes of each image for this view:
-![3 col Preview](readme-files/readme-images/03-6-gallery-tablet-desktopview-3col-md-img-screenshot-.jpg)
-
+            <p align="center">  
+                <img src="readme-files/readme-images/03-8-gallery-mobileview-1col-sm-img-screenshot-.jpg" alt="Mobile One column Preview" height="370">
+            </p>
+- When the width is between 673 and 992px, the are two columns:
+            <p align="center">  
+                <img src="readme-files/readme-images/03-7-gallery-mobileview-2col-sm-img-screenshot-.jpg" alt="Mobile 2 columns Preview" height="370">
+            </p>
 - Over 992px is the desktop view and the images are displayed on a single column, at high resolution:
-![Desktop 1 col Preview](readme-files/readme-images/03-5-gallery-desktopview-1col-lg-img-screenshot-.jpg)
+            <p align="center">  
+                <img src="readme-files/readme-images/03-5-gallery-desktopview-1col-lg-img-screenshot-.jpg" alt="Larger screens and Desktop pone column Preview" height="370">
+            </p>
 
 #### **Contact page**
-The contact page is structured around a form, containing multiple fields, which the user may choose to fill. The user can make a request, ask a question, propose a recommandation, make a complain and also take part to a poll by votting his favorite coffee.
-<p align="center">
-  <img src="/" alt="desktop view" width="850">
-  <img src="/" alt="mobile view" width="422">
-</p>
+- The Contact page is structured around a form, containing multiple fields, which the user may choose to fill. The user can make a request, ask a question, propose a recommandation, make a complain and also take part to a poll by votting his favorite coffee.
+- Mobile and Desktop preview:
+    <p align="center">
+        <img src="readme-files/readme-images/04-2-contact-mobileview-screenshot.png" alt="Contact page - Mobile preview" height="370">
+        <img src="readme-files/readme-images/04-1-contact-desktopview-screenshot.png" alt="Contact page - Desktop preview" height="370">
+    </p>
 
 
 
@@ -189,9 +207,10 @@ The contact page is structured around a form, containing multiple fields, which 
     - SOCIAL MEDIA LINK - linked icons to acces the social media pages of the cafe shop. On hover over these icons, they grow in size by `2rem`.
     - CONTACT US:
         - The EMAIL has the `mailto:` link, so if the user want's, by pressing on the e-mail address, the default email client is opened. The `Send to` and `CC` section are prefilled with the right email destinators addresses.
-
-        <span text-align:center>![Client's default app opens already having destinators emails completed:](readme-files/readme-images/mailto-client.jpg)</span>
-        - the TEL is also a link, which, while in mobile view, is enabled and proceeds to opening the phone number in calling screen, but if viewed on a desktop, the link is disabled. As described [here](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/):  
+        <p align="center">
+            <img src="readme-files/readme-images/mailto-client.jpg" alt="Client's default app opens already having destinators emails completed" height="370">
+        </p>
+        - The TEL section is also a link, which, while in mobile view, is enabled and proceeds to opening the phone number in calling screen, but if viewed on a desktop, the link is disabled. As described [here](https://www.campaignmonitor.com/blog/email-marketing/using-phone-numbers-in-html-email/):  
         > *tel: support is great across mobile clients, it can be unreliable on the desktop and in webmail clients.*
 
 
@@ -200,17 +219,10 @@ The contact page is structured around a form, containing multiple fields, which 
 [Back to Table of Contents](#table-of-contents)
 
 ## **Text**
-- Fonts used:
-    - General Headings: Proza Libre — Regular 400 (to stand out)
-    - Menu items heading: Lato - 3,4,7,9
-    - Paragraphs: 
-        Montserrat (good readability - designed for optimal readability on screens) 
-        Font families groups:
-        font-family: 'Proza Libre', sans-serif;
-        font-family: 'Lato', sans-serif;
-        font-family: 'Montserrat', sans-serif;
-        font-family: 'Merriweather', serif;
-            
+- Font families used:
+    - `font-family: 'Lato', sans-serif;`
+    - `font-family: 'Montserrat', sans-serif;`
+    - `font-family: 'Merriweather', serif;`
 <br>
 <p align="right">
     <a href="#table-of-contents">Return to Table of Contents</a>
@@ -222,10 +234,25 @@ Choosing the site's color theme was a bit tricky for me.
 
 I have a *Moderate Deutan colour blindness*. This doesn't affect me in a manner where I could not see colours, as many people might believe when they hear "colour blindness". But it more related to colour sensivity. Is just that in some specific cases (low or crepuscular light, for example) I might not perceive colours as others. For this reason I needed help from someone else, so in some moments in the development of this project I had to ask for a second opinion.
 
-Finally, the color theme I decided to use in this project is actually is based on the color of a coffee bean. So I primarly used an image of coffee beans. From that, using the tools available at [coolors.co](https://coolors.co/) I extracted the main pallete colors.
+Finally, the color theme I decided to use in this project is actually is based on the colors of a coffee bean and two other complemetary colors, to create a good contrast. So I primarly used an image of coffee beans. From that, using the tools available at [coolors.co](https://coolors.co/) I extracted the main pallete colors.
 The extracted color nuances were too many, so I had to finnaly decide to which basic color I'll use. 
 After, to create an acceptable contrast, I've used the generator so that I'll will give me colors to fit one each other.
 As a result the final contrast ratio is everywhere above 9:1. All contrast test were conducted on [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast/) and [WebAIM - Contrast Checker](https://webaim.org/resources/contrastchecker/). The result can be consulted in the [dedicated file](assets/docs/contrast.md).
+
+<p align="center">
+    <img src="readme-files/readme-images/colormind---the-ai-powered-color-palette-generator.jpg" alt="Default color pallete" width="80%">
+</p>
+
+- `#231a19` - used mainly for text color
+- `#552f1e` - used for:
+    - Main navigation menu links background
+    - Top page link bg hover
+    - Top page link text hover
+- `#883f22` - used for active page in main navigation links
+- `#f5f7bb` - used for hover text color change in links in main navigation bar and footer.
+- `#ece7e1` - used for:
+    - Header background.
+    - Main content background color in main page.
 
 
 Basic color theme:
@@ -244,7 +271,7 @@ Menu mavigation link hover: #231a19
 
 footer background: #552f1e
 footer text color: #ece7e1
-footer hover link: #f6b565
+
 
 Special color:
 Main content Darken Blending color: variation of #883F22 in RGBA format.

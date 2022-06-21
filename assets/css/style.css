@@ -383,7 +383,7 @@ input[type=submit] {
 
 input[type=submit]:hover {
     background-color: #883F22;
-    color: #f6b565;
+    color: #f5f7bb;
     transition: 0.3s ease-out;
 }
 
@@ -400,7 +400,7 @@ input[type=reset] {
 
 input[type=reset]:hover {
     background-color: #883F22;
-    color: #f6b565;
+    color: #f5f7bb;
     transition: 0.3s ease-out;
 }
 
@@ -464,7 +464,7 @@ footer > .address-link{
 }
 
 .address-link:hover {
-    color: #f6b565;
+    color: #f5f7bb;
 }
 
 .social-links {
@@ -482,7 +482,7 @@ footer > .address-link{
 }
 
 div.social-ic i:hover {
-    color: #f6b565 !important;
+    color: #f5f7bb !important;
     font-size: 2rem;
     transition: 1s ease-out;
 }
