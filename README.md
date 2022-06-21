@@ -105,12 +105,12 @@ The wireframe sketches are located in [wireframes.md](readme-files/docs/wirefram
 - One reason behing this aproach (of the simple linear design) is the idea behind the [Mental Model](https://en.wikipedia.org/wiki/Mental_model) natural thought process, more exactly, the users build mental models and use these 
 >"to assess relations among topics and to guess where to find things they haven’t seen before".[ (Site Structure theory)](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
 
-The following diagram represents this structure:
 
-<figure align="center">
-  <img src="readme-files/readme-images/site-structure-diagram-upd.jpg" alt="Website structure diragram" width="70%">
-  <figcaption>Site's structure</figcaption>
-</figure> 
+
+
+<p align="center">The following diagram represents this structure<br>
+    <img src="readme-files/readme-images/site-structure-diagram-upd.jpg" alt="Site's structure" width="90%">
+</p>
 
 <br>
 <p align="right">
@@ -139,15 +139,12 @@ The general layout of the website is composed of three main areas: [Header](#hea
 ### **HEADER** 
 - contains the company's logo and, depending on the device's screen width, a menu navigation bar to the top right (on larger screens) or a hamburger menu button (which opens the hidden menu - in mobile view).
 
-<figure align="center">
-  <img src="readme-files/readme-images/nav-bar-mobile-tablet-view.jpg" alt="On screens up to 920px width" width="70%">
-  <figcaption>On screens up to 920px width (small screens)</figcaption>
-</figure> 
-
-<figure align="center">
-  <img src="readme-files/readme-images/nav-bar-desktop-view.jpg" alt="On screens larger than 920px width" width="70%">
-  <figcaption>On screens larger than 920px width (larger screens)</figcaption>
-</figure> 
+<p align="center">On screens up to 920px width (small screens)<br>
+    <img src="readme-files/readme-images/nav-bar-mobile-tablet-view.jpg" alt="On screens up to 920px width (small screens)" width="90%">
+</p>
+<p align="center">On screens larger than 920px width (larger screens)<br>
+    <img src="readme-files/readme-images/nav-bar-desktop-view.jpg" alt="On screens larger than 920px width" width="90%">
+</p>
 
 ---
 ### **MAIN CONTENT SECTION**
@@ -180,17 +177,13 @@ The menu page is structured differently that the other pages, because the main p
     - It is available at the bottom of the page too.
     - Since using JS is not required for this project, I needed to find a way to change the text of a specific area, when the state changes. I found out that the `<details>` element can help.
     So when this menu is collapsed, the user is asked to acces this menu by clicking the `▶️  Click to open quick menu links`:
+    <p align="center">Menu closed<br>
+            <img src="readme-files/readme-images/02-6-cafemenu-internal-links-menu-closed-screenshot%20.png" alt="Menu closed" width="90%">
+    </p>
+    <p align="center">Menu opened<br>
+            <img src="readme-files/readme-images/02-7-cafemenu-internal-links-menu-opened-screenshot%20.png" alt="Menu opened - After the user clicks, the menu opens like this" width="90%">
+    </p>
 
-    <figure align="center">
-        <img src="readme-files/readme-images/02-6-cafemenu-internal-links-menu-closed-screenshot%20.png" alt="MENU CLOSED" width="90%">
-        <figcaption>Menu closed</figcaption>
-    </figure> 
-    <br>
-    <figure align="center">
-        <img src="readme-files/readme-images/02-7-cafemenu-internal-links-menu-opened-screenshot%20.png" alt="MENU OPENED" width="90%">
-        <figcaption>Menu opened - After the user clicks, the menu opens like this</figcaption>
-    </figure> 
-    
     - The user may choose to colapse the menu by clicking again `🔽 Click to close quick menu links` area.
     You may notice that the text content changes from "open" to "close". The ▶️ and 🔽 icons display the status of the `details` element.
 
@@ -239,7 +232,6 @@ The Gallery page has only one purpose: to showoff some pictures depincting the i
         <img src="readme-files/readme-images/04-2-contact-mobileview-screenshot.png" alt="Contact page - Mobile preview" height="370">
         <img src="readme-files/readme-images/04-1-contact-desktopview-screenshot.png" alt="Contact page - Desktop preview" height="370">
     </p>
-
 
 ---
 ### **FOOTER**
