@@ -80,35 +80,52 @@ The UX design and develoepment is based on the 5 Plans we've learned on Code Ins
         - if there are other clients reviews about this shop.
         - if he could contact us?
 
+
 ---
 - **User Stories**
+    -  A first-time client, or a **prospective client**, may have the following user stories:
+
+    | As a                  | I want to...          | So that I can...       | 
+    |-----------------------|-----------------------|------------------------|
+    | **Prospective Client**|                       |                        |
+    |                       | find a café in Salisbury | drink a coffee locally | 
+    |                       | find café's location | visit the café | 
+    |                       | find contact details | ask some other questions | 
+    |                       | read the menu | see if I can have a brunch, lunch or just a coffee | 
+    |                       | download the menu | print the menu | 
+    |                       | find opening hours | visit the café | 
+    |                       | read some testimonials (reviews) | see other clients' experience | 
+    |                       | read the social media pages | see what other clients shared | 
+    |                       | see if they have accessible entryway | bring my son who's using a wheelchair | 
+    |                       | check if there is free Wifi | do some work from my laptop | 
+    |                       | hire the café | have a private party | 
 
 
-    
-| As a                  | I want to...          | So that I can...       | 
-|-----------------------|-----------------------|------------------------|
-| **Prospective client**|                       |                        |
-|                       | find a café in Salisbury | drink a coffee in the café | 
-|                       | find café's location | drink a coffee in the café | 
-|                       | read the menu | have a brunch, lunch or just a coffee | 
-|                       | find opening hours | visit the café | 
-|                       | read some testimonials (reviews) | see other clients' experience | 
-|                       | find café's location | drink a coffee in the café | 
-|                       | find café's location | drink a coffee in the café | 
-|                       | find café's location | drink a coffee in the café | 
+    - Additionally to the user stories of a first-time client, an **existing client** might also have the following stories:
+
+    | As an                 | I want to...          | So that I can...      | 
+    |-----------------------|-----------------------|-----------------------|
+    | **Existing Client**   |                       |                       |         
+    |                       | remember café's location | visit it again | 
+    |                       | find if they offer bonuses for being a loyal customer. | have a coffee for free | 
+    |                       | make a review | show how happy I am for their coffee | 
+    |                       | make a complain | discuss a refund | 
+    |                       | remember café's location | visit it again | 
 
 
-| As an                 | I want to...          | So that I can...      | 
-|-----------------------|-----------------------|-----------------------|
-| **Existing client**   |                       |                       |         
-|                       | find café's location | drink a coffee in the café | 
+    - As a **bussiness owner** the users stories are related to the purpose of the bussiness itself, but also to the intent to grow in future:
 
-
-
-| As a              | I want to...          | So that I can...  |
-|-------------------|-----------------------|-------------------|
-| **Business Owner**|                       |                   |       
-|                   | find café's location | drink a coffee in the café |            
+    | As a              | I want to...          | So that I can...  |
+    |-------------------|-----------------------|-------------------|
+    | **Business Owner**|                       |                   |       
+    |                   | sell my products | make profit |            
+    |                   | create a select clientele | make a target  |            
+    |                   | reward the loyal clients | retain customers   |            
+    |                   | offer a good, intuitive browsing experience | raise the chances the client would remain on the site |            
+    |                   | implement a good site structured layout  | provide concise  informations |            
+    |                   | provide pictures gallery | showcase some of the products on sale |            
+    |                   | provide links to social media | make a presence in the online |            
+    |                   | create a positive image | attract more customers |            
             
 
 
@@ -153,22 +170,36 @@ Website Accomplishments
 # **The Structure Plane**
 User Accessibility
 
-    Design Goals
-    Design Choices
-        Font
-        Color Scheme
-        Logo Vegan-a-eat
-        Images
-    Wireframes
+==============================================
+==============================================
+==============================================
+==============================================
+==============================================
+==============================================
+==============================================
+==============================================
+==============================================
+==============================================
 
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
-
-
-
-
+---
 # **UI (User Interface)**
+
+## **Wireframes**
 The wireframe sketches are located in [wireframes.md](readme-files/docs/wireframes.md) file.
-<!-- ### **Wireframes** -->
+
+## **Design Goals**
+- The site should be responsive on all devices.
+- Offer accesibility support.
+- The navigation shoud be intuitive and easy.
+- Each page should keep a pleasant, neat and common design across the website.
+- The information offered is enough and organized well to attract the clients.
+
 ## **Site structure**
 - The site's structure follows a simple linear design. From the home page you may access any other page through the navigation menu. This is a straight forward aproach. The same navigation menu is accesible on every other page, even on the [404.html](404.html) one. The [Form Confirmation page](formconfirmation.html) is displayed to confirms the form has been successfuly submited and you have the option to navigate back to the website or other internal links.
 - One reason behing this aproach (of the simple linear design) is the [Mental Model](https://en.wikipedia.org/wiki/Mental_model) natural thought process, more exactly, the users build mental models and use these 
