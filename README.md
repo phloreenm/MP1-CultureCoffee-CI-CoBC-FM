@@ -12,9 +12,12 @@
     * [**Link to live website**](#link-to-live-website-is-here)
     * [**Link to GitHub repository**](#link-to-github-repo-is-here)
 1. [**UX (User Experience)**](#ux-user-experience)
-    * [**User Stories**](#user-stories)
-    * [**The Strategy and the Scope Plane**](#the-strategy-and-the-scope-plane**)
-    * [**The Structure Plane**](#the-structure-plane)
+    * [**UXD**](#uxd)
+        * [**Planning Stage**](#planning-stage)
+        * [**Project Goals**](#project-goals)
+        * [**User Stories**](#user-stories)
+        * [**The Strategy and the Scope Plane**](#the-strategy-and-the-scope-plane**)
+        * [**The Structure Plane**](#the-structure-plane)
 1. [**UI (User Interface)**](#ui-user-interface)
     *  [**Wireframes (wireframes.md)**](readme-files/docs/wireframes.md)
     *  [**Site structure**](#site-structure)
@@ -63,8 +66,56 @@ Inside those separate files there are links back to the main readme.md file too.
 ---
 # **UX (User Experience)**
 
-## **User Stories**
-I decided to display the User Story in a table (there is also a link at the bottom of the table to the Excel version of this table). Since some user stories (like First time user and Existing User) might have common stories, 
+## **UXD**
+The UX design and develoepment is based on the 5 Plans we've learned on Code Institute's platform.
+- **Planning Stage**
+    - The idea of making this website came from a real-world need, which is to build a presentation website for Culture Coffee café located in Salisbury. From the begining I had a rough idea of the content the site will provide, but folowing the development methods learned at Code Institute, helped me organise the workflow.
+- **Project Goals**
+    - The main purpose of this website is to offer the users the information necessary so that a client could learn:
+        - who we are?
+        - what could we offer as a café shop?
+        - which is the café's menu?
+        - where are we located?
+        - how the venue looks like on the inside?
+        - if there are other clients reviews about this shop.
+        - if he could contact us?
+
+---
+- **User Stories**
+
+
+    
+| As a                  | I want to...          | So that I can...       | 
+|-----------------------|-----------------------|------------------------|
+| **Prospective client**|                       |                        |
+|                       | find a café in Salisbury | drink a coffee in the café | 
+|                       | find café's location | drink a coffee in the café | 
+|                       | read the menu | have a brunch, lunch or just a coffee | 
+|                       | find opening hours | visit the café | 
+|                       | read some testimonials (reviews) | see other clients' experience | 
+|                       | find café's location | drink a coffee in the café | 
+|                       | find café's location | drink a coffee in the café | 
+|                       | find café's location | drink a coffee in the café | 
+
+
+| As an                 | I want to...          | So that I can...      | 
+|-----------------------|-----------------------|-----------------------|
+| **Existing client**   |                       |                       |         
+|                       | find café's location | drink a coffee in the café | 
+
+
+
+| As a              | I want to...          | So that I can...  |
+|-------------------|-----------------------|-------------------|
+| **Business Owner**|                       |                   |       
+|                   | find café's location | drink a coffee in the café |            
+            
+
+
+
+
+
+I decided to display the User Story in a table (there is also a link at the bottom of the table to the Excel version of this table). Since some user stories (like First time user and Existing User) might have common stories, I've used a &#10003; symbol to check if the respective story applies to that type of user.
 
 | As a/an             | I want to...      | So that I can... | Scenario 1 | Scenario 2 | Acceptance Criteria |
 |---------------------|-------------------|------------------|------------|------------|---------------------|
@@ -96,17 +147,32 @@ An online Excel version of the User Stories Board can be found [here](https://1d
 <br>
 
 ---
+# **The Strategy and the Scope Plane**
+
+Website Accomplishments
+# **The Structure Plane**
+User Accessibility
+
+    Design Goals
+    Design Choices
+        Font
+        Color Scheme
+        Logo Vegan-a-eat
+        Images
+    Wireframes
+
+
+
+
+
 
 # **UI (User Interface)**
 The wireframe sketches are located in [wireframes.md](readme-files/docs/wireframes.md) file.
 <!-- ### **Wireframes** -->
 ## **Site structure**
-- The site's structure follows a simple linear design. From the home page you may access any other page through the navigation menu. This is a straight forward aproach. The same navigation menu is accesible on every other page, even on the [404.html](404.html) one. The [Form Confirmation page](formconfirmation.html)is displayed to confirms the form has been successfuly submited and you have the option to navigate back to the website or other internal links.
-- One reason behing this aproach (of the simple linear design) is the idea behind the [Mental Model](https://en.wikipedia.org/wiki/Mental_model) natural thought process, more exactly, the users build mental models and use these 
+- The site's structure follows a simple linear design. From the home page you may access any other page through the navigation menu. This is a straight forward aproach. The same navigation menu is accesible on every other page, even on the [404.html](404.html) one. The [Form Confirmation page](formconfirmation.html) is displayed to confirms the form has been successfuly submited and you have the option to navigate back to the website or other internal links.
+- One reason behing this aproach (of the simple linear design) is the [Mental Model](https://en.wikipedia.org/wiki/Mental_model) natural thought process, more exactly, the users build mental models and use these 
 >"to assess relations among topics and to guess where to find things they haven’t seen before".[ (Site Structure theory)](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
-
-
-
 
 <p align="center">The following diagram represents this structure<br>
     <img src="readme-files/readme-images/site-structure-diagram-upd.jpg" alt="Site's structure" width="90%">
@@ -120,20 +186,26 @@ The wireframe sketches are located in [wireframes.md](readme-files/docs/wirefram
 
 ---
 ## **Responsiveness**
-- Some commonly used breakpoints are 576px, 768px, and 992px. These values should cover most of the targetted devices, like smart phones, tablets/laptops, and desktops. 
+- Some commonly used breakpoints are 576px, 768px, and 992px. These values should cover most of the targetted devices, like smart phones, tablets/laptops, and desktops. The layout I chose allowed me to use the 920px breakpoint for the navigation menu (when the header's width is too small and the navigation items would begin to wrap) and 992px for the general layout. 
 
 - For responsiveness on mobile devices the minimum supported width is 300px. Using smaller resolution would make the pictures unreasonbly sized and the layout would not serve the purpose properly. That's why I decided this would be the minimum body's width.
-- Going higher in the width resolution from 768px to 991 we see a mobile view adapted for some tablets, with larger paddings and margins, but keeping the text slightly smaller than in full desktop view. On iPad Pro the layout is displayed as on desktop view, but on a Samsung Tab S4, the layout is rendered as a mobile view.
-
-- Going over 992px in width the layout adapts to a full desktop view, with a maximum width of the main content of `1000px`.
+- Going higher in the width resolution from 991px we see a landscape and desktop view, with larger paddings and margins, with a maximum width of the main content of `1000px`. On iPad Pro the layout is displayed as on desktop view, but on a Samsung Tab S4, the layout is rendered as a mobile view.
 
 - The navigation bar has a little different responsivness than the rest of the layout because of the size of the text from navigation bar, and also because I din not want navigation's items to wrap in desktop view mode. When the width of the screen decreases and would force the navigation elements to wrap, that's the moment the header is displayed as mobile layout.
 Therefore the transformation of the navgation bar from desktop view to mobile view happens much earlier, going down from 920px.
+
 - The overall responsiveness of the site has been tested and the results can be found in the folowing section.
+
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 ---
 ## **Layout**
 The general layout of the website is composed of three main areas: [Header](#header), [Content](#main-content-section) and [Footer](#footer). 
+The Header (containing the Logo and the Navigation Menu) and the Footer are common to all pages, but the Content area is different for each page.
 
 ---
 ### **HEADER** 
@@ -148,31 +220,32 @@ The general layout of the website is composed of three main areas: [Header](#hea
 
 ---
 ### **MAIN CONTENT SECTION**
-- contains the page's specific subjects (like information, cafes menu, pictures gallery, contact form or the 404 page).
+- contains the page's specific subjects (like some information on Langding Page, Cafe's Menu, Pictures Callery, Contact form or the 404 page).
 - this area is limited to a `max-width: 1000px;` there is also a `padding: 0 100px;` in desktop view. Also the background-color is limited to this width and this should create a delimitation between the empty space and the actual main content.
-- in mobile view the pading is reduced to `30px` and the `width:100%`, so more information would fit on smaller screens.
+- in mobile view the pading is reduced to `30px` and the `width:100%`, so that more information would fit on smaller screens.
 
 ---
 #### **Home page**
 Home page main section contains:
 - a welcoming message at the top.
-- some introductory information structured as Q&A form. Some sections (like menu lists) of the site are linked in the content of this area, making navigation handy. 
+- some introductory information structured as Q&A form. This area contains some links to links on another pages. For example, the word "coffees", from the `What else can we offer you ?` question, is a link to the Coffees category from Cafe's Menu page.
+This is making navigation handy. 
 The purpose is to guide the visitor through the website's content, and describe what the company has to offer.
 
 <p align="center"><strong>Mobile and desktop view</strong>:</p>
 <p align="center">
     <img src="readme-files/readme-images/01-2-homepage-mobileview-screenshot-h900.jpg" alt="Left - Mobile view" height="370">
-    <img src="readme-files/readme-images/01-1-homepage-desktopview-screenshot-h600.jpg" alt="Bottom - Mobile view" height="370">
+    <img src="readme-files/readme-images/01-1-homepage-desktopview-screenshot-h600.jpg" alt="Bottom - Mobile view" height="370" width="650">
 </p>
 
 ---
 #### **Menu page**
-The menu page is structured differently that the other pages, because the main purpose is to display the cafe's menu, sorted by categories. For that reason I found useful to use the grid system. The same result could be obtained with just using flexbox too, but my choice was grid for this page.
-- In mobile views the layout is formed on a column pattern. So the categories and their content are all displayed in columns.
-- In desktop view the center layout is displayed in a column: the categories in this column and the the content as two items on a row.
-- Acros the content of the page there is a link `Back to top`(... of the page), to help the user to jump to the main navigation bar area.
+The menu page is structured differently that the other pages, because the main purpose is to display the Café's menu, sorted in four categories: Coffees, Dishes, Cakes and Wines. For that reason I found useful to use the grid system. The same result could be obtained with just using flexbox too, but my choice was grid for this page.
+- In mobile view the layout is formed as a single column. So the categories and their content are all displayed in one columns only.
+- On larger screens (desktop view) the container is displayed in a column: inside it, the categories in this column and the the content are displayed on two columns.
+- Bellow each category group, there is a link `Back to top`(... of the page), to help the user to jump to the main navigation bar area.
 - I chose to create another menu specific to this page only.
-    - This menu only contains internal links on the same page, to the main categories from the list, which are: Coffees, Dishes, Cakes and Wines. 
+    - This menu only contains internal links found on the same page, to the main categories from the list, which are: Coffees, Dishes, Cakes and Wines. 
     - Using this menu the navigation is quicker for the user, if he's interested in a specific product and is not interested to see other items. 
     - It is available at the bottom of the page too.
     - Since using JS is not required for this project, I needed to find a way to change the text of a specific area, when the state changes. I found out that the `<details>` element can help.
@@ -180,32 +253,29 @@ The menu page is structured differently that the other pages, because the main p
     <p align="center">Menu closed<br>
             <img src="readme-files/readme-images/02-6-cafemenu-internal-links-menu-closed-screenshot%20.png" alt="Menu closed" width="90%">
     </p>
+    - The user may choose to colapse the menu by clicking again `🔽 Click to close quick menu links` area.
     <p align="center">Menu opened<br>
             <img src="readme-files/readme-images/02-7-cafemenu-internal-links-menu-opened-screenshot%20.png" alt="Menu opened - After the user clicks, the menu opens like this" width="90%">
     </p>
-
-    - The user may choose to colapse the menu by clicking again `🔽 Click to close quick menu links` area.
-    You may notice that the text content changes from "open" to "close". The ▶️ and 🔽 icons display the status of the `details` element.
-
+    - You may notice that the text content changes from "open" to "close". The ▶️ and 🔽 icons display the status of the `details` element.
     - In mobile and desktop view, this area keeps the same layout, by adapting its width to the viewport.
-        <p align="center">
-            <img src="readme-files/readme-images/02-8-cafemenu-internal-links-menu-opened-mobileview-screenshot%20.png" alt="Quick Links Menu - Mobile view" width="400">
-        </p>
-
-    - Bellow, there is a linked text which, on click, it downloads the complete Café's menu in PDf format.
+    <p align="center">
+        <img src="readme-files/readme-images/02-8-cafemenu-internal-links-menu-opened-mobileview-screenshot%20.png" alt="Quick Links Menu - Mobile view" width="400">
+    </p>
+- Bellow, there is a linked text which, on click, it downloads the complete Café's menu in PDf format.
         <p align="center">
             <img src="readme-files/readme-images/cafesmenu-dl-pdf-link-structure.jpg" alt="Download link" width="400">
         </p>
     
-    - The main content of this page is composed of four categories, each with a couple of cafe's menu items, grouped acordingly.
-        - Each category is delimited and begins with the header.
-        - Under the Header there are the items displayed in a column or two columns, depending on screen size.         
-        - At the end of each category there is a "Back to top" link.
-        - Just before the Footer area, there is the same Quick Menu links displayed again, to ease users's navigation.
-        <p align="center">Small screen and larger screen layout preview:<br>
-            <img src="readme-files/readme-images/cafesmenu-mb-structure.jpg" alt="mobile view" height=370">      
-            <img src="readme-files/readme-images/cafesmenu-des-structure.jpg" alt="desktop view" height="370">
-        </p>
+- The main content of this page is composed of four categories, each with a couple of cafe's menu items, grouped acordingly.
+    - Each category is delimited and begins with the header.
+    - Under the Header there are the items displayed in a column or two columns, depending on screen size.         
+    - At the end of each category there is a "Back to top" link.
+    - Just before the Footer area, there is the same Quick Menu links displayed again, to ease users's navigation.
+    <p align="center">Small screen and larger screen layout preview:<br>
+          <img src="readme-files/readme-images/cafesmenu-mb-structure.jpg" alt="mobile view" height=370">      
+         <img src="readme-files/readme-images/cafesmenu-des-structure.jpg" alt="desktop view" height="370">
+    </p>
 
 ---
 #### **Gallery page**
@@ -216,7 +286,7 @@ The Gallery page has only one purpose: to showoff some pictures depincting the i
                 <img src="readme-files/readme-images/03-8-gallery-mobileview-1col-sm-img-screenshot-.jpg" alt="Mobile One column Preview" height="370">
             </p>
     - **Two columns**
-            <p align="center">Mobile view: width between 673 and 992px <br>
+            <p align="center">Mobile view: width between 673 and 992px<br>
                 <img src="readme-files/readme-images/03-7-gallery-mobileview-2col-sm-img-screenshot-.jpg" alt="Mobile 2 columns Preview" height="370">
             </p>
 - **Desktop or large screen** view: images are displayed on a single column, at high resolution:
@@ -227,8 +297,7 @@ The Gallery page has only one purpose: to showoff some pictures depincting the i
 ---
 #### **Contact page**
 - The Contact page is structured around a form, containing multiple fields, which the user may choose to fill. The user can make a request, ask a question, propose a recommandation, make a complain and also take part to a poll by votting his favorite coffee.
-- Mobile and Desktop preview:
-    <p align="center">
+    <p align="center">Mobile and Desktop preview<br>
         <img src="readme-files/readme-images/04-2-contact-mobileview-screenshot.png" alt="Contact page - Mobile preview" height="370">
         <img src="readme-files/readme-images/04-1-contact-desktopview-screenshot.png" alt="Contact page - Desktop preview" height="370">
     </p>
@@ -266,6 +335,7 @@ The Gallery page has only one purpose: to showoff some pictures depincting the i
     - `font-family: 'Lato', sans-serif;`
     - `font-family: 'Montserrat', sans-serif;`
     - `font-family: 'Merriweather', serif;`
+- The fonts were chose to offer a good visual impact, but mostly to promote readability. The text being easy readable, it is more likely that users reading the content they obtain the needed information quicly and understand the message.
 <br>
 <p align="right">
     <a href="#table-of-contents">Return to Table of Contents</a>
@@ -298,22 +368,7 @@ As a result, the final contrast ratio is everywhere above 9:1. All contrast test
     - Header background.
     - Main content background color in main page.
 
-
-I've also used some special color:
-- The logo has dark blue and black with transparent background.
-- The arrows used in the quick menu categories list are blue.
-
----
-## **Contrast**
-To test the contrast of the page, I've used [Color Contrast Accessibility Validator](https://color.a11y.com/Contrast). I've inserted links from live website and then I downloaded the reports.
-
-- Navigation Bar
-
-<br>
-<p align="right">
-    <a href="#table-of-contents">Return to Table of Contents</a>
-</p>
-<br>
+- The arrows used in the Quick Menu categories list in Cafe's Menu page, are blue.
 
 ---
 
@@ -323,9 +378,8 @@ To test the contrast of the page, I've used [Color Contrast Accessibility Valida
 </p>
 <br>
 
----
 # **Deployment**
-[Deployment PAGE](/readme-files/docs/deployment.md)
+[Go to Deployment.md](/readme-files/docs/deployment.md)
 
 <br>
 <p align="right">
@@ -338,7 +392,7 @@ To test the contrast of the page, I've used [Color Contrast Accessibility Valida
 
 ## **Code Snipets**
 - [Header layout and effects](https://www.codinglabweb.com/2020/12/responsive-navigation-card-bar-design.html)
-- [Content flexbox cards code](https://www.youtube.com/watch?v=cJjej5udWVE)
+- [Content flexbox cards](https://www.youtube.com/watch?v=cJjej5udWVE)
 - [Customize the details element containing the internal links to menu categories](https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element)
 - [HR element styling](https://www.formget.com/css-hr/)
 - [Cafe Menu Quick Menu links with details & summary elements](https://stackoverflow.com/questions/10813581/can-i-replace-the-expand-icon-of-the-details-element)
@@ -351,6 +405,7 @@ To test the contrast of the page, I've used [Color Contrast Accessibility Valida
 - [Using ARIA Landmarks](https://accessibility.oit.ncsu.edu/using-aria-landmarks-a-demonstration/)
 - [Site structuring](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
 - [Mental model](https://en.wikipedia.org/wiki/Mental_model)
+- [Font accessibility](https://bighack.org/font-accessibility-and-readability-the-basics/)
 
 ## **Media**
 - Logo was created using [Logo Maker Pro on Android](https://play.google.com/store/apps/details?id=com.TTT.logomaker.logocreator.generator.designer)
@@ -399,8 +454,7 @@ To test the contrast of the page, I've used [Color Contrast Accessibility Valida
     - [FontAwesome](https://fontawesome.com/)
     - [Google Fonts](https://fonts.google.com/)
     - [Document format - Beautify](https://codebeautify.org/htmlviewer)
-    - [Colormind.io to extract website color](http://colormind.io/)
-
+    - [Colormind.io to extract website color theme](http://colormind.io/)
 - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 
 <br>
