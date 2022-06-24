@@ -12,35 +12,32 @@
     * [**Link to live website**](#link-to-live-website-is-here)
     * [**Link to GitHub repository**](#link-to-github-repo-is-here)
 1. [**UX (User Experience)**](#ux-user-experience)
-    * [**UXD**](#uxd)
-        * [**Strategy**](#stratetgy)
-        * [**Scope**](#scope)
-        * [**Structure**](#Structure)
-        * [**Skeleton**](#skeleton)
-        * [**Surface**](#surface)
-
-        * [**Planning Stage**](#planning-stage)
-        * [**Project Goals**](#project-goals)
-        * [**User Stories**](#user-stories)
-        * [**The Strategy and the Scope Plane**](#the-strategy-and-the-scope-plane**)
-        * [**The Structure Plane**](#the-structure-plane)
-1. [**UI (User Interface)**](#ui-user-interface)
-    *  [**Wireframes (wireframes.md)**](readme-files/docs/wireframes.md)
-    *  [**Site structure**](#site-structure)
-    *  [**Responsiveness**](#responsiveness)
-    *  [**Layout**](#layout)
-        * [Header](#header)
-        * [Main content](#main-content-section)
-            * [Home page](#home-page)
-            * [Menu page](#menu-page)
-            * [Gallery page](#gallery-page)
-            * [Contact page](#contact-page)
-        * [Footer area](#footer)
-    *  [**Fonts**](#fonts)
-    *  [**Colour theme**](#colours)
-    *  [**Contrast ratio (contrast.md)**](readme-files/docs/contrast.md)
-    *  [**Accessibility**](#accessibility)
-
+    * [**UXD - the Five Plans method**](#uxd)
+        * [**1.Strategy**](#stratetgy)
+            * [Planning Stage](#planning-stage)
+            * [User Stories](#user-stories)
+            * [Site Objectives](#site-objectives)
+            * [Design Goals](#design-goals)
+        * [**2.Scope**](#scope)
+        * [**3.Structure**](#structure)
+        * [**5.Skeleton**](#skeleton)
+             *  [**Wireframes (wireframes.md)**](readme-files/docs/wireframes.md)
+        * [**6. Surface**](#surface)
+            * [**UI (User Interface)**](#ui-user-interface)
+                *  [**Site structure**](#site-structure)
+                *  [**Responsiveness**](#responsiveness)
+                *  [**Layout**](#layout)
+                    * [Header](#header)
+                    * [Main content](#main-content-section)
+                        * [Home page](#home-page)
+                        * [Menu page](#menu-page)
+                        * [Gallery page](#gallery-page)
+                        * [Contact page](#contact-page)
+                    * [Footer area](#footer)
+                *  [**Typography**](#fonts)
+                *  [**Colour theme**](#colours)
+                *  [**Contrast ratio (contrast.md)**](readme-files/docs/contrast.md)
+                *  [**Accessibility**](#accessibility)
 1. [**Performance**](#performance)
 1. [**Testing (testing.md)**](readme-files/docs/testing.md)
 1. [**Issues**](#issues)
@@ -71,152 +68,148 @@ Inside those separate files there are links back to the main readme.md file too.
 
 ---
 # **UX (User Experience)**
-
 ## **UXD**
 The UX design and develoepment is based on the 5 Plans we've learned on Code Institute's platform.
 - **Strategy**
     - incorporates:
-        - **Users Needs**
-            - WHAT are the needs of our users?
-            - HOW we address them?
-        - **Product Objectives**
-            - WHY do we want to build the product?
-    - user research phase
+        - **Planning Stage**
+            - The idea of making this website came from a real-world need, which is to build a presentation website for Culture Coffee café located in Salisbury. From the begining I had a rough idea of the content the site will provide, but folowing the development methods learned at Code Institute, helped me organise the workflow.
+        <!-- - **Users Needs** -->
+        - **User Stories**
+            -  A first-time client, or a **prospective client**, may have the following user stories:
+
+            | As a                  | I want to...          | So that I can...       | 
+            |-----------------------|-----------------------|------------------------|
+            | **Prospective Client**|                       |                        |
+            |                       | find a café in Salisbury | drink a coffee locally | 
+            |                       | find café's location | visit the café | 
+            |                       | find contact details | ask some other questions | 
+            |                       | read the menu | see if I can have a brunch, lunch or just a coffee | 
+            |                       | download the menu | print the menu | 
+            |                       | find opening hours | visit the café | 
+            |                       | read some testimonials (reviews) | see other clients' experience | 
+            |                       | read the social media pages | see what other clients shared | 
+            |                       | see if they have accessible entryway | bring my son who's using a wheelchair | 
+            |                       | check if there is free Wifi | do some work from my laptop | 
+            |                       | hire the café | have a private party | 
+
+
+            - Additionally to the user stories of a first-time client, an **existing client** might also have the following stories:
+
+            | As an                 | I want to...          | So that I can...      | 
+            |-----------------------|-----------------------|-----------------------|
+            | **Existing Client**   |                       |                       |         
+            |                       | remember café's location | visit it again | 
+            |                       | find if they offer bonuses for being a loyal customer. | have a coffee for free | 
+            |                       | make a review | show how happy I am for their coffee | 
+            |                       | make a complain | discuss a refund | 
+            |                       | remember café's location | visit it again | 
+
+
+            - As a **bussiness owner** the users stories are related to the purpose of the bussiness itself, but also to the intent to grow in future:
+
+            | As a              | I want to...          | So that I can...  |
+            |-------------------|-----------------------|-------------------|
+            | **Business Owner**|                       |                   |       
+            |                   | sell my products | make profit |            
+            |                   | create a select clientele | make a target  |            
+            |                   | reward the loyal clients | retain customers   |            
+            |                   | offer a good, intuitive browsing experience | raise the chances the client would remain on the site |            
+            |                   | implement a good site structured layout  | provide concise  informations |            
+            |                   | provide pictures gallery | showcase some of the products on sale |            
+            |                   | provide links to social media | make a presence in the online |            
+            |                   | create a positive image | attract more customers |         
+        - **Site Objectives**
+            - The main purpose of this website is to offer the users the information necessary so that a client could learn:
+                - who we are?
+                - what could we offer as a café shop?
+                - which is the café's menu?
+                - where are we located?
+                - how the venue looks like on the inside?
+                - if there are other clients reviews about this shop.
+                - if he could contact us?
+        - **Design Goals**
+            - The site should be responsive on all devices.
+            - Offer accesibility support.
+            - The navigation shoud be intuitive and easy.
+            - Each page should keep a pleasant, neat and common design across the website.
+            - The information offered is enough and organized well to attract the clients.
+    <!-- - User research phase -->
+
+---
 - **Scope**
-    - guided by the Product Strategy
+    - guided by the [Product Strategy](2.-strategy)
         - WHAT *features* and *functions* are within **scope**.
-        - WHAT *content elements* ,ay be rewuired to meet users need.
+            - Features Required:
+                - Inform user about 
+                - 
+                - 
+        - WHAT *content elements* may be rewired to meet users need.
+            - Content Required:
+                - Pictures
+                - Location
+                - 
+
+---
 - **Structure**
     - defines HOW the various *features* and *functions* FIT together.
     - defines the *categories of trips or rides* possible.
     - transition from abstract to concrete elements:
         - HOW users get to specific information.
         - WHERE they can go next.
+    - Design Options:  
+        - HOW:
+            - an user can learn some information about out cafe by reading the Landing Page content
+            - an user could consult the cafe's menu in two ways:
+                - viewing the dedicated Cafe's Menu page.
+                - downloading the available Cafe's Menu in PDF format.
+            - an user may see a pictures gallery:
+                - by visiting the Pictures Gallery page
+                - by accessing the Google Maps and TroipAdvisor links at the bootom of the Pictures Gallery's content section.
+            - an user 
+        - WHERE:
+            - **Structure and flow (user journey) map**
+
+            The flow of an user visiting the website is represented in the following diagram:
+            ![](/readme-files/readme-images/website-flow.jpg)
+
+            - Information Section -> Landing page
+            - Menu section -> Cafe's Menu page
+            - Pictures section -> Gallery page
+            - Contact section:
+                - Contact Us form -> Contact Us form page
+                - Contact information:
+                    - Address - navigation to
+                    - Email address and contact phone number
+                    - Social Media
+
+---
 - **Skeleton**
-    - concrete expression of the *structure* plan.
-    - in the form of **wireframes**
+    The wireframe sketches are located in [wireframes.md](readme-files/docs/wireframes.md) file.
+
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
+
+---
 - **Surface**
-    - is the *skin* layer of the product -> the final *look-and-feel*
+    - is the *skin* layer of the product -> the final *look-and-feel*.
     - dive into the *visual treatment* of the product:
         - text.
         - graphical elements
         - navigational components
 
+    - Design Options
+        - Final content
+        - Colour scheme
+        - Typography
+        - Forms
+        - Other
+    - Test Plan
 
-
-- **Planning Stage**
-    - The idea of making this website came from a real-world need, which is to build a presentation website for Culture Coffee café located in Salisbury. From the begining I had a rough idea of the content the site will provide, but folowing the development methods learned at Code Institute, helped me organise the workflow.
-- **Project Goals**
-    - The main purpose of this website is to offer the users the information necessary so that a client could learn:
-        - who we are?
-        - what could we offer as a café shop?
-        - which is the café's menu?
-        - where are we located?
-        - how the venue looks like on the inside?
-        - if there are other clients reviews about this shop.
-        - if he could contact us?
-
----
-- **User Stories**
-    -  A first-time client, or a **prospective client**, may have the following user stories:
-
-    | As a                  | I want to...          | So that I can...       | 
-    |-----------------------|-----------------------|------------------------|
-    | **Prospective Client**|                       |                        |
-    |                       | find a café in Salisbury | drink a coffee locally | 
-    |                       | find café's location | visit the café | 
-    |                       | find contact details | ask some other questions | 
-    |                       | read the menu | see if I can have a brunch, lunch or just a coffee | 
-    |                       | download the menu | print the menu | 
-    |                       | find opening hours | visit the café | 
-    |                       | read some testimonials (reviews) | see other clients' experience | 
-    |                       | read the social media pages | see what other clients shared | 
-    |                       | see if they have accessible entryway | bring my son who's using a wheelchair | 
-    |                       | check if there is free Wifi | do some work from my laptop | 
-    |                       | hire the café | have a private party | 
-
-
-    - Additionally to the user stories of a first-time client, an **existing client** might also have the following stories:
-
-    | As an                 | I want to...          | So that I can...      | 
-    |-----------------------|-----------------------|-----------------------|
-    | **Existing Client**   |                       |                       |         
-    |                       | remember café's location | visit it again | 
-    |                       | find if they offer bonuses for being a loyal customer. | have a coffee for free | 
-    |                       | make a review | show how happy I am for their coffee | 
-    |                       | make a complain | discuss a refund | 
-    |                       | remember café's location | visit it again | 
-
-
-    - As a **bussiness owner** the users stories are related to the purpose of the bussiness itself, but also to the intent to grow in future:
-
-    | As a              | I want to...          | So that I can...  |
-    |-------------------|-----------------------|-------------------|
-    | **Business Owner**|                       |                   |       
-    |                   | sell my products | make profit |            
-    |                   | create a select clientele | make a target  |            
-    |                   | reward the loyal clients | retain customers   |            
-    |                   | offer a good, intuitive browsing experience | raise the chances the client would remain on the site |            
-    |                   | implement a good site structured layout  | provide concise  informations |            
-    |                   | provide pictures gallery | showcase some of the products on sale |            
-    |                   | provide links to social media | make a presence in the online |            
-    |                   | create a positive image | attract more customers |            
-            
-
-
-<br>
-<p align="right">
-    <a href="#table-of-contents">Return to Table of Contents</a>
-</p>
-<br>
-
----
-# **The Strategy and the Scope Plane**
-
-Website Accomplishments
-- The website contains:
-    - navigation bar present on all pages
-    - internal links for important sections
-    - meaningful and organised information to that Prospective and Existing Clients may find easily answers to their questions.
-    - means of contact with the Café's staff.
-    - links to social media platform (Facebook, Instragram).
-    - links to travellers advice site (containg real cleints reviews on TripAdvisor, Google Maps).
-    - 
-
-
-
-# **The Structure Plane**
-User Accessibility
-
-==============================================
-==============================================
-==============================================
-==============================================
-==============================================
-==============================================
-==============================================
-==============================================
-==============================================
-==============================================
-
-<br>
-<p align="right">
-    <a href="#table-of-contents">Return to Table of Contents</a>
-</p>
-<br>
-
----
 # **UI (User Interface)**
-
-## **Wireframes**
-The wireframe sketches are located in [wireframes.md](readme-files/docs/wireframes.md) file.
-
-## **Design Goals**
-- The site should be responsive on all devices.
-- Offer accesibility support.
-- The navigation shoud be intuitive and easy.
-- Each page should keep a pleasant, neat and common design across the website.
-- The information offered is enough and organized well to attract the clients.
 
 ## **Site structure**
 - The site's structure follows a simple linear design. From the home page you may access any other page through the navigation menu. This is a straight forward aproach. The same navigation menu is accesible on every other page, even on the [404.html](404.html) one. The [Form Confirmation page](formconfirmation.html) is displayed to confirms the form has been successfuly submited and you have the option to navigate back to the website or other internal links.
@@ -419,7 +412,25 @@ As a result, the final contrast ratio is everywhere above 9:1. All contrast test
 
 - The arrows used in the Quick Menu categories list in Cafe's Menu page, are blue.
 
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
+
+
 ---
+
+# **Accessibility**
+- The Accessibility score of 100 in Lightroom was obtained by using the recommended [landmarks](https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/HTML5.html) or *special regions, so that screen readers and other assistive technologies can jump to different sections of the site. These improve the overal navigation experience.
+- Each page has distinctly separated areas. The main content area of each page contains the right landmarks and ARIA landmarks, such as `role`, `aria-label`.
+- In mobile view the main navigation bar is hidden behind an icon. The icon has normally applied a bouncing effect, but to avoid *vestibular motion triggers* the animation is reduced (in media queries section of the css file), when the user has disabled such effects.
+
+[Back to Table of Contents](#table-of-contents)
+
+---
+# **Deployment**
+This section is described in its own file [deployment.md](/readme-files/docs/deployment.md)
 
 <br>
 <p align="right">
@@ -427,8 +438,37 @@ As a result, the final contrast ratio is everywhere above 9:1. All contrast test
 </p>
 <br>
 
-# **Deployment**
-[Go to Deployment.md](/readme-files/docs/deployment.md)
+---
+# **Performance**
+1. To improve loading speeds, I've used *.webp image format  (https://developers.google.com/speed/webp) and *.png and *.jpg formats. Every image is been proccesed with Adobe Photoshop -> Export -> Save to Web -> and used low or medium presets for image quality.
+2. Images from Gallery page were resized to 768px for the long side. This resolution is enough to display good images for `breakpoint-md: 768px` .
+3. Images used on Cafe's Menu page were resized to small format and low quality, so it won't affect performance.
+4. The performance of the site was tested using the Lighthouse tool. The results were negatively influenced by two aspects (`links not crawable` and `pre-connect`), for which I did not find a solution to fit my needs. This aspect is described more detailed in [testing.md page](readme-files/docs/testing.md/#lighthouse-scores) file.
+
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
+
+---
+# **Issues**
+Along the development I encountered different issues. Some of them were fixed, for other I found a way around of just used a better solution.
+- When resizing the browser window to mobile view, at the left of the browser can be seen the hidden navigation bar transition effect.
+- [Contact Page legend text centering](): an issue I had was centering the legend element, which wasn't easy achievable through CSS, because of the cross browsers incompatibility. There, an in-line property solved it (https://www.geeksforgeeks.org/html-legend-align-attribute/). Issues discussed [HERE](https://stackoverflow.com/questions/4006824/how-to-center-the-legend-element-what-to-use-instead-of-aligncenter-attribu)
+- I could not find a FontAwesome icon for Tripadvisor. Issue is discussed [HERE](https://github.com/FortAwesome/Font-Awesome/issues/18180)
+- While site was deployed on github Pages, the images on the site wouldn't load. Found out that I have to remove the '/' from the relative links. Example:
+`<src="/assets/imgs/coffees/image.jpeg>` -> in this format the images wouldn't load, so I had to remove the backslash before the 'assets' folder. Found this through the Developer's Tools in Chrome. In VS Code having the `/` won't affect loading, but on GitHub alt-text is being shown.
+- I couldn't use Extended Syntax for Markdown documents, as while I was trying to use Footnotes, for example, it wasn't rendered in my GitHub repository. Therefore I had to use links inside the content to credit the extracted ideas from the respective sources.
+- Wasn't able to use emoji in this document, because on preview they weren't rendered ar icons, but plain text.
+- Hover effects won't work properly on touch mobile devices (which are using a touch screen), so a media query for that has to be implemented.
+- The navigation menu, while in mobile view, is displayed OVER the content of the page. So opening the menu in mobile view, the actual content below the header won't go lower to make place for the menu items. I didn't want to use JS and/or Boostrap, so this was an acceptable compromise I had to accept for the purpose of this project.
+- While [validating](https://validator.w3.org) I had an error 
+    > End tag nav seen, but there were open elements.
+
+    > Unclosed element ul.
+
+    but couldn't find any opened or unclosed elements. These errors dissapeared after I corrected some other errors.
 
 <br>
 <p align="right">
@@ -489,7 +529,6 @@ As a result, the final contrast ratio is everywhere above 9:1. All contrast test
         - [Prunus Dão Tinto 2017](https://www.wine-searcher.com/find/gota+prvt+select+prunus+blanco+dao+portugal/2017/uk)
 - Images used in Gallery page are my own, made with my dSLR, and processed with Photoshop.
 
-
 ## **Other resources and tools used**
 - Code Validation:
     - [W2C Markup Validation Service](https://validator.w3.org/nu/)
@@ -505,53 +544,8 @@ As a result, the final contrast ratio is everywhere above 9:1. All contrast test
     - [Google Fonts](https://fonts.google.com/)
     - [Document format - Beautify](https://codebeautify.org/htmlviewer)
     - [Colormind.io to extract website color theme](http://colormind.io/)
+    - [Website Flow diagram](https://lucid.app/)
 - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
-
-<br>
-<p align="right">
-    <a href="#table-of-contents">Return to Table of Contents</a>
-</p>
-<br>
-
----
-# **Accessibility**
-- The Accessibility score of 100 in Lightroom was obtained by using the recommended [landmarks](https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/HTML5.html) or *special regions, so that screen readers and other assistive technologies can jump to different sections of the site. These improve the overal navigation experience.
-- Each page has distinctly separated areas. The main content area of each page contains the right landmarks and ARIA landmarks, such as `role`, `aria-label`.
-- In mobile view the main navigation bar is hidden behind an icon. The icon has normally applied a bouncing effect, but to avoid *vestibular motion triggers* the animation is reduced (in media queries section of the css file), when the user has disabled such effects.
-
-[Back to Table of Contents](#table-of-contents)
-
----
-# **Performance**
-1. To improve loading speeds, I've used *.webp image format  (https://developers.google.com/speed/webp) and *.png and *.jpg formats. Every image is been proccesed with Adobe Photoshop -> Export -> Save to Web -> and used low or medium presets for image quality.
-2. Images from Gallery page were resized to 768px for the long side. This resolution is enough to display good images for `breakpoint-md: 768px` .
-3. Images used on Cafe's Menu page were resized to small format and low quality, so it won't affect performance.
-4. The performance of the site was tested using the Lighthouse tool. The results were negatively influenced by two aspects (`links not crawable` and `pre-connect`), for which I did not find a solution to fit my needs. This aspect is described more detailed in [testing.md page](readme-files/docs/testing.md/#lighthouse-scores) file.
-
-<br>
-<p align="right">
-    <a href="#table-of-contents">Return to Table of Contents</a>
-</p>
-<br>
-
----
-# **Issues**
-Along the development I encountered different issues. Some of them were fixed, for other I found a way around of just used a better solution.
-- When resizing the browser window to mobile view, at the left of the browser can be seen the hidden navigation bar transition effect.
-- [Contact Page legend text centering](): an issue I had was centering the legend element, which wasn't easy achievable through CSS, because of the cross browsers incompatibility. There, an in-line property solved it (https://www.geeksforgeeks.org/html-legend-align-attribute/). Issues discussed [HERE](https://stackoverflow.com/questions/4006824/how-to-center-the-legend-element-what-to-use-instead-of-aligncenter-attribu)
-- I could not find a FontAwesome icon for Tripadvisor. Issue is discussed [HERE](https://github.com/FortAwesome/Font-Awesome/issues/18180)
-- While site was deployed on github Pages, the images on the site wouldn't load. Found out that I have to remove the '/' from the relative links. Example:
-`<src="/assets/imgs/coffees/image.jpeg>` -> in this format the images wouldn't load, so I had to remove the backslash before the 'assets' folder. Found this through the Developer's Tools in Chrome. In VS Code having the `/` won't affect loading, but on GitHub alt-text is being shown.
-- I couldn't use Extended Syntax for Markdown documents, as while I was trying to use Footnotes, for example, it wasn't rendered in my GitHub repository. Therefore I had to use links inside the content to credit the extracted ideas from the respective sources.
-- Wasn't able to use emoji in this document, because on preview they weren't rendered ar icons, but plain text.
-- Hover effects won't work properly on touch mobile devices (which are using a touch screen), so a media query for that has to be implemented.
-- The navigation menu, while in mobile view, is displayed OVER the content of the page. So opening the menu in mobile view, the actual content below the header won't go lower to make place for the menu items. I didn't want to use JS and/or Boostrap, so this was an acceptable compromise I had to accept for the purpose of this project.
-- While [validating](https://validator.w3.org) I had an error 
-    > End tag nav seen, but there were open elements.
-
-    > Unclosed element ul.
-
-    but couldn't find any opened or unclosed elements. These errors dissapeared after I corrected some other errors.
 
 <br>
 <p align="right">
