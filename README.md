@@ -8,41 +8,40 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/phloreenm/MP1-CultureCoffee-CI-CoBC-FM)
 
 # **Table of Contents**
-1. [**About the site**](#about-the-site)
+1.  [**About the site**](#about-the-site)
     * [**Link to live website**](#link-to-live-website-is-here)
     * [**Link to GitHub repository**](#link-to-github-repo-is-here)
-1. [**UX (User Experience)**](#ux-user-experience)
-    * [**UXD - the Five Plans method**](#uxd)
-        * [**1.Strategy**](#stratetgy)
-            * [Planning Stage](#planning-stage)
-            * [User Stories](#user-stories)
-            * [Site Objectives](#site-objectives)
-            * [Design Goals](#design-goals)
-        * [**2.Scope**](#scope)
-        * [**3.Structure**](#structure)
-        * [**5.Skeleton**](#skeleton)
-             *  [**Wireframes (wireframes.md)**](readme-files/docs/wireframes.md)
-        * [**6. Surface**](#surface)
-            * [**UI (User Interface)**](#ui-user-interface)
-                *  [**Site structure**](#site-structure)
-                *  [**Responsiveness**](#responsiveness)
-                *  [**Layout**](#layout)
-                    * [Header](#header)
-                    * [Main content](#main-content-section)
-                        * [Home page](#home-page)
-                        * [Menu page](#menu-page)
-                        * [Gallery page](#gallery-page)
-                        * [Contact page](#contact-page)
-                    * [Footer area](#footer)
-                *  [**Typography**](#fonts)
-                *  [**Colour theme**](#colours)
-                *  [**Contrast ratio (contrast.md)**](readme-files/docs/contrast.md)
-                *  [**Accessibility**](#accessibility)
-1. [**Performance**](#performance)
-1. [**Testing (testing.md)**](readme-files/docs/testing.md)
-1. [**Issues**](#issues)
-1. [**Deployment (deployment.md)**](readme-files/docs/deployment.md)
-1. [**CREDITS:**](#credits)
+1.  [**UX Design - the Five Plans method**](#uxd)
+    * [**1.Strategy plan**](#stratetgy)
+        * [Planning Stage](#planning-stage)
+        * [User Stories](#user-stories)
+        * [Site Objectives](#site-objectives)
+        * [Design Goals](#design-goals)
+    * [**2.Scope plan**](#scope)
+    * [**3.Structure plan**](#structure)
+    * [**5.Skeleton plan**](#skeleton)
+        *  [**Wireframes (wireframes.md)**](readme-files/docs/wireframes.md)
+    * [**6. Surface plan**](#surface)
+        * [**UI (User Interface)**](#ui-user-interface)
+            *  [**Site structure**](#site-structure)
+            *  [**Responsiveness**](#responsiveness)
+            *  [**Layout**](#layout)
+                * [Header](#header)
+                * [Main content](#main-content-section)
+                    * [Home page](#home-page)
+                    * [Menu page](#menu-page)
+                    * [Gallery page](#gallery-page)
+                    * [Contact page](#contact-page)
+                * [Footer area](#footer)
+            *  [**Typography**](#fonts)
+            *  [**Colour theme**](#colours)
+            *  [**Contrast ratio (contrast.md)**](readme-files/docs/contrast.md)
+            *  [**Accessibility**](#accessibility)
+1.  [**Testing (testing.md)**](readme-files/docs/testing.md)
+1.  [**Performance**](#performance)
+1.  [**Issues**](#issues)
+1.  [**Deployment (deployment.md)**](readme-files/docs/deployment.md)
+1.  [**CREDITS:**](#credits)
     *  [**Code Snipets:**](#code-snipets)
     *  [**Research and Information:**](#research-and-information)
     *  [**Media**](#media)
@@ -70,13 +69,13 @@ Inside those separate files there are links back to the main readme.md file too.
 # **UX (User Experience)**
 ## **UXD**
 The UX design and develoepment is based on the 5 Plans we've learned on Code Institute's platform.
-- **Strategy**
-    - incorporates:
-        - **Planning Stage**
-            - The idea of making this website came from a real-world need, which is to build a presentation website for Culture Coffee café located in Salisbury. From the begining I had a rough idea of the content the site will provide, but folowing the development methods learned at Code Institute, helped me organise the workflow.
+# **Strategy**
+- incorporates:
+    - **Planning Stage**
+        - The idea of making this website came from a real-world need, which is to build a presentation website for Culture Coffee café located in Salisbury. From the begining I had a rough idea of the content the site will provide, but folowing the development methods learned at Code Institute, helped me organise the workflow.
         <!-- - **Users Needs** -->
-        - **User Stories**
-            -  A first-time client, or a **prospective client**, may have the following user stories:
+    - **User Stories**
+        -  A first-time client, or a **prospective client**, may have the following user stories:
 
             | As a                  | I want to...          | So that I can...       | 
             |-----------------------|-----------------------|------------------------|
@@ -94,7 +93,7 @@ The UX design and develoepment is based on the 5 Plans we've learned on Code Ins
             |                       | hire the café | have a private party | 
 
 
-            - Additionally to the user stories of a first-time client, an **existing client** might also have the following stories:
+        - Additionally to the user stories of a first-time client, an **existing client** might also have the following stories:
 
             | As an                 | I want to...          | So that I can...      | 
             |-----------------------|-----------------------|-----------------------|
@@ -106,7 +105,7 @@ The UX design and develoepment is based on the 5 Plans we've learned on Code Ins
             |                       | remember café's location | visit it again | 
 
 
-            - As a **bussiness owner** the users stories are related to the purpose of the bussiness itself, but also to the intent to grow in future:
+        - As a **bussiness owner** the users stories are related to the purpose of the bussiness itself, but also to the intent to grow in future:
 
             | As a              | I want to...          | So that I can...  |
             |-------------------|-----------------------|-------------------|
@@ -119,73 +118,73 @@ The UX design and develoepment is based on the 5 Plans we've learned on Code Ins
             |                   | provide pictures gallery | showcase some of the products on sale |            
             |                   | provide links to social media | make a presence in the online |            
             |                   | create a positive image | attract more customers |         
-        - **Site Objectives**
-            - The main purpose of this website is to offer the users the information necessary so that a client could learn:
-                - who we are?
-                - what could we offer as a café shop?
-                - which is the café's menu?
-                - where are we located?
-                - how the venue looks like on the inside?
-                - if there are other clients reviews about this shop.
-                - if he could contact us?
-        - **Design Goals**
-            - The site should be responsive on all devices.
-            - Offer accesibility support.
-            - The navigation shoud be intuitive and easy.
-            - Each page should keep a pleasant, neat and common design across the website.
-            - The information offered is enough and organized well to attract the clients.
-    <!-- - User research phase -->
+    - **Site Objectives**
+        - The main purpose of this website is to offer the users the information necessary so that a client could learn:
+            - who we are?
+            - what could we offer as a café shop?
+            - which is the café's menu?
+            - where are we located?
+            - how the venue looks like on the inside?
+            - if there are other clients reviews about this shop.
+            - if he could contact us?
+    - **Design Goals**
+        - The site should be responsive on all devices.
+        - Offer accesibility support.
+        - The navigation shoud be intuitive and easy.
+        - Each page should keep a pleasant, neat and common design across the website.
+        - The information offered is enough and organized well to attract the clients.
 
 ---
-- **Scope**
-    - guided by the [Product Strategy](2.-strategy)
-        - WHAT *features* and *functions* are within **scope**.
-            - Features Required:
-                - Inform user about 
-                - 
-                - 
-        - WHAT *content elements* may be rewired to meet users need.
-            - Content Required:
-                - Pictures
-                - Location
-                - 
+# **Scope**
+- guided by the [Product Strategy](#strategy)
+    - WHAT *features* and *functions* are within **scope**.
+        - Features Required:
+            - Inform user about 
+            - 
+            - 
+    - WHAT *content elements* may be rewired to meet users need.
+        - Content Required:
+            - Pictures
+            - Location
+            - 
 
 ---
-- **Structure**
-    - defines HOW the various *features* and *functions* FIT together.
-    - defines the *categories of trips or rides* possible.
-    - transition from abstract to concrete elements:
-        - HOW users get to specific information.
-        - WHERE they can go next.
-    - Design Options:  
-        - HOW:
-            - an user can learn some information about out cafe by reading the Landing Page content
-            - an user could consult the cafe's menu in two ways:
-                - viewing the dedicated Cafe's Menu page.
-                - downloading the available Cafe's Menu in PDF format.
-            - an user may see a pictures gallery:
-                - by visiting the Pictures Gallery page
-                - by accessing the Google Maps and TroipAdvisor links at the bootom of the Pictures Gallery's content section.
-            - an user 
-        - WHERE:
-            - **Structure and flow (user journey) map**
+# **Structure**
+- defines HOW the various *features* and *functions* FIT together.
+- defines the *categories of trips or rides* possible.
+- transition from abstract to concrete elements:
+    - HOW users get to specific information.
+    - WHERE they can go next.
+- Design Options:  
+    - HOW:
+        - an user can learn some information about out cafe by reading the Landing Page content
+        - an user could consult the cafe's menu in two ways:
+            - viewing the dedicated Cafe's Menu page.
+            - downloading the available Cafe's Menu in PDF format.
+        - an user may see a pictures gallery:
+            - by visiting the Pictures Gallery page
+            - by accessing the Google Maps and TroipAdvisor links at the bootom of the Pictures Gallery's content section.
+        - an user 
+    - WHERE:
+        - **Structure and flow (user journey) map**
 
-            The flow of an user visiting the website is represented in the following diagram:
+        The flow of an user visiting the website is represented in the following diagram:
             ![](/readme-files/readme-images/website-flow.jpg)
 
-            - Information Section -> Landing page
-            - Menu section -> Cafe's Menu page
-            - Pictures section -> Gallery page
-            - Contact section:
-                - Contact Us form -> Contact Us form page
-                - Contact information:
-                    - Address - navigation to
-                    - Email address and contact phone number
-                    - Social Media
+        <!-- - Information Section -> Landing page
+        - Menu section -> Cafe's Menu page
+        - Pictures section -> Gallery page
+        - Contact section:
+            - Contact Us form -> Contact Us form page
+            - Contact information:
+                - Address - navigation to
+                - Email address and contact phone number
+                - Social Media -->
 
 ---
-- **Skeleton**
-    The wireframe sketches are located in [wireframes.md](readme-files/docs/wireframes.md) file.
+# **Skeleton**
+
+The wireframe sketches are located in [wireframes.md](readme-files/docs/wireframes.md) file.
 
 <br>
 <p align="right">
@@ -194,20 +193,9 @@ The UX design and develoepment is based on the 5 Plans we've learned on Code Ins
 <br>
 
 ---
-- **Surface**
-    - is the *skin* layer of the product -> the final *look-and-feel*.
-    - dive into the *visual treatment* of the product:
-        - text.
-        - graphical elements
-        - navigational components
-
-    - Design Options
-        - Final content
-        - Colour scheme
-        - Typography
-        - Forms
-        - Other
-    - Test Plan
+# **Surface**
+<!-- - is the *skin* layer of the product -> the final *look-and-feel*.
+- dive into the *visual treatment* of the product: -->
 
 # **UI (User Interface)**
 
@@ -266,6 +254,12 @@ The Header (containing the Logo and the Navigation Menu) and the Footer are comm
 - this area is limited to a `max-width: 1000px;` there is also a `padding: 0 100px;` in desktop view. Also the background-color is limited to this width and this should create a delimitation between the empty space and the actual main content.
 - in mobile view the pading is reduced to `30px` and the `width:100%`, so that more information would fit on smaller screens.
 
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
+
 ---
 #### **Home page**
 Home page main section contains:
@@ -279,6 +273,12 @@ The purpose is to guide the visitor through the website's content, and describe 
     <img src="readme-files/readme-images/01-2-homepage-mobileview-screenshot-h900.jpg" alt="Left - Mobile view" height="370">
     <img src="readme-files/readme-images/01-1-homepage-desktopview-screenshot-h600.jpg" alt="Bottom - Mobile view" height="370" width="650">
 </p>
+
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 ---
 #### **Menu page**
@@ -319,6 +319,12 @@ The menu page is structured differently that the other pages, because the main p
          <img src="readme-files/readme-images/cafesmenu-des-structure.jpg" alt="desktop view" height="370">
     </p>
 
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
+
 ---
 #### **Gallery page**
 The Gallery page has only one purpose: to showoff some pictures depincting the interior design of the cafe, staff, making coffees, etc.
@@ -336,6 +342,12 @@ The Gallery page has only one purpose: to showoff some pictures depincting the i
                 <img src="readme-files/readme-images/03-5-gallery-desktopview-1col-lg-img-screenshot-.jpg" alt="Larger screens and Desktop pone column Preview" height="370">
             </p>
 
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
+
 ---
 #### **Contact page**
 - The Contact page is structured around a form, containing multiple fields, which the user may choose to fill. The user can make a request, ask a question, propose a recommandation, make a complain and also take part to a poll by votting his favorite coffee.
@@ -343,6 +355,12 @@ The Gallery page has only one purpose: to showoff some pictures depincting the i
         <img src="readme-files/readme-images/04-2-contact-mobileview-screenshot.png" alt="Contact page - Mobile preview" height="370">
         <img src="readme-files/readme-images/04-1-contact-desktopview-screenshot.png" alt="Contact page - Desktop preview" height="370">
     </p>
+
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
 
 ---
 ### **FOOTER**
@@ -369,8 +387,13 @@ The Gallery page has only one purpose: to showoff some pictures depincting the i
             <img src="readme-files/readme-images/tel-call-screen.jpg" alt="Calling screen on a smartphone" height="370">
         </p>
 
+<br>
+<p align="right">
+    <a href="#table-of-contents">Return to Table of Contents</a>
+</p>
+<br>
+
 ---
-[Back to Table of Contents](#table-of-contents)
 
 ## **Fonts**
 - Font families used:
@@ -417,7 +440,6 @@ As a result, the final contrast ratio is everywhere above 9:1. All contrast test
     <a href="#table-of-contents">Return to Table of Contents</a>
 </p>
 <br>
-
 
 ---
 
