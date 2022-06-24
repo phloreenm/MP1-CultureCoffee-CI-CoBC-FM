@@ -13,6 +13,12 @@
     * [**Link to GitHub repository**](#link-to-github-repo-is-here)
 1. [**UX (User Experience)**](#ux-user-experience)
     * [**UXD**](#uxd)
+        * [**Strategy**](#stratetgy)
+        * [**Scope**](#scope)
+        * [**Structure**](#Structure)
+        * [**Skeleton**](#skeleton)
+        * [**Surface**](#surface)
+
         * [**Planning Stage**](#planning-stage)
         * [**Project Goals**](#project-goals)
         * [**User Stories**](#user-stories)
@@ -68,6 +74,36 @@ Inside those separate files there are links back to the main readme.md file too.
 
 ## **UXD**
 The UX design and develoepment is based on the 5 Plans we've learned on Code Institute's platform.
+- **Strategy**
+    - incorporates:
+        - **Users Needs**
+            - WHAT are the needs of our users?
+            - HOW we address them?
+        - **Product Objectives**
+            - WHY do we want to build the product?
+    - user research phase
+- **Scope**
+    - guided by the Product Strategy
+        - WHAT *features* and *functions* are within **scope**.
+        - WHAT *content elements* ,ay be rewuired to meet users need.
+- **Structure**
+    - defines HOW the various *features* and *functions* FIT together.
+    - defines the *categories of trips or rides* possible.
+    - transition from abstract to concrete elements:
+        - HOW users get to specific information.
+        - WHERE they can go next.
+- **Skeleton**
+    - concrete expression of the *structure* plan.
+    - in the form of **wireframes**
+- **Surface**
+    - is the *skin* layer of the product -> the final *look-and-feel*
+    - dive into the *visual treatment* of the product:
+        - text.
+        - graphical elements
+        - navigational components
+
+
+
 - **Planning Stage**
     - The idea of making this website came from a real-world need, which is to build a presentation website for Culture Coffee café located in Salisbury. From the begining I had a rough idea of the content the site will provide, but folowing the development methods learned at Code Institute, helped me organise the workflow.
 - **Project Goals**
@@ -79,7 +115,6 @@ The UX design and develoepment is based on the 5 Plans we've learned on Code Ins
         - how the venue looks like on the inside?
         - if there are other clients reviews about this shop.
         - if he could contact us?
-
 
 ---
 - **User Stories**
@@ -129,34 +164,6 @@ The UX design and develoepment is based on the 5 Plans we've learned on Code Ins
             
 
 
-
-
-
-I decided to display the User Story in a table (there is also a link at the bottom of the table to the Excel version of this table). Since some user stories (like First time user and Existing User) might have common stories, I've used a &#10003; symbol to check if the respective story applies to that type of user.
-
-| As a/an             | I want to...      | So that I can... | Scenario 1 | Scenario 2 | Acceptance Criteria |
-|---------------------|-------------------|------------------|------------|------------|---------------------|
-| **First time user** | **Existing User** | **Bussiness**    |            |            |                     |
-| &#10003;            | &#10003;          |                  | find café's location                                 | drink a coffee in the café                            | Decided to visit the shop                                                         |                                                                                                   |                                                                                                                                                    |
-| &#10003;            | &#10003;          |                  | find opening hours                                   | make avisit to the café                               |                                                                                   |                                                                                                   |                                                                                                                                                    |
-| &#10003;            |                   |                  | see café's inside pictures                           | decide if I like the location                         | user is well impressed by the very positive reviews and decides to visit the café | User read some negative reviews and developed uncertainity if quality offered is high as promised |                                                                                                                                                    |
-| &#10003;            | &#10003;          |                  | find if pets are allowed                             | bring my pet at the cafe                              |                                                                                   |                                                                                                   | (Only) Disabled people that use assistance dogs have important rights under the Equality Act 2010 - hygiene maters, so other cases can be accepted |
-| &#10003;            |                   |                  | read some testimonials (reviews)                     | see other clients' experience                         |                                                                                   |                                                                                                   |                                                                                                                                                    |
-| &#10003;            | &#10003;          |                  | find if the café offers takeaway                     | buy a coffee on my way to the train                   |                                                                                   |                                                                                                   |                                                                                                                                                    |
-| &#10003;            | &#10003;          |                  | stay outside                                         | enjoy the sun while having a coffee                   |                                                                                   |                                                                                                   | weather is good                                                                                                                                    |
-| &#10003;            | &#10003;          |                  | see if power outlets and internet acces are provided | use my laptop and have a coffee                       |                                                                                   |                                                                                                   |                                                                                                                                                    |
-| &#10003;            | &#10003;          |                  | see if they offer wheelschair acces                  | bring someone confined to a wheelchair                |                                                                                   |                                                                                                   |
-|                     |                   | &#10003;         | sell my products                                     | make profit                                           |                                                                                   |                                                                                                   |
-|                     |                   | &#10003;         | create a select clientele                            | make a target                                         |                                                                                   |                                                                                                   |
-|                     |                   | &#10003;         | reward the loyal clients                             | retain customers                                      | Using loyalty cards - 10th coffee comes from the house                            |                                                                                                   |
-|                     |                   | &#10003;         | update Social Media                                  | make a presence in the online                         |                                                                                   |                                                                                                   |
-|                     |                   | &#10003;         | offer a good, intuitive browsing experience          | raise the chances the client would remain on the site |                                                                                   |                                                                                                   |
-|                     |                   | &#10003;         | implement a good site structured layout              | provide concise  informations                         |                                                                                   |                                                                                                   |
-|                     |                   | &#10003;         | provide pictures gallery                             | showcase some of the products on sale                 |                                                                                   |                                                                                                   |
-|                     |                   | &#10003;         | provide pictures gallery                             | present the premise's interior design                 |                                                                                   |                                                                                                   |
-
-An online Excel version of the User Stories Board can be found [here](https://1drv.ms/x/s!AhVZRr1-0ZpXmKwYxEhkrC46UlGAow?e=utUtgc)
-
 <br>
 <p align="right">
     <a href="#table-of-contents">Return to Table of Contents</a>
@@ -167,6 +174,17 @@ An online Excel version of the User Stories Board can be found [here](https://1d
 # **The Strategy and the Scope Plane**
 
 Website Accomplishments
+- The website contains:
+    - navigation bar present on all pages
+    - internal links for important sections
+    - meaningful and organised information to that Prospective and Existing Clients may find easily answers to their questions.
+    - means of contact with the Café's staff.
+    - links to social media platform (Facebook, Instragram).
+    - links to travellers advice site (containg real cleints reviews on TripAdvisor, Google Maps).
+    - 
+
+
+
 # **The Structure Plane**
 User Accessibility
 
@@ -437,6 +455,7 @@ As a result, the final contrast ratio is everywhere above 9:1. All contrast test
 - [Site structuring](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
 - [Mental model](https://en.wikipedia.org/wiki/Mental_model)
 - [Font accessibility](https://bighack.org/font-accessibility-and-readability-the-basics/)
+- [UX Design using the Five Planes Method](https://medium.com/designcentered/ux-design-5-planes-method-b1b1d6587c05)
 
 ## **Media**
 - Logo was created using [Logo Maker Pro on Android](https://play.google.com/store/apps/details?id=com.TTT.logomaker.logocreator.generator.designer)
