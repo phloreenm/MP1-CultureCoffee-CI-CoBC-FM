@@ -571,6 +571,7 @@ Along the development I encountered different issues. Some of them were fixed, f
     - [Colormind.io to extract website color theme](http://colormind.io/)
     - [Website Flow diagram](https://lucid.app/)
 - [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+- [Code Institute student template for Gitpod](https://github.com/Code-Institute-Org/gitpod-full-template)
 
 <br>
 <p align="right">
