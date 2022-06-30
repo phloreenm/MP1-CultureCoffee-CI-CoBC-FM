@@ -38,7 +38,7 @@ Link to this GitHub repo is [here](https://github.com/phloreenm/MP1-CultureCoffe
     - Below *Source* select the *None*. A dropdown opens, then select *main* and click *Save* button.
     - The page reloads and a notification at the top of the page is shown.
     - Click the link in the notification to visit the deployed site.
-- Read [here](https://docs.github.com/en/github-ae@latest/pages/getting-started-with-github-pages/creating-a-github-pages-site) and [here](https://docs.github.com/en/github-ae@latest/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site) in more detailed instructions about deployind a repository to GitHub Pages.
+- Read [here](https://docs.github.com/en/github-ae@latest/pages/getting-started-with-github-pages/creating-a-github-pages-site) and [here](https://docs.github.com/en/github-ae@latest/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site) for more detailed instructions about deployind a repository to GitHub Pages.
 
 ## **Clone locally**
 - To clone this project locally folow these steps:

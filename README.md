@@ -136,54 +136,57 @@ The UX design and development is based on the Five Elements of User Experience  
 
 ---
 # **Scope**
-- guided by the [Product Strategy](#strategy)
-    - WHAT *features* and *functions* are within **scope**, contained within the site.
-        - Features Required:
-            - Inform user about 
-            - 
-            - 
-    - WHAT *content elements* may be rewired to meet users need.
-        - Content Required:
-            - Pictures
-            - Location
-            - 
+- Functional specifications:
+    - An user should be able achieve its goals by visiting the site's sections
+    - An user could understand site's structure by accesing the navigation menu bar
+    - In case website page address is typed wrong, the server displays the 404 error in a dedicated page.
+    - The user receives a status feedback as a result of its sent enquiry.
+    - All pages are responssive on most of the devices, from small to large screens.
+    - Website is well displayed on most popular browsers.
+- Content requirements:
+    - The information provided to user needs are acomplished through:
+        - Navigation Menu
+        - Images
+            - Logo
+            - Pictures' Gallery
+            - Products' descriptive images
+            - Icons (from FontAwasome)
+        - Specific text information (address, phone number, email address)
+        - Internal links
+        - External links to other sites or services:
+            - Travel sites
+            - `tel:` link to open diallling screen
+            - `mailto:` link to quickly open default mail client
+    - Information is actual.
+    - Information is clear and easy to understand; homogeneous base of content.
 
 ---
 # **Structure**
-- defines HOW the various *features* and *functions* FIT together.
-- defines the *categories of trips or rides* possible.
-- transition from abstract to concrete elements:
-    - HOW users get to specific information.
-    - WHERE they can go next.
-- Design Options:  
+- Information architecture:
+    - 1. Information available across all the pages
+        - Header and Footer are accesible on all pages offering quick acces to different type of information
+    - 2. Features grouped and available only to specific pages:
+        - Each page's content section is specific to the page.
+- Design options:  
     - HOW:
-        - an user can learn some information about out cafe by reading the Landing Page content
-        - an user could consult the cafe's menu in two ways:
+        - an user can learn some information about out cafe by reading the Landing Page *content*
+        - an user could consult the *cafe's menu* in two ways:
             - viewing the dedicated Cafe's Menu page.
             - downloading the available Cafe's Menu in PDF format.
-        - an user may see a pictures gallery:
+        - an user may see real *pictures gallery*:
             - by visiting the Pictures Gallery page
-            - by accessing the Google Maps and TroipAdvisor links at the bootom of the Pictures Gallery's content section.
-        - an user 
+            - by accessing the Google Maps and TripAdvisor links available at the bootom of the Pictures Gallery's content section.
+        - an user may send an enquiry to the café using the Contact page.
     - WHERE:
         - **Structure and flow (user journey) map**
        
     <p align="center">The flow of an user visiting the website is represented in the following diagram:<br>
         <img src="readme-files/readme-images/website-flow.jpg" alt="User's journey" width="90%">
     </p>
-    <!-- - Information Section -> Landing page
-        - Menu section -> Cafe's Menu page
-        - Pictures section -> Gallery page
-        - Contact section:
-            - Contact Us form -> Contact Us form page
-            - Contact information:
-                - Address - navigation to
-                - Email address and contact phone number
-                - Social Media -->
-
+  
 ---
 # **Skeleton**
-The wireframe sketches are located in [wireframes.md](readme-files/docs/wireframes.md) file.
+The skeleton plane is represented by the wireframe sketches and they're are located in [wireframes.md](readme-files/docs/wireframes.md) file.
 
 <br>
 <p align="right">
@@ -193,9 +196,6 @@ The wireframe sketches are located in [wireframes.md](readme-files/docs/wirefram
 
 ---
 # **Surface**
-<!-- - is the *skin* layer of the product -> the final *look-and-feel*.
-- dive into the *visual treatment* of the product: -->
-
 # **UI (User Interface)**
 
 ## **Site structure**
@@ -581,10 +581,10 @@ Along the development I encountered different issues. Some of them were fixed, f
 
 ---
 # **Aknowledgment**
-I would not be enough to finish this project without saying a big "thank you!" to all of you who helped me in working on this project.
+Before finishing this project I would like to say a big "thank you!" to all of you who helped me in working on this project.
 Firstly, to my family who supported me all along in every aspect, especialy in being absent at some important moments, because I had to study.
-Of course, nothing would have been possible without everyting Code Institue has to offer through this course and its wonderful Slack community. 
-Since I am officialy taking this course at City of Bristol College, a big thanks to my tutors, [Pasquale F.](https://www.linkedin.com/in/pasquale-fasulo-68612218a/) and Ben S. for every step they've been with me through the learning process.
+Of course, nothing would have been possible without everyting Code Institue offered through this course and its wonderful Slack community. 
+Since I am officialy taking this course at City of Bristol College, a big thanks to my tutors, [Pasquale F.](https://www.linkedin.com/in/pasquale-fasulo-68612218a/) and [Ben Smith](https://www.linkedin.com/in/benjaminsmith1981/) for every step they've been with me through the learning process.
 And last but not least, to my mentor, [Adegbenga Adeye](https://github.com/deye9), whose insights were always very helpful and helped me shape this project.
 
 <br>
