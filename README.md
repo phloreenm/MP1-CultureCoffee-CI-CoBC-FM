@@ -68,12 +68,27 @@ Inside those separate files there are links back to the main readme.md file too.
 ---
 # **UX (User Experience)**
 ## **UXD**
-The UX design and develoepment is based on the 5 Plans we've learned on Code Institute's platform.
+The UX design and development is based on the Five Elements of User Experience  we've learned on Code Institute's platform.
 # **Strategy**
-- incorporates:
+- **Website objectives**
     - **Planning Stage**
         - The idea of making this website came from a real-world need, which is to build a presentation website for Culture Coffee café located in Salisbury. From the begining I had a rough idea of the content the site will provide, but folowing the development methods learned at Code Institute, helped me organise the workflow.
-        <!-- - **Users Needs** -->
+    - **Site Objectives**
+        - The main purpose of this website is to offer the users the information necessary so that a client could learn:
+            - who we are?
+            - what could we offer as a café shop?
+            - which is the café's menu?
+            - where are we located?
+            - how the venue looks like on the inside?
+            - if there are other clients reviews about this shop.
+            - if he could contact us?
+    - **Design Goals**
+        - The site should be responsive on all devices.
+        - Offer accesibility support.
+        - The navigation shoud be intuitive and easy.
+        - Each page should keep a pleasant, neat and common design across the website.
+        - The information offered is enough and organized well to attract the clients.
+- **User needs**
     - **User Stories**
         -  A first-time client, or a **prospective client**, may have the following user stories:
 
@@ -118,26 +133,11 @@ The UX design and develoepment is based on the 5 Plans we've learned on Code Ins
             |                   | provide pictures gallery | showcase some of the products on sale |            
             |                   | provide links to social media | make a presence in the online |            
             |                   | create a positive image | attract more customers |         
-    - **Site Objectives**
-        - The main purpose of this website is to offer the users the information necessary so that a client could learn:
-            - who we are?
-            - what could we offer as a café shop?
-            - which is the café's menu?
-            - where are we located?
-            - how the venue looks like on the inside?
-            - if there are other clients reviews about this shop.
-            - if he could contact us?
-    - **Design Goals**
-        - The site should be responsive on all devices.
-        - Offer accesibility support.
-        - The navigation shoud be intuitive and easy.
-        - Each page should keep a pleasant, neat and common design across the website.
-        - The information offered is enough and organized well to attract the clients.
 
 ---
 # **Scope**
 - guided by the [Product Strategy](#strategy)
-    - WHAT *features* and *functions* are within **scope**.
+    - WHAT *features* and *functions* are within **scope**, contained within the site.
         - Features Required:
             - Inform user about 
             - 
@@ -167,11 +167,11 @@ The UX design and develoepment is based on the 5 Plans we've learned on Code Ins
         - an user 
     - WHERE:
         - **Structure and flow (user journey) map**
-
-        The flow of an user visiting the website is represented in the following diagram:
-            ![](/readme-files/readme-images/website-flow.jpg)
-
-        <!-- - Information Section -> Landing page
+       
+    <p align="center">The flow of an user visiting the website is represented in the following diagram:<br>
+        <img src="readme-files/readme-images/website-flow.jpg" alt="User's journey" width="90%">
+    </p>
+    <!-- - Information Section -> Landing page
         - Menu section -> Cafe's Menu page
         - Pictures section -> Gallery page
         - Contact section:
@@ -183,7 +183,6 @@ The UX design and develoepment is based on the 5 Plans we've learned on Code Ins
 
 ---
 # **Skeleton**
-
 The wireframe sketches are located in [wireframes.md](readme-files/docs/wireframes.md) file.
 
 <br>
@@ -517,7 +516,11 @@ Along the development I encountered different issues. Some of them were fixed, f
 - [Site structuring](https://webstyleguide.com/wsg3/3-information-architecture/3-site-structure.html)
 - [Mental model](https://en.wikipedia.org/wiki/Mental_model)
 - [Font accessibility](https://bighack.org/font-accessibility-and-readability-the-basics/)
+- [The Elements of User Experience, Second Edition: User-Centered Design for the Web and Beyond - Jesse James Garrett](https://learning.oreilly.com/library/view/the-elements-of/9780321688651/)
 - [UX Design using the Five Planes Method](https://medium.com/designcentered/ux-design-5-planes-method-b1b1d6587c05)
+- [The Five Elements of UX](https://www.youtube.com/watch?v=wFi_uGLwXuA)
+- [UX UI 5 Planes Overview](https://www.youtube.com/watch?v=82y9Ygn28y0)
+- [User needs vs User stories ](https://salmapatel.co.uk/academia/user-needs-vs-user-stories-in-agile/)
 
 ## **Media**
 - Logo was created using [Logo Maker Pro on Android](https://play.google.com/store/apps/details?id=com.TTT.logomaker.logocreator.generator.designer)
