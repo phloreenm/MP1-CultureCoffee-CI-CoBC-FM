@@ -28,7 +28,6 @@ While developing the website I've tested its functionality locally (Live Server 
     
 1. The webpage was deployed on GitHub Pages and I've asked few friends to check the page as a normal user and then send me a feedback.
 
-1. Created 
 
 ### ***Manual Testing:***
 * During testing, I've used different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
