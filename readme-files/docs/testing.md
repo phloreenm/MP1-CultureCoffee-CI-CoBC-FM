@@ -31,7 +31,7 @@ While developing the website I've tested its functionality locally (Live Server 
 1. Created 
 
 ### ***Manual Testing:***
-* During testing, I've used four different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
+* During testing, I've used different browsers to ensure cross-compatibility. The desktop browsers used by myself were:
 #### Mobile Devices Browsers (Smartphone and Tablet):
 - Chrome
 - Firefox  
