@@ -7,57 +7,78 @@
 ---
 
 # **Table of Contents**
-
+1.  [**Repository location**](#repository-location)
+1.  [**Fork the repository**](#fork-the-repository)
+1.  [**Deploy to HitHub Pages**](#deploy-to-hitHub-pages)
+1.  [**Clone locally**](#clone-locally)
+1.  [**Run project locally**](#run-project-locally)
 
 --- 
 
-GitHub Pages
+## **Repository location**
+Link to this GitHub repo is [here](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main) 
+## **Fork the repository**
+- To fork this repository follow these steps:
+    - Login to your GitHub account.
+    - Click this [LINK](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main) to visit the repository.
+    - Find the Fork button and click it.
+    - "Create a new fork" page will show.
+    - Name your new forked repository and add a description.
+    - Click "Create fork".
+    - You shoud now have forked this repository in your GitHub profile.
+- More details about how fork work [here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/fork-a-repo#about-forks), on GitHub's Quickstart Guide.
 
-The project was deployed to GitHub Pages using these steps:
+## **Deploy to HitHub Pages**
+- To deploy this project to GitHub Pages follow these steps:
+    - Login to your GitHub account.
+    - Click this [LINK](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main) to visit the repository.
+    - In the top navigation bar, right hand, click the profile icon.
+    - From the menu click Settings.
+    - In the newly opened page, on the left hand navigation menu, click *Pages* from the *Code, planning, and automation*.
+    - Below *Source* select the *None*. A dropdown opens, then select *main* and click *Save* button.
+    - The page reloads and a notification at the top of the page is shown.
+    - Click the link in the notification to visit the deployed site.
+- Read [here](https://docs.github.com/en/github-ae@latest/pages/getting-started-with-github-pages/creating-a-github-pages-site) and [here](https://docs.github.com/en/github-ae@latest/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site) in more detailed instructions about deployind a repository to GitHub Pages.
 
-    Log in to GitHub and go to the GitHub Repository
-    Locate the Navbar at the top of the Repository (not top of page). Click the Settings tab.
-    Locate the Navbar on the left hand side of the page. Click the "Pages" section (under 'Code and automation').
-    Under "Source", click the dropdown called "None" and select "main". Click save.
-    The page will automatically refresh.
-    A notification will appear at the top of the page with the link to the deployed site. You can return to this GitHub Pages section to access the link.
+## **Clone locally**
+- To clone this project locally folow these steps:
+    - Login to your GitHub account.
+    - Click this [LINK](https://github.com/phloreenm/MP1-CultureCoffee-CI-CoBC-FM/tree/main) to visit the repository.
+    - At the top of the repository files, select *Code* menu.
+    - There are few ways to access this repo:
+        - HTTPS using the link provided with Git
+        - SSH using a password-protected SSH key.
+        - GitHub CLI using the  official CLI from GitHub
+        - GitHub Desktop
+        - Download a ZIP archive to use it locally in your prefered IDE.
+    - We'll continue using **Git Bash**
+        - Download [git](https://git-scm.com/download/) and install the right version for your OS.
+        - Open Git Bash
+        - change the current workind directory to a new folder where you'd want to clone the repository.
+        - type `git clone` in the CLI and paste the URL you copied from GitHub *Code* menu.
+        ```
+        $ git clone https://github.com/username/repository
+        ```
+        - Press *Enter* to clone the repository in the chosen folder.
+- Read with more details how to clone a forked repository [here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/fork-a-repo#cloning-your-forked-repository), on GitHub's Quickstart Guide.
 
-Forking the GitHub Repository
+## **Run project locally**
+- To run this project locally follow the following steps:
+    - This project was initially built using the [Code Institute student template for Gitpod](https://github.com/Code-Institute-Org/gitpod-database-config), therefore all the necessary tools are already included in the project.
+    - In GitPod workspace of this project, open the temrinal and type:
+    ```
+    python3 -m http.server
+    ```
+    - Click the  *Make Public* blue button.
+    - Then another *Open Browser* blue button should appear.
+    - Click it and this should open the default browser with the frontend project running.
+    - In the terminal of GitPod it will display the local address and port the project is running like in this example:
+    ```
+    Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
+    ```
 
-Forks are used to propose changes to someone else's project or to use someone else's project as a starting point for your own idea. By forking the GitHub Repository you make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository.
 
-To Fork a Github Repository:
 
-    Log in to GitHub and go to the GitHub Repository
-    Locate the Fork button in the top-right corner of the page, click Fork.
-    You should now have a copy of the original repository in your GitHub account.
-
-Making a Local Clone
-
-You will now have a fork of the repository, but you don't have the files in that repository locally on your computer.
-
-To make a local clone:
-
-    Log in to GitHub and go to the GitHub Repository
-    Above the list of files, click Code.
-    To clone the repository using HTTPS, under "Clone with HTTPS", click the 'Copy' icon. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the 'Copy' icon. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the 'Copy' icon.
-    Open Git Bash.
-    Change the current working directory to the location where you want the cloned directory.
-    Type git clone, and then paste the URL you copied earlier. It will look like this, with your GitHub AE username instead of YOUR-USERNAME:
-
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-
-    Press Enter. Your local clone will be created.
-
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `milestone-project-one`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
-
-Click [Here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/fork-a-repo) for the GitHub quick start guide with images and more detailed explanations of the above process.
----
 
 
 
@@ -66,3 +87,5 @@ Click [Here](https://docs.github.com/en/github-ae@latest/get-started/quickstart/
     <a href="#table-of-contents">Return to Table of Contents</a>
 </p>
 <br>
+
+[Back to MAIN README.md](../../README.md)
